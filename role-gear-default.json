@@ -1,0 +1,23 @@
+{
+  "thriving_gold": 3,
+  "thriving_interval_seconds": 5.0,
+  "assist_gold": 10,
+  "unlock_gold": 0,
+  "full_power_gold": 480,
+  "aura_range": 50,
+  "encourage_attack_min": 5,
+  "encourage_attack_max": 12,
+  "encourage_power_min": 7,
+  "encourage_power_max": 18,
+  "encourage_attack_speed": 15,
+  "favor_heal_min": 240,
+  "favor_heal_max": 600,
+  "favor_cooldown_seconds": 15.0,
+  "dire_hit_min_percent": 7,
+  "dire_hit_max_percent": 18,
+  "dire_hit_cooldown_seconds": 30.0,
+  "conceal_speed_min": 30,
+  "conceal_speed_max": 75,
+  "conceal_duration_seconds": 5.0,
+  "conceal_cooldown_seconds": 80.0
+}

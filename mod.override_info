@@ -1,86 +1,66 @@
 {
   "asset/base/text/item": {
-    "remapping": "asset/riot_items_tfm2/text/item",
+    "remapping": "asset/mlbb_items/text/item",
     "type": "merge"
   },
   "asset/base/text/ui": {
-    "remapping": "asset/riot_items_tfm2/text/ui",
-    "type": "merge"
-  },
-  "asset/base/setting/item_setting": {
-    "remapping": "asset/riot_items_tfm2/setting/item_setting",
+    "remapping": "asset/mlbb_items/text/ui",
     "type": "merge"
   },
   "asset/base/aseprite_resources/ingame/item_icons_18x18#sheet": {
-    "remapping": "asset/riot_items_tfm2/aseprite_resources/ingame/item_icons_640X640#sheet",
+    "remapping": "asset/mlbb_items/aseprite_resources/ingame/item_icons_640X640#sheet",
     "type": "override"
   },
   "asset/base/aseprite_resources/ingame/item_icons_18x18#data": {
-    "remapping": "asset/riot_items_tfm2/aseprite_resources/ingame/item_icons_640X640#data",
+    "remapping": "asset/mlbb_items/aseprite_resources/ingame/item_icons_640X640#data",
     "type": "override"
   },
   "asset/base/ui/banpick/champion_stat_icon#sheet": {
-    "remapping": "asset/riot_items_tfm2/ui/banpick/champion_stat_icon#sheet",
+    "remapping": "asset/mlbb_items/ui/banpick/champion_stat_icon#sheet",
     "type": "override"
   },
   "asset/base/ui/banpick/champion_stat_icon#data": {
-    "remapping": "asset/riot_items_tfm2/ui/banpick/champion_stat_icon#data",
+    "remapping": "asset/mlbb_items/ui/banpick/champion_stat_icon#data",
     "type": "override"
   },
   "asset/base/ui/layout/strategy": {
-    "remapping": "asset/riot_items_tfm2/ui/layout/strategy",
+    "remapping": "asset/mlbb_items/ui/layout/strategy",
     "type": "override"
   },
   "asset/base/ui/layout/training": {
-    "remapping": "asset/riot_items_tfm2/ui/layout/training",
+    "remapping": "asset/mlbb_items/ui/layout/training",
     "type": "override"
   },
   "asset/base/ui/layout/statistics": {
-    "remapping": "asset/riot_items_tfm2/ui/layout/statistics",
+    "remapping": "asset/mlbb_items/ui/layout/statistics",
     "type": "override"
   },
   "asset/base/ui/layout/solo_rank_component/view_slot": {
-    "remapping": "asset/riot_items_tfm2/ui/layout/solo_rank_component/view_slot",
+    "remapping": "asset/mlbb_items/ui/layout/solo_rank_component/view_slot",
     "type": "override"
   },
   "asset/base/ui/layout/ingame": {
-    "remapping": "asset/riot_items_tfm2/ui/layout/ingame",
+    "remapping": "asset/mlbb_items/ui/layout/ingame",
     "type": "override"
   },
   "asset/base/ui/layout/ingame_component/player_info": {
-    "remapping": "asset/riot_items_tfm2/ui/layout/ingame_component/player_info",
+    "remapping": "asset/mlbb_items/ui/layout/ingame_component/player_info",
     "type": "override"
   },
   "asset/base/ui/layout/ingame_component/wide_player_info": {
-    "remapping": "asset/riot_items_tfm2/ui/layout/ingame_component/wide_player_info",
+    "remapping": "asset/mlbb_items/ui/layout/ingame_component/wide_player_info",
     "type": "override"
   },
   "asset/base/ui/layout/ingame_component/item_slot": {
-    "remapping": "asset/riot_items_tfm2/ui/layout/ingame_component/item_slot",
+    "remapping": "asset/mlbb_items/ui/layout/ingame_component/item_slot",
     "type": "override"
   },
   "asset/base/ui/layout/match_result": {
-    "remapping": "asset/riot_items_tfm2/ui/layout/match_result",
+    "remapping": "asset/mlbb_items/ui/layout/match_result",
     "type": "override"
   },
   "asset/base/ui/layout/news_component/simple_content": {
-    "remapping": "asset/riot_items_tfm2/ui/layout/news_component/simple_content",
-    "type": "override"
-  },
-  "asset/base/sound/sfx/riot_zhonyas_stasis": {
-    "remapping": "asset/riot_items_tfm2/sound/sfx/riot_zhonyas_stasis",
-    "type": "override"
-  },
-  "asset/base/sound/sfx/riot_zhonyas_stasis_clip": {
-    "remapping": "asset/riot_items_tfm2/sound/sfx/riot_zhonyas_stasis_clip",
-    "type": "override"
-  },
-  "asset/base/sound/sfx/riot_heartsteel_ironheart": {
-    "remapping": "asset/riot_items_tfm2/sound/sfx/riot_heartsteel_ironheart",
-    "type": "override"
-  },
-  "asset/base/sound/sfx/riot_heartsteel_ironheart_clip": {
-    "remapping": "asset/riot_items_tfm2/sound/sfx/riot_heartsteel_ironheart_clip",
+    "remapping": "asset/mlbb_items/ui/layout/news_component/simple_content",
     "type": "override"
   }
 }

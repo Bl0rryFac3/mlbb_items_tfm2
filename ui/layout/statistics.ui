@@ -7,7 +7,7 @@ statistics:statistics_ui {
 
   #tabs:color {
     x: 0px;
-    width: 936px;
+    width: 938px;
     height: 39px;
 
     padding: {
@@ -31,7 +31,7 @@ statistics:statistics_ui {
 
     #champion:color_selectable {
       @"asset/base/style/main#strategy_option";
-      width: 232px;
+      width: 186px;
       height: 32px;
 
       label: {
@@ -48,7 +48,7 @@ statistics:statistics_ui {
     #athlete:color_selectable {
       @"asset/base/style/main#strategy_option";
 
-      width: 232px;
+      width: 186px;
       height: 32px;
 
       label: {
@@ -65,7 +65,7 @@ statistics:statistics_ui {
     #team:color_selectable {
       @"asset/base/style/main#strategy_option";
 
-      width: 232px;
+      width: 186px;
       height: 32px;
 
       label: {
@@ -82,7 +82,7 @@ statistics:statistics_ui {
     #item:color_selectable {
       @"asset/base/style/main#strategy_option";
 
-      width: 232px;
+      width: 186px;
       height: 32px;
 
       label: {
@@ -95,7 +95,14 @@ statistics:statistics_ui {
 
       text: "#asset/base/text/ui?item_stats.tab";
     }
+      #build_stats:color_selectable {
+      @"asset/base/style/main#strategy_option";
+      width:186px;height:32px;
+      label:{size:18;} selected_label:{size:18;}
+      text:"Build Stats";
+    }
   }
+
 
   #position:dropdown {
     @"asset/base/style/main#dropdown";

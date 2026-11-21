@@ -1,0 +1,45 @@
+{
+  "view_effects": [
+    {
+      "type": "Animation",
+      "name": "mlbb_winter_frozen",
+      "anim": "asset/mlbb_items/effects/mlbb_winter_frozen",
+      "tag": "hold",
+      "z": 1,
+      "is_follow": true
+    },
+    {
+      "type": "Animation",
+      "name": "mlbb_winter_break",
+      "anim": "asset/mlbb_items/effects/mlbb_winter_break",
+      "tag": "break",
+      "z": 1,
+      "is_follow": true
+    },
+    {
+      "type": "Animation",
+      "name": "mlbb_immortality_hold",
+      "anim": "asset/mlbb_items/effects/mlbb_immortality_hold",
+      "tag": "hold",
+      "z": 1,
+      "is_follow": true
+    },
+    {
+      "type": "Animation",
+      "name": "mlbb_immortality_return",
+      "anim": "asset/mlbb_items/effects/mlbb_immortality_return",
+      "tag": "return",
+      "z": 1,
+      "is_follow": true
+    }
+  ],
+  "view_buffs": [
+    {
+      "type": "Animated",
+      "name": "mlbb_wind_of_nature_wind_chant",
+      "anim": "asset/mlbb_items/effects/mlbb_wind_chant",
+      "tag": "wind",
+      "z": 1
+    }
+  ]
+}

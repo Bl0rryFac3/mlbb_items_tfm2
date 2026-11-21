@@ -2,7 +2,6 @@
 
 MLBB Items is an unofficial Windows mod for **Teamfight Manager 2 v0.7.3**. It adapts equipment from Mobile Legends: Bang Bang to Teamfight Manager 2 and adds six-slot builds, custom Mythical upgrades, jungle equipment, and roaming blessings.
 
-[Download MLBB Items v1.4](https://github.com/Bl0rryFac3/mlbb_items_tfm2/releases/tag/v1.4)
 
 ## Installation
 
@@ -37,6 +36,10 @@ The catalog includes basic and advanced components, six optional Forged componen
 - **Options → Competition → Item Patcher Settings** lets you adjust supported item stats and queue changes for your save.
 
 Prices, stats, and effects are balanced for Teamfight Manager 2. Effects that rely on a manual item button in MLBB can trigger automatically here. For example, Wind of Nature can activate when the wearer takes damage at low health.
+
+## Repository files
+
+This repository contains the mod’s item data, configuration, and artwork. The Windows package contains the compiled mod.
 
 ## Credits
 
