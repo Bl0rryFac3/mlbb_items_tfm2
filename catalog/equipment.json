@@ -1,0 +1,2980 @@
+[
+  {
+    "key": "berserkers_fury",
+    "name": "Berserker's Fury",
+    "tier": 3,
+    "price": 765,
+    "stats": {
+      "attack": 27,
+      "crit_chance": 25
+    },
+    "previous": [
+      "legion_sword",
+      "javelin",
+      "warcrest_blade"
+    ],
+    "next": [
+      "mythical_berserkers_fury"
+    ],
+    "mythical": true,
+    "boots": false,
+    "category": "Marksman",
+    "source_recipe": [
+      "legion_sword",
+      "javelin",
+      "javelin"
+    ],
+    "legacy": false,
+    "custom_adaptation": false
+  },
+  {
+    "key": "blade_of_despair",
+    "name": "Blade of Despair",
+    "tier": 3,
+    "price": 965,
+    "stats": {
+      "attack": 72,
+      "move_speed_mult": 5
+    },
+    "previous": [
+      "legion_sword",
+      "warcrest_blade"
+    ],
+    "next": [
+      "mythical_blade_of_despair"
+    ],
+    "mythical": true,
+    "boots": false,
+    "category": "Fighter",
+    "source_recipe": [
+      "legion_sword",
+      "legion_sword"
+    ],
+    "legacy": false,
+    "custom_adaptation": false
+  },
+  {
+    "key": "blade_of_the_heptaseas",
+    "name": "Blade of the Heptaseas",
+    "tier": 3,
+    "price": 625,
+    "stats": {
+      "attack": 31,
+      "hp": 125,
+      "flat_physical_penetration": 10
+    },
+    "previous": [
+      "fury_hammer",
+      "ogre_tomahawk",
+      "warcrest_blade"
+    ],
+    "next": [
+      "mythical_blade_of_the_heptaseas"
+    ],
+    "mythical": true,
+    "boots": false,
+    "category": "Assassin",
+    "source_recipe": [
+      "fury_hammer",
+      "ogre_tomahawk"
+    ],
+    "legacy": false,
+    "custom_adaptation": false
+  },
+  {
+    "key": "corrosion_scythe",
+    "name": "Corrosion Scythe",
+    "tier": 3,
+    "price": 655,
+    "stats": {
+      "attack": 13,
+      "attack_speed_mult": 30,
+      "move_speed_mult": 5
+    },
+    "previous": [
+      "swift_crossbow",
+      "regular_spear",
+      "windforged_core"
+    ],
+    "next": [
+      "mythical_corrosion_scythe"
+    ],
+    "mythical": true,
+    "boots": false,
+    "category": "Marksman",
+    "source_recipe": [
+      "swift_crossbow",
+      "regular_spear"
+    ],
+    "legacy": false,
+    "custom_adaptation": false
+  },
+  {
+    "key": "demon_hunter_sword",
+    "name": "Demon Hunter Sword",
+    "tier": 3,
+    "price": 700,
+    "stats": {
+      "attack": 15,
+      "attack_speed_mult": 20
+    },
+    "previous": [
+      "regular_spear",
+      "vampire_mallet",
+      "knife",
+      "windforged_core"
+    ],
+    "next": [
+      "mythical_demon_hunter_sword"
+    ],
+    "mythical": true,
+    "boots": false,
+    "category": "Marksman",
+    "source_recipe": [
+      "regular_spear",
+      "vampire_mallet",
+      "knife"
+    ],
+    "legacy": false,
+    "custom_adaptation": false
+  },
+  {
+    "key": "endless_battle",
+    "name": "Endless Battle",
+    "tier": 3,
+    "price": 745,
+    "stats": {
+      "attack": 27,
+      "hp": 125,
+      "skill_cooldown_mult": 10,
+      "move_speed_mult": 5,
+      "ult_cooldown_mult": 10
+    },
+    "previous": [
+      "azure_blade",
+      "iron_hunting_bow",
+      "ogre_tomahawk"
+    ],
+    "next": [
+      "mythical_endless_battle"
+    ],
+    "mythical": true,
+    "boots": false,
+    "category": "Fighter",
+    "source_recipe": [
+      "azure_blade",
+      "iron_hunting_bow",
+      "ogre_tomahawk"
+    ],
+    "legacy": false,
+    "custom_adaptation": false
+  },
+  {
+    "key": "golden_staff",
+    "name": "Golden Staff",
+    "tier": 3,
+    "price": 640,
+    "stats": {
+      "attack": 24,
+      "attack_speed_mult": 15
+    },
+    "previous": [
+      "regular_spear",
+      "mlbb_dagger",
+      "windforged_core"
+    ],
+    "next": [
+      "mythical_golden_staff"
+    ],
+    "mythical": true,
+    "boots": false,
+    "category": "Marksman",
+    "source_recipe": [
+      "regular_spear",
+      "mlbb_dagger",
+      "mlbb_dagger"
+    ],
+    "legacy": false,
+    "custom_adaptation": false
+  },
+  {
+    "key": "great_dragon_spear",
+    "name": "Great Dragon Spear",
+    "tier": 3,
+    "price": 685,
+    "stats": {
+      "attack": 31,
+      "skill_cooldown_mult": 10,
+      "crit_chance": 20,
+      "ult_cooldown_mult": 10
+    },
+    "previous": [
+      "legion_sword",
+      "iron_hunting_bow",
+      "javelin",
+      "warcrest_blade"
+    ],
+    "next": [
+      "mythical_great_dragon_spear"
+    ],
+    "mythical": true,
+    "boots": false,
+    "category": "Marksman",
+    "source_recipe": [
+      "legion_sword",
+      "iron_hunting_bow",
+      "javelin"
+    ],
+    "legacy": false,
+    "custom_adaptation": false
+  },
+  {
+    "key": "haas_claws",
+    "name": "Haas' Claws",
+    "tier": 3,
+    "price": 645,
+    "stats": {
+      "attack": 18,
+      "attack_speed_mult": 15,
+      "crit_chance": 20
+    },
+    "previous": [
+      "vampire_mallet",
+      "rogue_meteor",
+      "mlbb_dagger"
+    ],
+    "next": [
+      "mythical_haas_claws"
+    ],
+    "mythical": true,
+    "boots": false,
+    "category": "Marksman",
+    "source_recipe": [
+      "vampire_mallet",
+      "rogue_meteor",
+      "mlbb_dagger"
+    ],
+    "legacy": false,
+    "custom_adaptation": false
+  },
+  {
+    "key": "hunter_strike",
+    "name": "Hunter Strike",
+    "tier": 3,
+    "price": 645,
+    "stats": {
+      "attack": 36,
+      "skill_cooldown_mult": 10,
+      "flat_physical_penetration": 10,
+      "ult_cooldown_mult": 10
+    },
+    "previous": [
+      "fury_hammer",
+      "iron_hunting_bow",
+      "mlbb_dagger",
+      "warcrest_blade"
+    ],
+    "next": [
+      "mythical_hunter_strike"
+    ],
+    "mythical": true,
+    "boots": false,
+    "category": "Assassin",
+    "source_recipe": [
+      "fury_hammer",
+      "iron_hunting_bow",
+      "mlbb_dagger"
+    ],
+    "legacy": false,
+    "custom_adaptation": false
+  },
+  {
+    "key": "malefic_gun",
+    "name": "Malefic Gun",
+    "tier": 3,
+    "price": 680,
+    "stats": {
+      "attack": 18,
+      "attack_speed_mult": 20
+    },
+    "previous": [
+      "fury_hammer",
+      "knife"
+    ],
+    "next": [
+      "mythical_malefic_gun"
+    ],
+    "mythical": true,
+    "boots": false,
+    "category": "Marksman",
+    "source_recipe": [
+      "fury_hammer",
+      "knife",
+      "knife"
+    ],
+    "legacy": false,
+    "custom_adaptation": false
+  },
+  {
+    "key": "malefic_roar",
+    "name": "Malefic Roar",
+    "tier": 3,
+    "price": 660,
+    "stats": {
+      "attack": 27
+    },
+    "previous": [
+      "legion_sword",
+      "warcrest_blade"
+    ],
+    "next": [
+      "mythical_malefic_roar"
+    ],
+    "mythical": true,
+    "boots": false,
+    "category": "Assassin",
+    "source_recipe": [
+      "legion_sword"
+    ],
+    "legacy": false,
+    "custom_adaptation": false
+  },
+  {
+    "key": "rose_gold_meteor",
+    "name": "Rose Gold Meteor",
+    "tier": 3,
+    "price": 650,
+    "stats": {
+      "attack": 13,
+      "attack_speed_mult": 20,
+      "vamp": 10
+    },
+    "previous": [
+      "magic_blade",
+      "knife"
+    ],
+    "next": [
+      "mythical_rose_gold_meteor"
+    ],
+    "mythical": true,
+    "boots": false,
+    "category": "Fighter",
+    "source_recipe": [
+      "magic_blade",
+      "knife"
+    ],
+    "legacy": false,
+    "custom_adaptation": false
+  },
+  {
+    "key": "sea_halberd",
+    "name": "Sea Halberd",
+    "tier": 3,
+    "price": 655,
+    "stats": {
+      "attack": 36,
+      "attack_speed_mult": 20
+    },
+    "previous": [
+      "legion_sword",
+      "regular_spear",
+      "deadly_blade"
+    ],
+    "next": [
+      "mythical_sea_halberd"
+    ],
+    "mythical": true,
+    "boots": false,
+    "category": "Fighter",
+    "source_recipe": [
+      "legion_sword",
+      "regular_spear"
+    ],
+    "legacy": false,
+    "custom_adaptation": false
+  },
+  {
+    "key": "war_axe",
+    "name": "War Axe",
+    "tier": 3,
+    "price": 670,
+    "stats": {
+      "attack": 15,
+      "hp": 200,
+      "skill_cooldown_mult": 10,
+      "vamp": 8,
+      "ult_cooldown_mult": 10
+    },
+    "previous": [
+      "ogre_tomahawk",
+      "iron_hunting_bow",
+      "heros_ring"
+    ],
+    "next": [
+      "mythical_war_axe"
+    ],
+    "mythical": true,
+    "boots": false,
+    "category": "Fighter",
+    "source_recipe": [
+      "ogre_tomahawk",
+      "iron_hunting_bow",
+      "heros_ring"
+    ],
+    "legacy": false,
+    "custom_adaptation": false
+  },
+  {
+    "key": "wind_of_nature",
+    "name": "Wind of Nature",
+    "tier": 3,
+    "price": 610,
+    "stats": {
+      "attack": 13,
+      "attack_speed_mult": 20,
+      "vamp": 10
+    },
+    "previous": [
+      "regular_spear",
+      "vampire_mallet"
+    ],
+    "next": [
+      "mythical_wind_of_nature"
+    ],
+    "mythical": true,
+    "boots": false,
+    "category": "Marksman",
+    "source_recipe": [
+      "regular_spear",
+      "vampire_mallet"
+    ],
+    "legacy": false,
+    "custom_adaptation": false
+  },
+  {
+    "key": "windtalker",
+    "name": "Windtalker",
+    "tier": 3,
+    "price": 600,
+    "stats": {
+      "attack_speed_mult": 35,
+      "crit_chance": 20,
+      "move_speed_mult": 5
+    },
+    "previous": [
+      "rogue_meteor",
+      "knife"
+    ],
+    "next": [
+      "mythical_windtalker"
+    ],
+    "mythical": true,
+    "boots": false,
+    "category": "Marksman",
+    "source_recipe": [
+      "rogue_meteor",
+      "knife"
+    ],
+    "legacy": false,
+    "custom_adaptation": false
+  },
+  {
+    "key": "fury_hammer",
+    "name": "Fury Hammer",
+    "tier": 1,
+    "price": 265,
+    "stats": {
+      "attack": 12,
+      "flat_physical_penetration": 8
+    },
+    "previous": [
+      "mlbb_dagger"
+    ],
+    "next": [
+      "blade_of_the_heptaseas",
+      "hunter_strike",
+      "malefic_gun",
+      "bloodlust_axe"
+    ],
+    "mythical": false,
+    "boots": false,
+    "category": "Fighter",
+    "source_recipe": [
+      "mlbb_dagger"
+    ],
+    "legacy": false,
+    "custom_adaptation": false
+  },
+  {
+    "key": "legion_sword",
+    "name": "Legion Sword",
+    "tier": 1,
+    "price": 290,
+    "stats": {
+      "attack": 21
+    },
+    "previous": [
+      "mlbb_dagger"
+    ],
+    "next": [
+      "berserkers_fury",
+      "blade_of_despair",
+      "great_dragon_spear",
+      "malefic_roar",
+      "sea_halberd",
+      "warcrest_blade",
+      "ice_force"
+    ],
+    "mythical": false,
+    "boots": false,
+    "category": "Fighter",
+    "source_recipe": [
+      "mlbb_dagger",
+      "mlbb_dagger"
+    ],
+    "legacy": false,
+    "custom_adaptation": false
+  },
+  {
+    "key": "magic_blade",
+    "name": "Magic Blade",
+    "tier": 1,
+    "price": 335,
+    "stats": {
+      "attack": 12,
+      "vamp": 10
+    },
+    "previous": [
+      "mlbb_dagger",
+      "vampire_mallet"
+    ],
+    "next": [
+      "rose_gold_meteor"
+    ],
+    "mythical": false,
+    "boots": false,
+    "category": "Fighter",
+    "source_recipe": [
+      "mlbb_dagger",
+      "vampire_mallet"
+    ],
+    "legacy": false,
+    "custom_adaptation": false
+  },
+  {
+    "key": "ogre_tomahawk",
+    "name": "Ogre Tomahawk",
+    "tier": 1,
+    "price": 210,
+    "stats": {
+      "attack": 9,
+      "hp": 115
+    },
+    "previous": [
+      "mlbb_dagger",
+      "vitality_crystal"
+    ],
+    "next": [
+      "blade_of_the_heptaseas",
+      "endless_battle",
+      "war_axe"
+    ],
+    "mythical": false,
+    "boots": false,
+    "category": "Fighter",
+    "source_recipe": [
+      "mlbb_dagger",
+      "vitality_crystal"
+    ],
+    "legacy": false,
+    "custom_adaptation": false
+  },
+  {
+    "key": "regular_spear",
+    "name": "Regular Spear",
+    "tier": 1,
+    "price": 190,
+    "stats": {
+      "attack": 7,
+      "attack_speed_mult": 10
+    },
+    "previous": [
+      "knife",
+      "mlbb_dagger"
+    ],
+    "next": [
+      "corrosion_scythe",
+      "demon_hunter_sword",
+      "golden_staff",
+      "sea_halberd",
+      "wind_of_nature",
+      "windforged_core",
+      "scarlet_phantom",
+      "ice_force"
+    ],
+    "mythical": false,
+    "boots": false,
+    "category": "Fighter",
+    "source_recipe": [
+      "knife",
+      "mlbb_dagger"
+    ],
+    "legacy": false,
+    "custom_adaptation": false
+  },
+  {
+    "key": "rogue_meteor",
+    "name": "Rogue Meteor",
+    "tier": 1,
+    "price": 290,
+    "stats": {
+      "attack_speed_mult": 15,
+      "crit_chance": 10
+    },
+    "previous": [
+      "knife",
+      "javelin"
+    ],
+    "next": [
+      "haas_claws",
+      "windtalker",
+      "legacy_windtalker",
+      "scarlet_phantom"
+    ],
+    "mythical": false,
+    "boots": false,
+    "category": "Fighter",
+    "source_recipe": [
+      "knife",
+      "javelin"
+    ],
+    "legacy": false,
+    "custom_adaptation": false
+  },
+  {
+    "key": "swift_crossbow",
+    "name": "Swift Crossbow",
+    "tier": 1,
+    "price": 320,
+    "stats": {
+      "attack_speed_mult": 20
+    },
+    "previous": [
+      "knife"
+    ],
+    "next": [
+      "corrosion_scythe",
+      "feather_of_heaven"
+    ],
+    "mythical": false,
+    "boots": false,
+    "category": "Fighter",
+    "source_recipe": [
+      "knife",
+      "knife"
+    ],
+    "legacy": false,
+    "custom_adaptation": false
+  },
+  {
+    "key": "iron_hunting_bow",
+    "name": "Iron Hunting Bow",
+    "tier": 0,
+    "price": 145,
+    "stats": {
+      "attack": 4,
+      "skill_cooldown_mult": 5,
+      "ult_cooldown_mult": 5
+    },
+    "previous": [],
+    "next": [
+      "endless_battle",
+      "great_dragon_spear",
+      "hunter_strike",
+      "war_axe",
+      "bloodlust_axe"
+    ],
+    "mythical": false,
+    "boots": false,
+    "category": "Fighter",
+    "source_recipe": [],
+    "legacy": false,
+    "custom_adaptation": false
+  },
+  {
+    "key": "javelin",
+    "name": "Javelin",
+    "tier": 0,
+    "price": 100,
+    "stats": {
+      "crit_chance": 8
+    },
+    "previous": [],
+    "next": [
+      "berserkers_fury",
+      "great_dragon_spear",
+      "rogue_meteor"
+    ],
+    "mythical": false,
+    "boots": false,
+    "category": "Fighter",
+    "source_recipe": [],
+    "legacy": false,
+    "custom_adaptation": false
+  },
+  {
+    "key": "knife",
+    "name": "Knife",
+    "tier": 0,
+    "price": 90,
+    "stats": {
+      "attack_speed_mult": 10
+    },
+    "previous": [],
+    "next": [
+      "demon_hunter_sword",
+      "malefic_gun",
+      "regular_spear",
+      "rogue_meteor",
+      "rose_gold_meteor",
+      "swift_boots",
+      "swift_crossbow",
+      "windtalker",
+      "legacy_windtalker"
+    ],
+    "mythical": false,
+    "boots": false,
+    "category": "Fighter",
+    "source_recipe": [],
+    "legacy": false,
+    "custom_adaptation": false
+  },
+  {
+    "key": "vampire_mallet",
+    "name": "Vampire Mallet",
+    "tier": 0,
+    "price": 130,
+    "stats": {
+      "attack": 3,
+      "vamp": 8
+    },
+    "previous": [],
+    "next": [
+      "demon_hunter_sword",
+      "haas_claws",
+      "magic_blade",
+      "wind_of_nature"
+    ],
+    "mythical": false,
+    "boots": false,
+    "category": "Fighter",
+    "source_recipe": [],
+    "legacy": false,
+    "custom_adaptation": false
+  },
+  {
+    "key": "blood_wings",
+    "name": "Blood Wings",
+    "tier": 3,
+    "price": 670,
+    "stats": {
+      "magic_power": 50
+    },
+    "previous": [
+      "magic_wand"
+    ],
+    "next": [
+      "mythical_blood_wings"
+    ],
+    "mythical": true,
+    "boots": false,
+    "category": "Mage",
+    "source_recipe": [
+      "magic_wand",
+      "magic_wand"
+    ],
+    "legacy": false,
+    "custom_adaptation": false
+  },
+  {
+    "key": "clock_of_destiny",
+    "name": "Clock of Destiny",
+    "tier": 3,
+    "price": 650,
+    "stats": {
+      "magic_power": 25,
+      "hp": 200,
+      "skill_cooldown_mult": 10,
+      "ult_cooldown_mult": 10
+    },
+    "previous": [
+      "elegant_gem",
+      "book_of_sages"
+    ],
+    "next": [
+      "mythical_clock_of_destiny"
+    ],
+    "mythical": true,
+    "boots": false,
+    "category": "Mage",
+    "source_recipe": [
+      "elegant_gem",
+      "book_of_sages",
+      "book_of_sages"
+    ],
+    "legacy": false,
+    "custom_adaptation": false
+  },
+  {
+    "key": "concentrated_energy",
+    "name": "Concentrated Energy",
+    "tier": 3,
+    "price": 645,
+    "stats": {
+      "magic_power": 41,
+      "hp": 200
+    },
+    "previous": [
+      "mystic_container",
+      "magic_wand",
+      "vitality_crystal"
+    ],
+    "next": [
+      "mythical_concentrated_energy"
+    ],
+    "mythical": true,
+    "boots": false,
+    "category": "Mage",
+    "source_recipe": [
+      "mystic_container",
+      "magic_wand",
+      "vitality_crystal"
+    ],
+    "legacy": false,
+    "custom_adaptation": false
+  },
+  {
+    "key": "divine_glaive",
+    "name": "Divine Glaive",
+    "tier": 3,
+    "price": 630,
+    "stats": {
+      "magic_power": 36
+    },
+    "previous": [
+      "magic_wand"
+    ],
+    "next": [
+      "mythical_divine_glaive"
+    ],
+    "mythical": true,
+    "boots": false,
+    "category": "Mage",
+    "source_recipe": [
+      "magic_wand"
+    ],
+    "legacy": false,
+    "custom_adaptation": false
+  },
+  {
+    "key": "enchanted_talisman",
+    "name": "Enchanted Talisman",
+    "tier": 3,
+    "price": 660,
+    "stats": {
+      "magic_power": 38,
+      "hp": 150,
+      "skill_cooldown_mult": 20,
+      "ult_cooldown_mult": 20
+    },
+    "previous": [
+      "tome_of_evil",
+      "magic_necklace",
+      "magic_wand",
+      "arcane_focus"
+    ],
+    "next": [
+      "mythical_enchanted_talisman"
+    ],
+    "mythical": true,
+    "boots": false,
+    "category": "Mage",
+    "source_recipe": [
+      "tome_of_evil",
+      "magic_necklace",
+      "magic_wand"
+    ],
+    "legacy": false,
+    "custom_adaptation": false
+  },
+  {
+    "key": "feather_of_heaven",
+    "name": "Feather of Heaven",
+    "tier": 3,
+    "price": 650,
+    "stats": {
+      "magic_power": 33,
+      "attack_speed_mult": 20,
+      "vamp": 10,
+      "skill_cooldown_mult": 5,
+      "ult_cooldown_mult": 5
+    },
+    "previous": [
+      "swift_crossbow",
+      "book_of_sages"
+    ],
+    "next": [
+      "mythical_feather_of_heaven"
+    ],
+    "mythical": true,
+    "boots": false,
+    "category": "Mage",
+    "source_recipe": [
+      "swift_crossbow",
+      "book_of_sages"
+    ],
+    "legacy": false,
+    "custom_adaptation": false
+  },
+  {
+    "key": "flask_of_the_oasis",
+    "name": "Flask of the Oasis",
+    "tier": 3,
+    "price": 590,
+    "stats": {
+      "magic_power": 33,
+      "hp": 150,
+      "skill_cooldown_mult": 10,
+      "ult_cooldown_mult": 10
+    },
+    "previous": [
+      "magic_wand",
+      "book_of_sages",
+      "vitality_crystal",
+      "arcane_focus"
+    ],
+    "next": [
+      "mythical_flask_of_the_oasis"
+    ],
+    "mythical": true,
+    "boots": false,
+    "category": "Support",
+    "source_recipe": [
+      "magic_wand",
+      "book_of_sages",
+      "vitality_crystal"
+    ],
+    "legacy": false,
+    "custom_adaptation": false
+  },
+  {
+    "key": "genius_wand",
+    "name": "Genius Wand",
+    "tier": 3,
+    "price": 640,
+    "stats": {
+      "magic_power": 41,
+      "move_speed_mult": 5,
+      "flat_magic_penetration": 7
+    },
+    "previous": [
+      "exotic_veil",
+      "magic_wand"
+    ],
+    "next": [
+      "mythical_genius_wand"
+    ],
+    "mythical": true,
+    "boots": false,
+    "category": "Mage",
+    "source_recipe": [
+      "exotic_veil",
+      "magic_wand"
+    ],
+    "legacy": false,
+    "custom_adaptation": false
+  },
+  {
+    "key": "glowing_wand",
+    "name": "Glowing Wand",
+    "tier": 3,
+    "price": 690,
+    "stats": {
+      "magic_power": 33,
+      "hp": 150,
+      "move_speed_mult": 5
+    },
+    "previous": [
+      "exotic_veil",
+      "mystery_codex",
+      "vitality_crystal"
+    ],
+    "next": [
+      "mythical_glowing_wand"
+    ],
+    "mythical": true,
+    "boots": false,
+    "category": "Mage",
+    "source_recipe": [
+      "exotic_veil",
+      "mystery_codex",
+      "vitality_crystal"
+    ],
+    "legacy": false,
+    "custom_adaptation": false
+  },
+  {
+    "key": "holy_crystal",
+    "name": "Holy Crystal",
+    "tier": 3,
+    "price": 960,
+    "stats": {
+      "magic_power": 91
+    },
+    "previous": [
+      "magic_wand"
+    ],
+    "next": [
+      "mythical_holy_crystal"
+    ],
+    "mythical": true,
+    "boots": false,
+    "category": "Mage",
+    "source_recipe": [
+      "magic_wand",
+      "magic_wand",
+      "magic_wand"
+    ],
+    "legacy": false,
+    "custom_adaptation": false
+  },
+  {
+    "key": "ice_queen_wand",
+    "name": "Ice Queen Wand",
+    "tier": 3,
+    "price": 655,
+    "stats": {
+      "magic_power": 33,
+      "vamp": 10,
+      "hp": 150,
+      "move_speed_mult": 7
+    },
+    "previous": [
+      "mystic_container",
+      "exotic_veil",
+      "mystery_codex"
+    ],
+    "next": [
+      "mythical_ice_queen_wand"
+    ],
+    "mythical": true,
+    "boots": false,
+    "category": "Mage",
+    "source_recipe": [
+      "mystic_container",
+      "exotic_veil",
+      "mystery_codex"
+    ],
+    "legacy": false,
+    "custom_adaptation": false
+  },
+  {
+    "key": "lightning_truncheon",
+    "name": "Lightning Truncheon",
+    "tier": 3,
+    "price": 720,
+    "stats": {
+      "magic_power": 41,
+      "skill_cooldown_mult": 10,
+      "ult_cooldown_mult": 10
+    },
+    "previous": [
+      "magic_wand",
+      "book_of_sages",
+      "power_crystal",
+      "arcane_focus"
+    ],
+    "next": [
+      "mythical_lightning_truncheon"
+    ],
+    "mythical": true,
+    "boots": false,
+    "category": "Mage",
+    "source_recipe": [
+      "magic_wand",
+      "book_of_sages",
+      "power_crystal"
+    ],
+    "legacy": false,
+    "custom_adaptation": false
+  },
+  {
+    "key": "starlium_scythe",
+    "name": "Starlium Scythe",
+    "tier": 3,
+    "price": 680,
+    "stats": {
+      "magic_power": 41,
+      "skill_cooldown_mult": 10,
+      "vamp": 8,
+      "ult_cooldown_mult": 10
+    },
+    "previous": [
+      "azure_blade",
+      "book_of_sages",
+      "magic_wand",
+      "arcane_focus"
+    ],
+    "next": [
+      "mythical_starlium_scythe"
+    ],
+    "mythical": true,
+    "boots": false,
+    "category": "Mage",
+    "source_recipe": [
+      "azure_blade",
+      "book_of_sages",
+      "magic_wand"
+    ],
+    "legacy": false,
+    "custom_adaptation": false
+  },
+  {
+    "key": "wishing_lantern",
+    "name": "Wishing Lantern",
+    "tier": 3,
+    "price": 720,
+    "stats": {
+      "magic_power": 41,
+      "skill_cooldown_mult": 10,
+      "ult_cooldown_mult": 10
+    },
+    "previous": [
+      "magic_wand",
+      "book_of_sages",
+      "power_crystal",
+      "arcane_focus"
+    ],
+    "next": [
+      "mythical_wishing_lantern"
+    ],
+    "mythical": true,
+    "boots": false,
+    "category": "Mage",
+    "source_recipe": [
+      "magic_wand",
+      "book_of_sages",
+      "power_crystal"
+    ],
+    "legacy": false,
+    "custom_adaptation": false
+  },
+  {
+    "key": "azure_blade",
+    "name": "Azure Blade",
+    "tier": 1,
+    "price": 190,
+    "stats": {
+      "skill_cooldown_mult": 5,
+      "ult_cooldown_mult": 5
+    },
+    "previous": [
+      "magic_necklace"
+    ],
+    "next": [
+      "endless_battle",
+      "starlium_scythe",
+      "calamity_reaper"
+    ],
+    "mythical": false,
+    "boots": false,
+    "category": "Mage",
+    "source_recipe": [
+      "magic_necklace",
+      "magic_necklace"
+    ],
+    "legacy": false,
+    "custom_adaptation": false
+  },
+  {
+    "key": "elegant_gem",
+    "name": "Elegant Gem",
+    "tier": 1,
+    "price": 225,
+    "stats": {
+      "hp": 150
+    },
+    "previous": [
+      "power_crystal",
+      "vitality_crystal"
+    ],
+    "next": [
+      "clock_of_destiny"
+    ],
+    "mythical": false,
+    "boots": false,
+    "category": "Mage",
+    "source_recipe": [
+      "power_crystal",
+      "vitality_crystal"
+    ],
+    "legacy": false,
+    "custom_adaptation": false
+  },
+  {
+    "key": "exotic_veil",
+    "name": "Exotic Veil",
+    "tier": 1,
+    "price": 190,
+    "stats": {
+      "magic_power": 16,
+      "move_speed_mult": 5
+    },
+    "previous": [
+      "mystery_codex"
+    ],
+    "next": [
+      "genius_wand",
+      "glowing_wand",
+      "ice_queen_wand",
+      "shadow_twinblades"
+    ],
+    "mythical": false,
+    "boots": false,
+    "category": "Mage",
+    "source_recipe": [
+      "mystery_codex"
+    ],
+    "legacy": false,
+    "custom_adaptation": false
+  },
+  {
+    "key": "magic_wand",
+    "name": "Magic Wand",
+    "tier": 1,
+    "price": 260,
+    "stats": {
+      "magic_power": 25
+    },
+    "previous": [
+      "mystery_codex"
+    ],
+    "next": [
+      "blood_wings",
+      "concentrated_energy",
+      "divine_glaive",
+      "enchanted_talisman",
+      "flask_of_the_oasis",
+      "genius_wand",
+      "holy_crystal",
+      "lightning_truncheon",
+      "starlium_scythe",
+      "wishing_lantern",
+      "arcane_focus",
+      "calamity_reaper"
+    ],
+    "mythical": false,
+    "boots": false,
+    "category": "Mage",
+    "source_recipe": [
+      "mystery_codex"
+    ],
+    "legacy": false,
+    "custom_adaptation": false
+  },
+  {
+    "key": "mystic_container",
+    "name": "Mystic Container",
+    "tier": 1,
+    "price": 160,
+    "stats": {
+      "magic_power": 8,
+      "vamp": 8
+    },
+    "previous": [
+      "mystery_codex"
+    ],
+    "next": [
+      "concentrated_energy",
+      "ice_queen_wand",
+      "shadow_twinblades"
+    ],
+    "mythical": false,
+    "boots": false,
+    "category": "Mage",
+    "source_recipe": [
+      "mystery_codex"
+    ],
+    "legacy": false,
+    "custom_adaptation": false
+  },
+  {
+    "key": "tome_of_evil",
+    "name": "Tome of Evil",
+    "tier": 1,
+    "price": 305,
+    "stats": {
+      "magic_power": 16,
+      "skill_cooldown_mult": 10,
+      "ult_cooldown_mult": 10
+    },
+    "previous": [
+      "magic_necklace",
+      "book_of_sages"
+    ],
+    "next": [
+      "enchanted_talisman",
+      "arcane_focus"
+    ],
+    "mythical": false,
+    "boots": false,
+    "category": "Mage",
+    "source_recipe": [
+      "magic_necklace",
+      "book_of_sages"
+    ],
+    "legacy": false,
+    "custom_adaptation": false
+  },
+  {
+    "key": "book_of_sages",
+    "name": "Book of Sages",
+    "tier": 0,
+    "price": 145,
+    "stats": {
+      "magic_power": 4,
+      "skill_cooldown_mult": 5,
+      "ult_cooldown_mult": 5
+    },
+    "previous": [],
+    "next": [
+      "clock_of_destiny",
+      "feather_of_heaven",
+      "flask_of_the_oasis",
+      "lightning_truncheon",
+      "starlium_scythe",
+      "tome_of_evil",
+      "wishing_lantern"
+    ],
+    "mythical": false,
+    "boots": false,
+    "category": "Mage",
+    "source_recipe": [],
+    "legacy": false,
+    "custom_adaptation": false
+  },
+  {
+    "key": "magic_necklace",
+    "name": "Magic Necklace",
+    "tier": 0,
+    "price": 50,
+    "stats": {
+      "skill_cooldown_mult": 3,
+      "ult_cooldown_mult": 3
+    },
+    "previous": [],
+    "next": [
+      "azure_blade",
+      "demon_shoes",
+      "enchanted_talisman",
+      "tome_of_evil"
+    ],
+    "mythical": false,
+    "boots": false,
+    "category": "Mage",
+    "source_recipe": [],
+    "legacy": false,
+    "custom_adaptation": false
+  },
+  {
+    "key": "mystery_codex",
+    "name": "Mystery Codex",
+    "tier": 0,
+    "price": 95,
+    "stats": {
+      "magic_power": 8
+    },
+    "previous": [],
+    "next": [
+      "arcane_boots",
+      "exotic_veil",
+      "glowing_wand",
+      "ice_queen_wand",
+      "magic_wand",
+      "mystic_container"
+    ],
+    "mythical": false,
+    "boots": false,
+    "category": "Mage",
+    "source_recipe": [],
+    "legacy": false,
+    "custom_adaptation": false
+  },
+  {
+    "key": "power_crystal",
+    "name": "Power Crystal",
+    "tier": 0,
+    "price": 70,
+    "stats": {
+      "skill_cooldown_mult": 3,
+      "ult_cooldown_mult": 3
+    },
+    "previous": [],
+    "next": [
+      "elegant_gem",
+      "lightning_truncheon",
+      "wishing_lantern"
+    ],
+    "mythical": false,
+    "boots": false,
+    "category": "Mage",
+    "source_recipe": [],
+    "legacy": false,
+    "custom_adaptation": false
+  },
+  {
+    "key": "antique_cuirass",
+    "name": "Antique Cuirass",
+    "tier": 3,
+    "price": 695,
+    "stats": {
+      "hp": 460,
+      "defence": 28,
+      "hp_regen": 2
+    },
+    "previous": [
+      "dreadnaught_armor",
+      "ares_belt",
+      "bastion_plate"
+    ],
+    "next": [
+      "mythical_antique_cuirass"
+    ],
+    "mythical": true,
+    "boots": false,
+    "category": "Tank",
+    "source_recipe": [
+      "dreadnaught_armor",
+      "ares_belt"
+    ],
+    "legacy": false,
+    "custom_adaptation": false
+  },
+  {
+    "key": "blade_armor",
+    "name": "Blade Armor",
+    "tier": 3,
+    "price": 610,
+    "stats": {
+      "defence": 56,
+      "base_attack_damaged_reduce": 15
+    },
+    "previous": [
+      "steel_legplates",
+      "leather_jerkin",
+      "bastion_plate"
+    ],
+    "next": [
+      "mythical_blade_armor"
+    ],
+    "mythical": true,
+    "boots": false,
+    "category": "Tank",
+    "source_recipe": [
+      "steel_legplates",
+      "leather_jerkin",
+      "leather_jerkin"
+    ],
+    "legacy": false,
+    "custom_adaptation": false
+  },
+  {
+    "key": "brute_force_breastplate",
+    "name": "Brute Force Breastplate",
+    "tier": 3,
+    "price": 660,
+    "stats": {
+      "hp": 400,
+      "defence": 14,
+      "skill_cooldown_mult": 10,
+      "ult_cooldown_mult": 10
+    },
+    "previous": [
+      "ares_belt",
+      "heros_ring",
+      "leather_jerkin",
+      "vitality_core"
+    ],
+    "next": [
+      "mythical_brute_force_breastplate"
+    ],
+    "mythical": true,
+    "boots": false,
+    "category": "Tank",
+    "source_recipe": [
+      "ares_belt",
+      "heros_ring",
+      "leather_jerkin"
+    ],
+    "legacy": false,
+    "custom_adaptation": false
+  },
+  {
+    "key": "chastise_pauldron",
+    "name": "Chastise Pauldron",
+    "tier": 3,
+    "price": 670,
+    "stats": {
+      "hp": 450,
+      "defence": 28
+    },
+    "previous": [
+      "steel_legplates",
+      "ares_belt",
+      "bastion_plate",
+      "vitality_core"
+    ],
+    "next": [
+      "mythical_chastise_pauldron"
+    ],
+    "mythical": true,
+    "boots": false,
+    "category": "Tank",
+    "source_recipe": [
+      "steel_legplates",
+      "ares_belt"
+    ],
+    "legacy": false,
+    "custom_adaptation": false
+  },
+  {
+    "key": "cursed_helmet",
+    "name": "Cursed Helmet",
+    "tier": 3,
+    "price": 610,
+    "stats": {
+      "hp": 600,
+      "magic_resistance": 14
+    },
+    "previous": [
+      "molten_essence",
+      "ares_belt",
+      "magic_resist_cloak",
+      "vitality_core"
+    ],
+    "next": [
+      "mythical_cursed_helmet"
+    ],
+    "mythical": true,
+    "boots": false,
+    "category": "Tank",
+    "source_recipe": [
+      "molten_essence",
+      "ares_belt",
+      "magic_resist_cloak"
+    ],
+    "legacy": false,
+    "custom_adaptation": false
+  },
+  {
+    "key": "dominance_ice",
+    "name": "Dominance Ice",
+    "tier": 3,
+    "price": 645,
+    "stats": {
+      "defence": 28,
+      "magic_resistance": 28,
+      "move_speed_mult": 5
+    },
+    "previous": [
+      "black_ice_shield",
+      "leather_jerkin",
+      "magic_resist_cloak"
+    ],
+    "next": [
+      "mythical_dominance_ice"
+    ],
+    "mythical": true,
+    "boots": false,
+    "category": "Tank",
+    "source_recipe": [
+      "black_ice_shield",
+      "leather_jerkin",
+      "magic_resist_cloak"
+    ],
+    "legacy": false,
+    "custom_adaptation": false
+  },
+  {
+    "key": "guardian_helmet",
+    "name": "Guardian Helmet",
+    "tier": 3,
+    "price": 800,
+    "stats": {
+      "hp": 900,
+      "hp_regen": 10
+    },
+    "previous": [
+      "ares_belt",
+      "vitality_core"
+    ],
+    "next": [
+      "mythical_guardian_helmet"
+    ],
+    "mythical": true,
+    "boots": false,
+    "category": "Tank",
+    "source_recipe": [
+      "ares_belt",
+      "ares_belt",
+      "ares_belt"
+    ],
+    "legacy": false,
+    "custom_adaptation": false
+  },
+  {
+    "key": "immortality",
+    "name": "Immortality",
+    "tier": 3,
+    "price": 680,
+    "stats": {
+      "hp": 425,
+      "defence": 10
+    },
+    "previous": [
+      "ares_belt",
+      "vitality_crystal",
+      "leather_jerkin",
+      "vitality_core"
+    ],
+    "next": [
+      "mythical_immortality"
+    ],
+    "mythical": true,
+    "boots": false,
+    "category": "Tank",
+    "source_recipe": [
+      "ares_belt",
+      "vitality_crystal",
+      "leather_jerkin"
+    ],
+    "legacy": false,
+    "custom_adaptation": false
+  },
+  {
+    "key": "oracle",
+    "name": "Oracle",
+    "tier": 3,
+    "price": 595,
+    "stats": {
+      "hp": 425,
+      "defence": 14,
+      "magic_resistance": 14,
+      "skill_cooldown_mult": 10,
+      "ult_cooldown_mult": 10
+    },
+    "previous": [
+      "heros_ring",
+      "vitality_crystal",
+      "vitality_core"
+    ],
+    "next": [
+      "mythical_oracle"
+    ],
+    "mythical": true,
+    "boots": false,
+    "category": "Tank",
+    "source_recipe": [
+      "heros_ring",
+      "heros_ring",
+      "vitality_crystal"
+    ],
+    "legacy": false,
+    "custom_adaptation": false
+  },
+  {
+    "key": "queens_wings",
+    "name": "Queen's Wings",
+    "tier": 3,
+    "price": 720,
+    "stats": {
+      "hp": 375,
+      "skill_cooldown_mult": 10,
+      "vamp": 10,
+      "adaptive_force": 16,
+      "ult_cooldown_mult": 10
+    },
+    "previous": [
+      "ares_belt",
+      "heros_ring",
+      "expert_gloves"
+    ],
+    "next": [
+      "mythical_queens_wings"
+    ],
+    "mythical": true,
+    "boots": false,
+    "category": "Tank",
+    "source_recipe": [
+      "ares_belt",
+      "heros_ring",
+      "expert_gloves"
+    ],
+    "legacy": false,
+    "custom_adaptation": false
+  },
+  {
+    "key": "radiant_armor",
+    "name": "Radiant Armor",
+    "tier": 3,
+    "price": 600,
+    "stats": {
+      "hp": 475,
+      "magic_resistance": 28,
+      "hp_regen": 6
+    },
+    "previous": [
+      "silence_robe",
+      "magic_resist_cloak",
+      "healing_necklace",
+      "runic_mantle"
+    ],
+    "next": [
+      "mythical_radiant_armor"
+    ],
+    "mythical": true,
+    "boots": false,
+    "category": "Tank",
+    "source_recipe": [
+      "silence_robe",
+      "magic_resist_cloak",
+      "healing_necklace"
+    ],
+    "legacy": false,
+    "custom_adaptation": false
+  },
+  {
+    "key": "thunder_belt",
+    "name": "Thunder Belt",
+    "tier": 3,
+    "price": 580,
+    "stats": {
+      "hp": 300,
+      "defence": 10,
+      "magic_resistance": 10,
+      "move_speed_mult": 5
+    },
+    "previous": [
+      "ares_belt",
+      "leather_jerkin",
+      "magic_resist_cloak"
+    ],
+    "next": [
+      "mythical_thunder_belt"
+    ],
+    "mythical": true,
+    "boots": false,
+    "category": "Tank",
+    "source_recipe": [
+      "ares_belt",
+      "leather_jerkin",
+      "magic_resist_cloak"
+    ],
+    "legacy": false,
+    "custom_adaptation": false
+  },
+  {
+    "key": "twilight_armor",
+    "name": "Twilight Armor",
+    "tier": 3,
+    "price": 670,
+    "stats": {
+      "hp": 600,
+      "defence": 10
+    },
+    "previous": [
+      "ares_belt",
+      "leather_jerkin"
+    ],
+    "next": [
+      "mythical_twilight_armor"
+    ],
+    "mythical": true,
+    "boots": false,
+    "category": "Tank",
+    "source_recipe": [
+      "ares_belt",
+      "ares_belt",
+      "leather_jerkin"
+    ],
+    "legacy": true,
+    "custom_adaptation": false
+  },
+  {
+    "key": "valkyries_shield",
+    "name": "Valkyrie's Shield",
+    "tier": 3,
+    "price": 690,
+    "stats": {
+      "hp": 450,
+      "magic_resistance": 34,
+      "hp_regen": 1
+    },
+    "previous": [
+      "silence_robe",
+      "vitality_crystal",
+      "runic_mantle"
+    ],
+    "next": [
+      "mythical_valkyries_shield"
+    ],
+    "mythical": true,
+    "boots": false,
+    "category": "Tank",
+    "source_recipe": [
+      "silence_robe",
+      "vitality_crystal"
+    ],
+    "legacy": false,
+    "custom_adaptation": false
+  },
+  {
+    "key": "ares_belt",
+    "name": "Ares Belt",
+    "tier": 1,
+    "price": 225,
+    "stats": {
+      "hp": 300
+    },
+    "previous": [
+      "vitality_crystal"
+    ],
+    "next": [
+      "antique_cuirass",
+      "brute_force_breastplate",
+      "chastise_pauldron",
+      "cursed_helmet",
+      "guardian_helmet",
+      "immortality",
+      "queens_wings",
+      "thunder_belt",
+      "twilight_armor",
+      "vitality_core",
+      "bloodthirsty_king"
+    ],
+    "mythical": false,
+    "boots": false,
+    "category": "Tank",
+    "source_recipe": [
+      "vitality_crystal"
+    ],
+    "legacy": false,
+    "custom_adaptation": false
+  },
+  {
+    "key": "black_ice_shield",
+    "name": "Black Ice Shield",
+    "tier": 1,
+    "price": 250,
+    "stats": {
+      "defence": 14,
+      "magic_resistance": 14
+    },
+    "previous": [
+      "leather_jerkin",
+      "magic_resist_cloak"
+    ],
+    "next": [
+      "dominance_ice"
+    ],
+    "mythical": false,
+    "boots": false,
+    "category": "Tank",
+    "source_recipe": [
+      "leather_jerkin",
+      "magic_resist_cloak"
+    ],
+    "legacy": false,
+    "custom_adaptation": false
+  },
+  {
+    "key": "dreadnaught_armor",
+    "name": "Dreadnaught Armor",
+    "tier": 1,
+    "price": 235,
+    "stats": {
+      "defence": 21
+    },
+    "previous": [
+      "leather_jerkin"
+    ],
+    "next": [
+      "antique_cuirass"
+    ],
+    "mythical": false,
+    "boots": false,
+    "category": "Tank",
+    "source_recipe": [
+      "leather_jerkin",
+      "leather_jerkin"
+    ],
+    "legacy": false,
+    "custom_adaptation": false
+  },
+  {
+    "key": "molten_essence",
+    "name": "Molten Essence",
+    "tier": 1,
+    "price": 255,
+    "stats": {
+      "hp": 270
+    },
+    "previous": [
+      "vitality_crystal"
+    ],
+    "next": [
+      "cursed_helmet"
+    ],
+    "mythical": false,
+    "boots": false,
+    "category": "Tank",
+    "source_recipe": [
+      "vitality_crystal"
+    ],
+    "legacy": false,
+    "custom_adaptation": false
+  },
+  {
+    "key": "silence_robe",
+    "name": "Silence Robe",
+    "tier": 1,
+    "price": 325,
+    "stats": {
+      "hp": 270,
+      "magic_resistance": 16
+    },
+    "previous": [
+      "vitality_crystal",
+      "magic_resist_cloak"
+    ],
+    "next": [
+      "radiant_armor",
+      "valkyries_shield",
+      "runic_mantle"
+    ],
+    "mythical": false,
+    "boots": false,
+    "category": "Tank",
+    "source_recipe": [
+      "vitality_crystal",
+      "magic_resist_cloak"
+    ],
+    "legacy": false,
+    "custom_adaptation": false
+  },
+  {
+    "key": "steel_legplates",
+    "name": "Steel Legplates",
+    "tier": 1,
+    "price": 200,
+    "stats": {
+      "defence": 24
+    },
+    "previous": [
+      "leather_jerkin"
+    ],
+    "next": [
+      "blade_armor",
+      "chastise_pauldron",
+      "bastion_plate"
+    ],
+    "mythical": false,
+    "boots": false,
+    "category": "Tank",
+    "source_recipe": [
+      "leather_jerkin"
+    ],
+    "legacy": false,
+    "custom_adaptation": false
+  },
+  {
+    "key": "healing_necklace",
+    "name": "Healing Necklace",
+    "tier": 0,
+    "price": 50,
+    "stats": {
+      "hp_regen": 2
+    },
+    "previous": [],
+    "next": [
+      "radiant_armor",
+      "rapid_boots"
+    ],
+    "mythical": false,
+    "boots": false,
+    "category": "Tank",
+    "source_recipe": [],
+    "legacy": false,
+    "custom_adaptation": false
+  },
+  {
+    "key": "heros_ring",
+    "name": "Hero's Ring",
+    "tier": 0,
+    "price": 145,
+    "stats": {
+      "hp": 75,
+      "skill_cooldown_mult": 5,
+      "ult_cooldown_mult": 5
+    },
+    "previous": [],
+    "next": [
+      "brute_force_breastplate",
+      "fleeting_time",
+      "magic_shoes",
+      "oracle",
+      "queens_wings",
+      "war_axe",
+      "winter_crown"
+    ],
+    "mythical": false,
+    "boots": false,
+    "category": "Tank",
+    "source_recipe": [],
+    "legacy": false,
+    "custom_adaptation": false
+  },
+  {
+    "key": "leather_jerkin",
+    "name": "Leather Jerkin",
+    "tier": 0,
+    "price": 70,
+    "stats": {
+      "defence": 10
+    },
+    "previous": [],
+    "next": [
+      "black_ice_shield",
+      "blade_armor",
+      "brute_force_breastplate",
+      "dominance_ice",
+      "dreadnaught_armor",
+      "immortality",
+      "steel_legplates",
+      "thunder_belt",
+      "twilight_armor",
+      "warrior_boots"
+    ],
+    "mythical": false,
+    "boots": false,
+    "category": "Tank",
+    "source_recipe": [],
+    "legacy": false,
+    "custom_adaptation": false
+  },
+  {
+    "key": "magic_resist_cloak",
+    "name": "Magic Resist Cloak",
+    "tier": 0,
+    "price": 70,
+    "stats": {
+      "magic_resistance": 10
+    },
+    "previous": [],
+    "next": [
+      "black_ice_shield",
+      "cursed_helmet",
+      "dominance_ice",
+      "radiant_armor",
+      "silence_robe",
+      "thunder_belt",
+      "tough_boots",
+      "runic_mantle"
+    ],
+    "mythical": false,
+    "boots": false,
+    "category": "Tank",
+    "source_recipe": [],
+    "legacy": false,
+    "custom_adaptation": false
+  },
+  {
+    "key": "vitality_crystal",
+    "name": "Vitality Crystal",
+    "tier": 0,
+    "price": 95,
+    "stats": {
+      "hp": 115
+    },
+    "previous": [],
+    "next": [
+      "ares_belt",
+      "concentrated_energy",
+      "elegant_gem",
+      "flask_of_the_oasis",
+      "glowing_wand",
+      "immortality",
+      "molten_essence",
+      "ogre_tomahawk",
+      "oracle",
+      "silence_robe",
+      "valkyries_shield",
+      "winter_crown"
+    ],
+    "mythical": false,
+    "boots": false,
+    "category": "Tank",
+    "source_recipe": [],
+    "legacy": false,
+    "custom_adaptation": false
+  },
+  {
+    "key": "fleeting_time",
+    "name": "Fleeting Time",
+    "tier": 3,
+    "price": 655,
+    "stats": {
+      "hp": 300,
+      "skill_cooldown_mult": 15,
+      "adaptive_force": 16,
+      "ult_cooldown_mult": 15
+    },
+    "previous": [
+      "heros_ring",
+      "expert_gloves"
+    ],
+    "next": [
+      "mythical_fleeting_time"
+    ],
+    "mythical": true,
+    "boots": false,
+    "category": "Mage",
+    "source_recipe": [
+      "heros_ring",
+      "heros_ring",
+      "expert_gloves"
+    ],
+    "legacy": false,
+    "custom_adaptation": false
+  },
+  {
+    "key": "sky_piercer",
+    "name": "Sky Piercer",
+    "tier": 3,
+    "price": 480,
+    "stats": {
+      "move_speed_mult": 4,
+      "adaptive_force": 33
+    },
+    "previous": [
+      "expert_gloves"
+    ],
+    "next": [
+      "mythical_sky_piercer"
+    ],
+    "mythical": true,
+    "boots": false,
+    "category": "Assassin",
+    "source_recipe": [
+      "expert_gloves",
+      "expert_gloves"
+    ],
+    "legacy": false,
+    "custom_adaptation": false
+  },
+  {
+    "key": "winter_crown",
+    "name": "Winter Crown",
+    "tier": 3,
+    "price": 610,
+    "stats": {
+      "hp": 200,
+      "skill_cooldown_mult": 5,
+      "adaptive_force": 25,
+      "ult_cooldown_mult": 5
+    },
+    "previous": [
+      "expert_gloves",
+      "heros_ring",
+      "vitality_crystal"
+    ],
+    "next": [
+      "mythical_winter_crown"
+    ],
+    "mythical": true,
+    "boots": false,
+    "category": "Fighter",
+    "source_recipe": [
+      "expert_gloves",
+      "heros_ring",
+      "vitality_crystal"
+    ],
+    "legacy": false,
+    "custom_adaptation": false
+  },
+  {
+    "key": "expert_gloves",
+    "name": "Expert Gloves",
+    "tier": 0,
+    "price": 160,
+    "stats": {
+      "adaptive_force": 16
+    },
+    "previous": [],
+    "next": [
+      "fleeting_time",
+      "queens_wings",
+      "sky_piercer",
+      "winter_crown"
+    ],
+    "mythical": false,
+    "boots": false,
+    "category": "Fighter",
+    "source_recipe": [],
+    "legacy": false,
+    "custom_adaptation": false
+  },
+  {
+    "key": "arcane_boots",
+    "name": "Arcane Boots",
+    "tier": 3,
+    "price": 230,
+    "stats": {
+      "move_speed_mult": 10,
+      "magic_power": 8,
+      "flat_magic_penetration": 7
+    },
+    "previous": [
+      "boots",
+      "mystery_codex"
+    ],
+    "next": [],
+    "mythical": false,
+    "boots": true,
+    "category": "Boots",
+    "source_recipe": [
+      "boots",
+      "mystery_codex"
+    ],
+    "legacy": false,
+    "custom_adaptation": false
+  },
+  {
+    "key": "demon_shoes",
+    "name": "Demon Shoes",
+    "tier": 3,
+    "price": 230,
+    "stats": {
+      "move_speed_mult": 10
+    },
+    "previous": [
+      "boots",
+      "magic_necklace"
+    ],
+    "next": [],
+    "mythical": false,
+    "boots": true,
+    "category": "Boots",
+    "source_recipe": [
+      "boots",
+      "magic_necklace",
+      "magic_necklace"
+    ],
+    "legacy": false,
+    "custom_adaptation": false
+  },
+  {
+    "key": "magic_shoes",
+    "name": "Magic Shoes",
+    "tier": 3,
+    "price": 230,
+    "stats": {
+      "move_speed_mult": 10,
+      "skill_cooldown_mult": 10,
+      "hp": 75,
+      "ult_cooldown_mult": 10
+    },
+    "previous": [
+      "boots",
+      "heros_ring"
+    ],
+    "next": [],
+    "mythical": false,
+    "boots": true,
+    "category": "Boots",
+    "source_recipe": [
+      "boots",
+      "heros_ring"
+    ],
+    "legacy": false,
+    "custom_adaptation": false
+  },
+  {
+    "key": "rapid_boots",
+    "name": "Rapid Boots",
+    "tier": 3,
+    "price": 230,
+    "stats": {
+      "move_speed_mult": 14,
+      "toughness": 35,
+      "hp_regen": 6
+    },
+    "previous": [
+      "boots",
+      "healing_necklace"
+    ],
+    "next": [],
+    "mythical": false,
+    "boots": true,
+    "category": "Boots",
+    "source_recipe": [
+      "boots",
+      "healing_necklace",
+      "healing_necklace"
+    ],
+    "legacy": false,
+    "custom_adaptation": false
+  },
+  {
+    "key": "swift_boots",
+    "name": "Swift Boots",
+    "tier": 3,
+    "price": 230,
+    "stats": {
+      "move_speed_mult": 10,
+      "attack_speed_mult": 15
+    },
+    "previous": [
+      "boots",
+      "knife"
+    ],
+    "next": [],
+    "mythical": false,
+    "boots": true,
+    "category": "Boots",
+    "source_recipe": [
+      "boots",
+      "knife"
+    ],
+    "legacy": false,
+    "custom_adaptation": false
+  },
+  {
+    "key": "tough_boots",
+    "name": "Tough Boots",
+    "tier": 3,
+    "price": 230,
+    "stats": {
+      "move_speed_mult": 10,
+      "magic_resistance": 13,
+      "toughness": 25
+    },
+    "previous": [
+      "boots",
+      "magic_resist_cloak"
+    ],
+    "next": [],
+    "mythical": false,
+    "boots": true,
+    "category": "Boots",
+    "source_recipe": [
+      "boots",
+      "magic_resist_cloak"
+    ],
+    "legacy": false,
+    "custom_adaptation": false
+  },
+  {
+    "key": "warrior_boots",
+    "name": "Warrior Boots",
+    "tier": 3,
+    "price": 230,
+    "stats": {
+      "move_speed_mult": 10,
+      "defence": 13
+    },
+    "previous": [
+      "boots",
+      "leather_jerkin"
+    ],
+    "next": [],
+    "mythical": false,
+    "boots": true,
+    "category": "Boots",
+    "source_recipe": [
+      "boots",
+      "leather_jerkin"
+    ],
+    "legacy": false,
+    "custom_adaptation": false
+  },
+  {
+    "key": "boots",
+    "name": "Boots",
+    "tier": 0,
+    "price": 80,
+    "stats": {
+      "move_speed_mult": 5
+    },
+    "previous": [],
+    "next": [
+      "arcane_boots",
+      "demon_shoes",
+      "magic_shoes",
+      "rapid_boots",
+      "swift_boots",
+      "tough_boots",
+      "warrior_boots"
+    ],
+    "mythical": false,
+    "boots": true,
+    "category": "Boots",
+    "source_recipe": [],
+    "legacy": false,
+    "custom_adaptation": false
+  },
+  {
+    "key": "mlbb_dagger",
+    "name": "Dagger",
+    "tier": 0,
+    "price": 80,
+    "stats": {
+      "attack": 5
+    },
+    "previous": [],
+    "next": [
+      "fury_hammer",
+      "golden_staff",
+      "haas_claws",
+      "hunter_strike",
+      "legion_sword",
+      "magic_blade",
+      "ogre_tomahawk",
+      "regular_spear",
+      "deadly_blade"
+    ],
+    "mythical": false,
+    "boots": false,
+    "category": "Fighter",
+    "source_recipe": [],
+    "legacy": false,
+    "custom_adaptation": false
+  },
+  {
+    "key": "warcrest_blade",
+    "name": "Warcrest Blade",
+    "tier": 2,
+    "price": 420,
+    "stats": {
+      "attack": 24
+    },
+    "previous": [
+      "legion_sword"
+    ],
+    "next": [
+      "blade_of_despair",
+      "berserkers_fury",
+      "blade_of_the_heptaseas",
+      "hunter_strike",
+      "malefic_roar",
+      "great_dragon_spear"
+    ],
+    "mythical": false,
+    "boots": false,
+    "category": "Fighter",
+    "source_recipe": [],
+    "legacy": false,
+    "custom_adaptation": true,
+    "icon_source": "warcrest_blade"
+  },
+  {
+    "key": "windforged_core",
+    "name": "Windforged Core",
+    "tier": 2,
+    "price": 330,
+    "stats": {
+      "attack": 12,
+      "attack_speed_mult": 15
+    },
+    "previous": [
+      "regular_spear"
+    ],
+    "next": [
+      "corrosion_scythe",
+      "demon_hunter_sword",
+      "golden_staff"
+    ],
+    "mythical": false,
+    "boots": false,
+    "category": "Marksman",
+    "source_recipe": [],
+    "legacy": false,
+    "custom_adaptation": true,
+    "icon_source": "windforged_core"
+  },
+  {
+    "key": "bastion_plate",
+    "name": "Bastion Plate",
+    "tier": 2,
+    "price": 430,
+    "stats": {
+      "defence": 26
+    },
+    "previous": [
+      "steel_legplates"
+    ],
+    "next": [
+      "antique_cuirass",
+      "blade_armor",
+      "chastise_pauldron"
+    ],
+    "mythical": false,
+    "boots": false,
+    "category": "Tank",
+    "source_recipe": [],
+    "legacy": false,
+    "custom_adaptation": true,
+    "icon_source": "bastion_plate"
+  },
+  {
+    "key": "runic_mantle",
+    "name": "Runic Mantle",
+    "tier": 2,
+    "price": 430,
+    "stats": {
+      "magic_resistance": 23,
+      "hp": 270
+    },
+    "previous": [
+      "silence_robe",
+      "magic_resist_cloak"
+    ],
+    "next": [
+      "valkyries_shield",
+      "radiant_armor"
+    ],
+    "mythical": false,
+    "boots": false,
+    "category": "Tank",
+    "source_recipe": [],
+    "legacy": false,
+    "custom_adaptation": true,
+    "icon_source": "runic_mantle"
+  },
+  {
+    "key": "arcane_focus",
+    "name": "Arcane Focus",
+    "tier": 2,
+    "price": 430,
+    "stats": {
+      "magic_power": 32,
+      "skill_cooldown_mult": 10,
+      "ult_cooldown_mult": 10
+    },
+    "previous": [
+      "magic_wand",
+      "tome_of_evil"
+    ],
+    "next": [
+      "enchanted_talisman",
+      "flask_of_the_oasis",
+      "lightning_truncheon",
+      "starlium_scythe",
+      "wishing_lantern"
+    ],
+    "mythical": false,
+    "boots": false,
+    "category": "Mage",
+    "source_recipe": [],
+    "legacy": false,
+    "custom_adaptation": true,
+    "icon_source": "arcane_focus"
+  },
+  {
+    "key": "vitality_core",
+    "name": "Vitality Core",
+    "tier": 2,
+    "price": 325,
+    "stats": {
+      "hp": 400
+    },
+    "previous": [
+      "ares_belt"
+    ],
+    "next": [
+      "guardian_helmet",
+      "cursed_helmet",
+      "oracle",
+      "immortality",
+      "brute_force_breastplate",
+      "chastise_pauldron",
+      "bloodthirsty_king"
+    ],
+    "mythical": false,
+    "boots": false,
+    "category": "Tank",
+    "source_recipe": [],
+    "legacy": false,
+    "custom_adaptation": true,
+    "icon_source": "vitality_core"
+  },
+  {
+    "key": "hunters_knife",
+    "name": "Hunter's Knife",
+    "tier": 0,
+    "price": 90,
+    "stats": {},
+    "previous": [],
+    "next": [
+      "curse_sword",
+      "nimble_blade",
+      "pillager_axe"
+    ],
+    "mythical": false,
+    "boots": false,
+    "category": "Fighter",
+    "source_recipe": [],
+    "legacy": false,
+    "custom_adaptation": false,
+    "restored_legacy": true
+  },
+  {
+    "key": "curse_sword",
+    "name": "Curse Sword",
+    "tier": 1,
+    "price": 245,
+    "stats": {},
+    "previous": [
+      "hunters_knife"
+    ],
+    "next": [
+      "star_shard"
+    ],
+    "mythical": false,
+    "boots": false,
+    "category": "Mage",
+    "source_recipe": [
+      "hunters_knife"
+    ],
+    "legacy": false,
+    "custom_adaptation": false,
+    "restored_legacy": true
+  },
+  {
+    "key": "nimble_blade",
+    "name": "Nimble Blade",
+    "tier": 1,
+    "price": 240,
+    "stats": {},
+    "previous": [
+      "hunters_knife"
+    ],
+    "next": [
+      "raptor_machete"
+    ],
+    "mythical": false,
+    "boots": false,
+    "category": "Fighter",
+    "source_recipe": [
+      "hunters_knife"
+    ],
+    "legacy": false,
+    "custom_adaptation": false,
+    "restored_legacy": true
+  },
+  {
+    "key": "pillager_axe",
+    "name": "Pillager Axe",
+    "tier": 1,
+    "price": 245,
+    "stats": {},
+    "previous": [
+      "hunters_knife"
+    ],
+    "next": [
+      "beast_killer"
+    ],
+    "mythical": false,
+    "boots": false,
+    "category": "Tank",
+    "source_recipe": [
+      "hunters_knife"
+    ],
+    "legacy": false,
+    "custom_adaptation": false,
+    "restored_legacy": true
+  },
+  {
+    "key": "star_shard",
+    "name": "Star Shard",
+    "tier": 3,
+    "price": 515,
+    "stats": {
+      "magic_power": 17,
+      "vamp": 8,
+      "skill_cooldown_mult": 3,
+      "ult_cooldown_mult": 3
+    },
+    "previous": [
+      "curse_sword"
+    ],
+    "next": [
+      "mythical_star_shard"
+    ],
+    "mythical": true,
+    "boots": false,
+    "category": "Mage",
+    "source_recipe": [
+      "curse_sword"
+    ],
+    "legacy": false,
+    "custom_adaptation": false,
+    "restored_legacy": true
+  },
+  {
+    "key": "raptor_machete",
+    "name": "Raptor Machete",
+    "tier": 3,
+    "price": 530,
+    "stats": {
+      "attack": 14,
+      "defence_penetration": 15
+    },
+    "previous": [
+      "nimble_blade"
+    ],
+    "next": [
+      "mythical_raptor_machete"
+    ],
+    "mythical": true,
+    "boots": false,
+    "category": "Fighter",
+    "source_recipe": [
+      "nimble_blade"
+    ],
+    "legacy": false,
+    "custom_adaptation": false,
+    "restored_legacy": true
+  },
+  {
+    "key": "beast_killer",
+    "name": "Beast Killer",
+    "tier": 3,
+    "price": 580,
+    "stats": {
+      "defence": 14,
+      "magic_resistance": 14
+    },
+    "previous": [
+      "pillager_axe"
+    ],
+    "next": [
+      "mythical_beast_killer"
+    ],
+    "mythical": true,
+    "boots": false,
+    "category": "Tank",
+    "source_recipe": [
+      "pillager_axe"
+    ],
+    "legacy": false,
+    "custom_adaptation": false,
+    "restored_legacy": true
+  },
+  {
+    "key": "legacy_windtalker",
+    "name": "Legacy Windtalker",
+    "tier": 3,
+    "price": 600,
+    "stats": {
+      "attack_speed_mult": 25,
+      "crit_chance": 15,
+      "move_speed_mult": 5
+    },
+    "previous": [
+      "rogue_meteor",
+      "knife"
+    ],
+    "next": [
+      "mythical_legacy_windtalker"
+    ],
+    "mythical": true,
+    "boots": false,
+    "category": "Marksman",
+    "source_recipe": [],
+    "legacy": false,
+    "custom_adaptation": false,
+    "restored_legacy": true,
+    "icon_source": "windtalker"
+  },
+  {
+    "key": "bloodlust_axe",
+    "name": "Bloodlust Axe",
+    "tier": 3,
+    "price": 575,
+    "stats": {
+      "attack": 22,
+      "skill_cooldown_mult": 10,
+      "ult_cooldown_mult": 10
+    },
+    "previous": [
+      "iron_hunting_bow",
+      "fury_hammer"
+    ],
+    "next": [
+      "mythical_bloodlust_axe"
+    ],
+    "mythical": true,
+    "boots": false,
+    "category": "Fighter",
+    "source_recipe": [],
+    "legacy": false,
+    "custom_adaptation": false,
+    "restored_legacy": true
+  },
+  {
+    "key": "deadly_blade",
+    "name": "Deadly Blade",
+    "tier": 1,
+    "price": 300,
+    "stats": {
+      "attack": 8,
+      "attack_speed_mult": 10
+    },
+    "previous": [
+      "mlbb_dagger"
+    ],
+    "next": [
+      "sea_halberd"
+    ],
+    "mythical": false,
+    "boots": false,
+    "category": "Fighter",
+    "source_recipe": [],
+    "legacy": false,
+    "custom_adaptation": false,
+    "restored_legacy": true
+  },
+  {
+    "key": "calamity_reaper",
+    "name": "Calamity Reaper",
+    "tier": 3,
+    "price": 625,
+    "stats": {
+      "magic_power": 35,
+      "skill_cooldown_mult": 7,
+      "ult_cooldown_mult": 7
+    },
+    "previous": [
+      "azure_blade",
+      "magic_wand"
+    ],
+    "next": [
+      "mythical_calamity_reaper"
+    ],
+    "mythical": true,
+    "boots": false,
+    "category": "Mage",
+    "source_recipe": [],
+    "legacy": false,
+    "custom_adaptation": false,
+    "restored_legacy": true
+  },
+  {
+    "key": "scarlet_phantom",
+    "name": "Scarlet Phantom",
+    "tier": 3,
+    "price": 620,
+    "stats": {
+      "attack": 11,
+      "crit_chance": 20,
+      "attack_speed_mult": 22
+    },
+    "previous": [
+      "rogue_meteor",
+      "regular_spear"
+    ],
+    "next": [
+      "mythical_scarlet_phantom"
+    ],
+    "mythical": true,
+    "boots": false,
+    "category": "Marksman",
+    "source_recipe": [],
+    "legacy": false,
+    "custom_adaptation": false,
+    "restored_legacy": true
+  },
+  {
+    "key": "shadow_twinblades",
+    "name": "Shadow Twinblades",
+    "tier": 3,
+    "price": 640,
+    "stats": {
+      "magic_power": 36,
+      "move_speed_mult": 5,
+      "vamp": 4
+    },
+    "previous": [
+      "exotic_veil",
+      "mystic_container"
+    ],
+    "next": [
+      "mythical_shadow_twinblades"
+    ],
+    "mythical": true,
+    "boots": false,
+    "category": "Mage",
+    "source_recipe": [],
+    "legacy": false,
+    "custom_adaptation": false,
+    "restored_legacy": true
+  },
+  {
+    "key": "ice_force",
+    "name": "Ice Force",
+    "tier": 3,
+    "price": 625,
+    "stats": {
+      "attack": 20,
+      "attack_speed_mult": 20
+    },
+    "previous": [
+      "regular_spear",
+      "legion_sword"
+    ],
+    "next": [
+      "mythical_ice_force"
+    ],
+    "mythical": true,
+    "boots": false,
+    "category": "Marksman",
+    "source_recipe": [],
+    "legacy": false,
+    "custom_adaptation": false,
+    "restored_legacy": true
+  },
+  {
+    "key": "bloodthirsty_king",
+    "name": "Bloodthirsty King",
+    "tier": 3,
+    "price": 755,
+    "stats": {
+      "hp": 700
+    },
+    "previous": [
+      "ares_belt",
+      "vitality_core"
+    ],
+    "next": [
+      "mythical_bloodthirsty_king"
+    ],
+    "mythical": true,
+    "boots": false,
+    "category": "Tank",
+    "source_recipe": [],
+    "legacy": false,
+    "custom_adaptation": false,
+    "restored_legacy": true
+  }
+]

@@ -1,0 +1,16 @@
+{
+  "name": "MLBB Items",
+  "author": "Bl0rryFac3",
+  "mod_id": "mlbb_items",
+  "mod_type": "native",
+  "contains_code": true,
+  "version": "1.5.0",
+  "description": "MLBB equipment, six item slots, Smart Builds, and violet Mythical upgrades for TFM2 0.7.4.",
+  "last_updated": "2026-11-25",
+  "dependencies": [
+    {
+      "mod_id": "base",
+      "version": "=0.7.4"
+    }
+  ]
+}

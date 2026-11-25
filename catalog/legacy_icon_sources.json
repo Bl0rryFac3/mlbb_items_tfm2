@@ -1,0 +1,30 @@
+{
+  "calamity_reaper": {
+    "page": "https://mobile-legends.fandom.com/wiki/Calamity_Reaper",
+    "image": "https://static.wikia.nocookie.net/mobile-legends/images/0/0f/Calamity_Reaper.png/revision/latest"
+  },
+  "scarlet_phantom": {
+    "page": "https://mobile-legends.fandom.com/wiki/Scarlet_Phantom",
+    "image": "https://static.wikia.nocookie.net/mobile-legends/images/0/09/Scarlet_Phantom.png/revision/latest"
+  },
+  "shadow_twinblades": {
+    "page": "https://mobile-legends.fandom.com/wiki/Shadow_Twinblades",
+    "image": "https://static.wikia.nocookie.net/mobile-legends/images/5/58/Shadow_Twinblades.png/revision/latest"
+  },
+  "ice_force": {
+    "page": "https://mobile-legends.fandom.com/wiki/Ice_Force",
+    "image": "https://static.wikia.nocookie.net/mobile-legends/images/6/6a/Ice_Force.png/revision/latest"
+  },
+  "bloodthirsty_king": {
+    "page": "https://mobile-legends.fandom.com/wiki/Bloodthirsty_King",
+    "image": "https://static.wikia.nocookie.net/mobile-legends/images/f/fb/Bloodthirsty_King.png/revision/latest"
+  },
+  "bloodlust_axe": {
+    "page": "https://mobile-legends.fandom.com/wiki/Bloodlust_Axe",
+    "image": "https://static.wikia.nocookie.net/mobile-legends/images/f/f0/Bloodlust_Axe.png/revision/latest"
+  },
+  "deadly_blade": {
+    "page": "https://mobile-legends.fandom.com/wiki/Deadly_Blade",
+    "image": "https://static.wikia.nocookie.net/mobile-legends/images/8/88/Deadly_Blade.png/revision/latest"
+  }
+}

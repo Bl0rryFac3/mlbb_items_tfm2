@@ -1,0 +1,173 @@
+use mod_api_stable::*;
+
+use crate::config::ItemConfig;
+use crate::{
+    apply_config, immolate_burn, mark_immolate, note_immolate, percent_of, sized_range,
+    DISTANCE_UNITS_PER_RANGE, TICKS_PER_SECOND,
+};
+
+use super::{immolate_burn_between, immolate_strongest};
+
+pub(crate) const SUNFIRE_KEY: &str = "hourglass_of_eternity";
+pub(crate) const RADIANT_SUNFIRE_KEY: &str = "giants_horn_shard";
+
+#[derive(Clone, Debug)]
+pub(crate) struct Immolate {
+    effect_bonus_flat_damage: usize,
+    effect_caster_hp_percent_damage: f64,
+    effect_max_distance: usize,
+    effect_minion_bonus_percent: f64,
+}
+
+impl Default for Immolate {
+    fn default() -> Self {
+        Self {
+            effect_bonus_flat_damage: 10,
+            effect_caster_hp_percent_damage: 1.0,
+            effect_max_distance: 30,
+            effect_minion_bonus_percent: 150.0,
+        }
+    }
+}
+
+impl Immolate {
+    pub(crate) fn with_config(cfg: &ItemConfig) -> Self {
+        let mut immolate = Self::default();
+        apply_config!(
+            immolate,
+            cfg,
+            [
+                effect_bonus_flat_damage,
+                effect_caster_hp_percent_damage,
+                effect_max_distance,
+                effect_minion_bonus_percent
+            ]
+        );
+        immolate
+    }
+
+    // Notes this Immolate's numbers under `key`, the game's key for the cape,
+    // for the strongest-burn-wins check.
+    pub(crate) fn note_as(&self, key: &'static str) {
+        note_immolate(
+            key,
+            self.effect_bonus_flat_damage,
+            self.effect_caster_hp_percent_damage,
+        );
+    }
+
+    fn damage(&self, max_hp: usize) -> usize {
+        self.effect_bonus_flat_damage + percent_of(max_hp, self.effect_caster_hp_percent_damage)
+    }
+
+    fn minion_bonus(&self, damage: usize) -> usize {
+        percent_of(damage, self.effect_minion_bonus_percent)
+    }
+}
+
+fn immolate(sim: &mut StableSim<'_>, sunfire: &Immolate, radiant: &Immolate) {
+    if sim.tick() % TICKS_PER_SECOND as usize != 0 {
+        return;
+    }
+
+    let mut flames = Vec::new();
+    let mut burns = Vec::new();
+    let mut mythical_burns = Vec::new();
+
+    for index in 0..sim.player_count() {
+        let Some(player) = sim.player_at(index) else {
+            continue;
+        };
+        let keys = player.item_keys();
+        let sunfire_held = keys.iter().any(|key| key == SUNFIRE_KEY);
+        let mythical_held = keys.iter().any(|key| key == RADIANT_SUNFIRE_KEY);
+        if !sunfire_held && !mythical_held {
+            continue;
+        }
+        let Some(champion) = player.champion() else {
+            continue;
+        };
+        if !champion.is_alive() {
+            continue;
+        }
+        let (id, team, max_hp) = (champion.id(), champion.team(), champion.hp().1);
+        // Only the strongest Immolate held burns; another item's may be it.
+        let sunfire_here = sunfire_held && immolate_strongest(&keys, SUNFIRE_KEY, max_hp);
+        let mythical_here = mythical_held && immolate_strongest(&keys, RADIANT_SUNFIRE_KEY, max_hp);
+        if !sunfire_here && !mythical_here {
+            continue;
+        }
+        flames.push(id);
+        if sunfire_here {
+            let damage = sunfire.damage(max_hp);
+            let minion_damage = damage + sunfire.minion_bonus(damage);
+            burns.push((id, team, damage, minion_damage));
+        }
+        if mythical_here {
+            let damage = radiant.damage(max_hp);
+            mythical_burns.push((id, team, damage, radiant.minion_bonus(damage)));
+        }
+    }
+
+    for champion in flames {
+        mark_immolate(sim, champion);
+    }
+
+    for (caster, caster_team, damage, minion_damage) in burns {
+        let range = sunfire.effect_max_distance;
+        immolate_burn(sim, caster, caster_team, range, damage, minion_damage);
+    }
+
+    for (caster, caster_team, damage, minion_bonus) in mythical_burns {
+        let engine_reach = (radiant.effect_max_distance * DISTANCE_UNITS_PER_RANGE) as u64;
+        immolate_burn_between(sim, caster, caster_team, 0, engine_reach, 0, minion_bonus);
+        let reach = sized_range(sim, caster, radiant.effect_max_distance);
+        if reach > engine_reach {
+            let minion_damage = damage + minion_bonus;
+            immolate_burn_between(
+                sim,
+                caster,
+                caster_team,
+                engine_reach,
+                reach,
+                damage,
+                minion_damage,
+            );
+        }
+    }
+}
+
+pub(crate) struct MatchHooks {
+    pub(crate) immolate: Immolate,
+    pub(crate) mythical_immolate: Immolate,
+    pub(crate) riches: crate::SharedRiches,
+}
+
+impl StableMatchHook for MatchHooks {
+    fn on_match_start(&self, sim: &mut StableSim<'_>) {
+        crate::heal_shield_power::on_match_start(sim);
+        crate::item_stats::sim::EndOfMatchItems.on_match_start(sim);
+    }
+
+    fn on_match_tick(&self, sim: &mut StableSim<'_>, rng_seed: u64) {
+        use crate::perf::{self, Section};
+        crate::heal_shield_power::on_match_tick(sim);
+        crate::match_builds::on_match_tick(sim);
+        crate::item_spend::on_match_tick(sim);
+        crate::item_counts::on_match_tick(sim);
+        if perf::ENABLED {
+            perf::sim_tick(sim.seed(), sim.tick(), sim.is_end());
+        }
+        let _probe = perf::Probe::sim(Section::MatchTick);
+        crate::patches::on_match_tick(sim);
+        if !sim.is_end() {
+            perf::time(Section::MatchImmolate, || {
+                immolate(sim, &self.immolate, &self.mythical_immolate)
+            });
+            perf::time(Section::MatchRiches, || self.riches.pay(sim));
+        }
+        perf::time(Section::MatchCapture, || {
+            crate::item_stats::sim::EndOfMatchItems.on_match_tick(sim, rng_seed)
+        });
+    }
+}

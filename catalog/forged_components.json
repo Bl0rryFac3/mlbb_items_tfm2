@@ -1,0 +1,124 @@
+[
+  {
+    "key": "warcrest_blade",
+    "name": "Warcrest Blade",
+    "price": 420,
+    "stats": {
+      "attack": 24
+    },
+    "parents": [
+      "legion_sword"
+    ],
+    "children": [
+      "blade_of_despair",
+      "berserkers_fury",
+      "blade_of_the_heptaseas",
+      "hunter_strike",
+      "malefic_roar",
+      "great_dragon_spear"
+    ],
+    "icon_source": "warcrest_blade",
+    "category": "Fighter"
+  },
+  {
+    "key": "windforged_core",
+    "name": "Windforged Core",
+    "price": 330,
+    "stats": {
+      "attack": 12,
+      "attack_speed_mult": 15
+    },
+    "parents": [
+      "regular_spear"
+    ],
+    "children": [
+      "corrosion_scythe",
+      "demon_hunter_sword",
+      "golden_staff"
+    ],
+    "icon_source": "windforged_core",
+    "category": "Marksman"
+  },
+  {
+    "key": "bastion_plate",
+    "name": "Bastion Plate",
+    "price": 430,
+    "stats": {
+      "defence": 26
+    },
+    "parents": [
+      "steel_legplates"
+    ],
+    "children": [
+      "antique_cuirass",
+      "blade_armor",
+      "chastise_pauldron"
+    ],
+    "icon_source": "bastion_plate",
+    "category": "Tank"
+  },
+  {
+    "key": "runic_mantle",
+    "name": "Runic Mantle",
+    "price": 430,
+    "stats": {
+      "magic_resistance": 23,
+      "hp": 270
+    },
+    "parents": [
+      "silence_robe",
+      "magic_resist_cloak"
+    ],
+    "children": [
+      "valkyries_shield",
+      "radiant_armor"
+    ],
+    "icon_source": "runic_mantle",
+    "category": "Tank"
+  },
+  {
+    "key": "arcane_focus",
+    "name": "Arcane Focus",
+    "price": 430,
+    "stats": {
+      "magic_power": 32,
+      "skill_cooldown_mult": 10,
+      "ult_cooldown_mult": 10
+    },
+    "parents": [
+      "magic_wand",
+      "tome_of_evil"
+    ],
+    "children": [
+      "enchanted_talisman",
+      "flask_of_the_oasis",
+      "lightning_truncheon",
+      "starlium_scythe",
+      "wishing_lantern"
+    ],
+    "icon_source": "arcane_focus",
+    "category": "Mage"
+  },
+  {
+    "key": "vitality_core",
+    "name": "Vitality Core",
+    "price": 325,
+    "stats": {
+      "hp": 400
+    },
+    "parents": [
+      "ares_belt"
+    ],
+    "children": [
+      "guardian_helmet",
+      "cursed_helmet",
+      "oracle",
+      "immortality",
+      "brute_force_breastplate",
+      "chastise_pauldron",
+      "bloodthirsty_king"
+    ],
+    "icon_source": "vitality_core",
+    "category": "Tank"
+  }
+]

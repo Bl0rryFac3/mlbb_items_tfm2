@@ -1,0 +1,398 @@
+{
+  "berserkers_fury": {
+    "base": "Critical basic attacks deal 30% more damage and an extra 12% of the original hit as true damage.",
+    "mythical": "Critical basic attacks deal 30% more damage and an extra 15% of the original hit as true damage."
+  },
+  "blade_of_despair": {
+    "base": "Despair: Deals 25% more damage to enemy heroes below 50% HP.",
+    "mythical": "Despair: Deals 31% more damage to enemy heroes below 50% HP."
+  },
+  "blade_of_the_heptaseas": {
+    "base": "Ambush: After 5s without dealing or taking hero damage, the next basic attack deals 56 + 40% Attack bonus physical damage and slows by 40% for 1.5s.",
+    "mythical": "Ambush: After 5s without dealing or taking hero damage, the next basic attack deals 70 + 50% Attack bonus physical damage and slows by 40% for 1.5s."
+  },
+  "corrosion_scythe": {
+    "base": "Corrosion: Basic attacks deal 28 bonus physical damage and slow by 8% for 1.5s, stacking up to 5 times. Ranged attackers apply half the slow.\nImpulse: Basic attacks grant 6% Attack Speed for 3s, stacking up to 5 times. Replaces Swift Crossbow’s Impulse.",
+    "mythical": "Corrosion: Basic attacks deal 35 bonus physical damage and slow by 8% for 1.5s, stacking up to 5 times. Ranged attackers apply half the slow.\nImpulse: Basic attacks grant 6% Attack Speed for 3s, stacking up to 5 times. Replaces Swift Crossbow’s Impulse."
+  },
+  "demon_hunter_sword": {
+    "base": "Devour: Basic attacks deal bonus physical damage equal to 8% of the target’s current HP, capped at 60 against non-heroes. Each hit restores 10 + 4 × level HP, halved against non-heroes.",
+    "mythical": "Devour: Basic attacks deal bonus physical damage equal to 10% of the target’s current HP, capped at 60 against non-heroes. Each hit restores 13 + 5 × level HP, halved against non-heroes."
+  },
+  "endless_battle": {
+    "base": "Divine Justice: After an ability starts its cooldown, the next basic attack within 3s deals 60% Attack bonus true damage and restores 28 + 40% Attack HP. Cooldown: 1.5s.",
+    "mythical": "Divine Justice: After an ability starts its cooldown, the next basic attack within 3s deals 75% Attack bonus true damage and restores 35 + 50% Attack HP. Cooldown: 1.5s."
+  },
+  "golden_staff": {
+    "base": "Converts equipment Critical Chance into Attack Speed and prevents critical hits. Every third basic attack triggers the attack effects of Demon Hunter Sword, Corrosion Scythe, Swift Crossbow and Feather of Heaven three times, and grants 80% Attack Speed for 0.5s.",
+    "mythical": "Converts equipment Critical Chance into Attack Speed and prevents critical hits. Every third basic attack triggers the attack effects of Demon Hunter Sword, Corrosion Scythe, Swift Crossbow and Feather of Heaven three times, and grants 80% Attack Speed for 0.5s."
+  },
+  "great_dragon_spear": {
+    "base": "Supreme Warrior: Using an Ultimate grants 30% Movement Speed for 7.5s. Cooldown: 15s.",
+    "mythical": "Supreme Warrior: Using an Ultimate grants 30% Movement Speed for 7.5s. Cooldown: 15s."
+  },
+  "haas_claws": {
+    "base": "Frenzy: Critical basic attacks grant 20% Attack Speed for 2s.\nLifesteal: Restore 12% of HP damage dealt by basic attacks to enemies other than structures. Shares Frenzy with Scarlet Phantom.",
+    "mythical": "Frenzy: Critical basic attacks grant 20% Attack Speed for 2s.\nLifesteal: Restore 15% of HP damage dealt by basic attacks to enemies other than structures. Shares Frenzy with Scarlet Phantom."
+  },
+  "hunter_strike": {
+    "base": "Retribution: Hit the same enemy hero or monster 5 times to gain 50% Movement Speed, fading over 3s. Cooldown: 8s.",
+    "mythical": "Retribution: Hit the same enemy hero or monster 5 times to gain 50% Movement Speed, fading over 3s. Cooldown: 8s."
+  },
+  "malefic_gun": {
+    "base": "Armor Buster: Grants 30% Physical Penetration. Does not stack with Malefic Roar’s Armor Buster.\nGrants 12% of listed base attack range as bonus range. Basic attacks grant 10% Movement Speed for 0.5s.",
+    "mythical": "Armor Buster: Grants 30% Physical Penetration. Does not stack with Malefic Roar’s Armor Buster.\nGrants 12% of listed base attack range as bonus range. Basic attacks grant 10% Movement Speed for 0.5s."
+  },
+  "malefic_roar": {
+    "base": "Armor Buster: Grants 30% Physical Penetration, plus 1% for every 10 Armor the target has, up to an extra 30%. The base bonus does not stack with Malefic Gun’s Armor Buster.",
+    "mythical": "Armor Buster: Grants 30% Physical Penetration, plus 1% for every 10 Armor the target has, up to an extra 30%. The base bonus does not stack with Malefic Gun’s Armor Buster."
+  },
+  "rose_gold_meteor": {
+    "base": "Grants Armor and Magic Resist equal to 25% of Attack, up to 35 each.\nLifeline: Taking damage while below 30% HP grants a 42 × level shield and 25% Movement Speed for 3s. Cooldown: 60s. Replaces Magic Blade’s Lifeline.\nLifesteal: Restore 10% of enemy HP damage dealt by direct basic hits.",
+    "mythical": "Grants Armor and Magic Resist equal to 25% of Attack, up to 35 each.\nLifeline: Taking damage while below 30% HP grants a 52.5 × level shield and 25% Movement Speed for 3s. Cooldown: 60s. Replaces Magic Blade’s Lifeline.\nLifesteal: Restore 10% of enemy HP damage dealt by direct basic hits."
+  },
+  "sea_halberd": {
+    "base": "Lifebane: Damage reduces the target’s healing and new shields by 40% for 3s.\nDeals 8% more damage to enemies with higher maximum HP.",
+    "mythical": "Lifebane: Damage reduces the target’s healing and new shields by 40% for 3s.\nDeals 8% more damage to enemies with higher maximum HP."
+  },
+  "war_axe": {
+    "base": "Fighting Spirit: Dealing damage grants 4 Attack for 4s, stacking up to 6 times. Stacks up to once per second. At full stacks, deals an extra 10% damage as true damage.\nHybrid Lifesteal: Restore 8% of enemy HP damage dealt by direct basic and skill hits.",
+    "mythical": "Fighting Spirit: Dealing damage grants 4 Attack for 4s, stacking up to 6 times. Stacks up to once per second. At full stacks, deals an extra 12.5% damage as true damage.\nHybrid Lifesteal: Restore 8% of enemy HP damage dealt by direct basic and skill hits."
+  },
+  "wind_of_nature": {
+    "base": "Wind Chant: Taking damage while below 30% HP automatically grants physical damage immunity for 2s for Marksmen, or 1s for other classes. Cooldown: 90s.\nLifesteal: Restore 10% of enemy HP damage dealt by direct basic hits.",
+    "mythical": "Wind Chant: Taking damage while below 30% HP automatically grants physical damage immunity for 2s for Marksmen, or 1s for other classes. Cooldown: 90s.\nLifesteal: Restore 10% of enemy HP damage dealt by direct basic hits."
+  },
+  "windtalker": {
+    "base": "Typhoon: A basic attack deals 50 + 5 × level magic damage to up to 3 nearby enemies. Cooldown: 4s, reduced by 0.2s with each basic attack.",
+    "mythical": "Typhoon: A basic attack deals 62.5 + 6.25 × level magic damage to up to 3 nearby enemies. Cooldown: 4s, reduced by 0.2s with each basic attack."
+  },
+  "fury_hammer": {
+    "base": ""
+  },
+  "legion_sword": {
+    "base": ""
+  },
+  "magic_blade": {
+    "base": "Lifeline: Taking damage while below 30% HP grants a 21 × level shield and 25% Movement Speed for 3s. Cooldown: 60s. Does not stack with Rose Gold Meteor’s Lifeline.\nLifesteal: Restore 10% of enemy HP damage dealt by direct basic hits."
+  },
+  "ogre_tomahawk": {
+    "base": ""
+  },
+  "regular_spear": {
+    "base": ""
+  },
+  "rogue_meteor": {
+    "base": ""
+  },
+  "swift_crossbow": {
+    "base": "Basic attacks deal 14 bonus magic or physical damage, based on the higher of Attack and Magic Power.\nImpulse: Basic attacks grant 3% Attack Speed for 3s, stacking up to 5 times. Does not stack with the stronger Impulse from Corrosion Scythe or Feather of Heaven."
+  },
+  "iron_hunting_bow": {
+    "base": ""
+  },
+  "javelin": {
+    "base": ""
+  },
+  "knife": {
+    "base": ""
+  },
+  "vampire_mallet": {
+    "base": "Lifesteal: Restore 8% of enemy HP damage dealt by direct basic hits."
+  },
+  "blood_wings": {
+    "base": "Guard: Grants a 280 + 100% Magic Power shield. It refills after 20s without taking further shield damage. Grants 10% Movement Speed while shielded, or 50% for 1s when the shield breaks.",
+    "mythical": "Guard: Grants a 350 + 125% Magic Power shield. It refills after 20s without taking further shield damage. Grants 10% Movement Speed while shielded, or 50% for 1s when the shield breaks."
+  },
+  "clock_of_destiny": {
+    "base": "Destiny: Dealing magic damage to heroes grants 4.5 + 0.5 × level Armor and Magic Resist for 5s, stacking up to 6 times. Gains a stack at most once every 0.4s.\nGift: Below 50% HP, restores 15% maximum HP over 3s. Cooldown: 60s. Replaces Elegant Gem’s Gift.",
+    "mythical": "Destiny: Dealing magic damage to heroes grants 4.5 + 0.5 × level Armor and Magic Resist for 5s, stacking up to 6 times. Gains a stack at most once every 0.4s.\nGift: Below 50% HP, restores 18.75% maximum HP over 3s. Cooldown: 60s. Replaces Elegant Gem’s Gift."
+  },
+  "concentrated_energy": {
+    "base": "Recharge: Dealing magic damage grants 3 Magic Power for 5s, stacking up to 6 times. Gains a stack at most once every 0.4s. At full stacks, deals 12% more magic damage.\nHybrid Lifesteal: Restore 12% of HP damage dealt by basic attacks and skill hits to enemies other than structures.",
+    "mythical": "Recharge: Dealing magic damage grants 3 Magic Power for 5s, stacking up to 6 times. Gains a stack at most once every 0.4s. At full stacks, deals 12% more magic damage.\nHybrid Lifesteal: Restore 15% of HP damage dealt by basic attacks and skill hits to enemies other than structures."
+  },
+  "divine_glaive": {
+    "base": "Spellbreaker: Grants 40% Magic Penetration, plus 1% for every 10 Magic Resist the target has, up to an extra 20%.",
+    "mythical": "Spellbreaker: Grants 40% Magic Penetration, plus 1% for every 10 Magic Resist the target has, up to an extra 20%."
+  },
+  "enchanted_talisman": {
+    "base": "",
+    "mythical": ""
+  },
+  "feather_of_heaven": {
+    "base": "Affliction: Basic attacks deal 18 + 30% Magic Power bonus magic damage.\nImpulse: Basic attacks grant 6% Attack Speed for 3s, stacking up to 5 times. Replaces Swift Crossbow’s Impulse.\nLifesteal: Restore 10% of enemy HP damage dealt by direct basic hits.",
+    "mythical": "Affliction: Basic attacks deal 22.5 + 37.5% Magic Power bonus magic damage.\nImpulse: Basic attacks grant 6% Attack Speed for 3s, stacking up to 5 times. Replaces Swift Crossbow’s Impulse.\nLifesteal: Restore 10% of enemy HP damage dealt by direct basic hits."
+  },
+  "flask_of_the_oasis": {
+    "base": "Increases healing and shielding by 12%.\nBlessing: Healing or shielding an ally protects them if they fall below 35% HP within 3s. Grants a 35 × level shield for 3s and reduces the holder’s skill cooldowns by 2s. Cooldown: 60s per ally.\nSome modded shield skills do not receive the bonus or trigger Blessing.",
+    "mythical": "Increases healing and shielding by 15%.\nBlessing: Healing or shielding an ally protects them if they fall below 35% HP within 3s. Grants a 43.75 × level shield for 3s and reduces the holder’s skill cooldowns by 2s. Cooldown: 60s per ally.\nSome modded shield skills do not receive the bonus or trigger Blessing."
+  },
+  "genius_wand": {
+    "base": "Magic damage to heroes reduces their Magic Resist by 2–7, based on level, for 2s, stacking up to 3 times.",
+    "mythical": "Magic damage to heroes reduces their Magic Resist by 2–7, based on level, for 2s, stacking up to 3 times."
+  },
+  "glowing_wand": {
+    "base": "Scorch: Magic attacks and skills burn the target for 1% of their maximum HP per second for 3s.\nLifebane: Damage reduces healing and new shields received by 40% for 3s.",
+    "mythical": "Scorch: Magic attacks and skills burn the target for 1.25% of their maximum HP per second for 3s.\nLifebane: Damage reduces healing and new shields received by 40% for 3s."
+  },
+  "holy_crystal": {
+    "base": "Mystery: Increases Magic Power by 21–35%, based on level.",
+    "mythical": "Mystery: Increases Magic Power by 21–35%, based on level."
+  },
+  "ice_queen_wand": {
+    "base": "Ice Bound: Skill hits on heroes slow by 10% for 2s, stacking up to 3 times. Gains a stack per target at most once every 0.4s.\nSpell Vamp: Restore 10% of enemy HP damage dealt by direct skill hits.",
+    "mythical": "Ice Bound: Skill hits on heroes slow by 10% for 2s, stacking up to 3 times. Gains a stack per target at most once every 0.4s.\nSpell Vamp: Restore 10% of enemy HP damage dealt by direct skill hits."
+  },
+  "lightning_truncheon": {
+    "base": "Resonate: Every 6s, a skill hit deals 85 + 85% Magic Power bonus magic damage to enemies near the target.",
+    "mythical": "Resonate: Every 6s, a skill hit deals 106.25 + 106.25% Magic Power bonus magic damage to enemies near the target."
+  },
+  "starlium_scythe": {
+    "base": "Crisis: After an ability starts its cooldown, the next basic attack within 3s deals 30 + 60% Magic Power bonus true damage and slows by 15% for 1.5s. Cooldown: 1.5s. Shares its on-attack proc with Calamity Reaper.\nHybrid Lifesteal: Restore 8% of enemy HP damage dealt by direct basic and skill hits.",
+    "mythical": "Crisis: After an ability starts its cooldown, the next basic attack within 3s deals 37.5 + 75% Magic Power bonus true damage and slows by 15% for 1.5s. Cooldown: 1.5s. Shares its on-attack proc with Calamity Reaper.\nHybrid Lifesteal: Restore 8% of enemy HP damage dealt by direct basic and skill hits."
+  },
+  "wishing_lantern": {
+    "base": "Every 315 magic damage dealt to an enemy hero deals bonus magic damage to that hero equal to 8% of their current HP.",
+    "mythical": "Every 315 magic damage dealt to an enemy hero deals bonus magic damage to that hero equal to 10% of their current HP."
+  },
+  "azure_blade": {
+    "base": "After an ability starts its cooldown, the next basic attack within 3s deals 18 bonus true damage. Cooldown: 1.5s."
+  },
+  "elegant_gem": {
+    "base": "Gift: Below 50% HP, restores 15% maximum HP over 3s. Cooldown: 60s. Does not stack with Clock of Destiny’s Gift."
+  },
+  "exotic_veil": {
+    "base": ""
+  },
+  "magic_wand": {
+    "base": ""
+  },
+  "mystic_container": {
+    "base": "Spell Vamp: Restore 8% of enemy HP damage dealt by direct skill hits."
+  },
+  "tome_of_evil": {
+    "base": ""
+  },
+  "book_of_sages": {
+    "base": ""
+  },
+  "magic_necklace": {
+    "base": ""
+  },
+  "mystery_codex": {
+    "base": ""
+  },
+  "power_crystal": {
+    "base": ""
+  },
+  "antique_cuirass": {
+    "base": "Deter: Taking skill damage reduces the attacker’s subsequent physical damage by 8% for 2s, stacking up to 3 times. Replaces Dreadnaught Armor’s Deter.",
+    "mythical": "Deter: Taking skill damage reduces the attacker’s subsequent physical damage by 8% for 2s, stacking up to 3 times. Replaces Dreadnaught Armor’s Deter."
+  },
+  "blade_armor": {
+    "base": "Basic attacks against the holder reflect ( 30% + 0.2% × Armor ) of the damage taken as physical damage and slow the attacker by 15% for 1s.",
+    "mythical": "Basic attacks against the holder reflect ( 37.5% + 0.25% × Armor ) of the damage taken as physical damage and slow the attacker by 15% for 1s."
+  },
+  "brute_force_breastplate": {
+    "base": "Brute Force: Dealing damage grants a stack for 4s, up to 6 stacks. Each grants 2 Attack or 3 Magic Power, based on the higher of Attack and Magic Power, and 2% Movement Speed. Stacks up to once per second. At full stacks, grants 25% Tenacity.",
+    "mythical": "Brute Force: Dealing damage grants a stack for 4s, up to 6 stacks. Each grants 2 Attack or 3 Magic Power, based on the higher of Attack and Magic Power, and 2% Movement Speed. Stacks up to once per second. At full stacks, grants 25% Tenacity."
+  },
+  "chastise_pauldron": {
+    "base": "Chastise: Taking damage reduces the attacker’s Attack Speed by 20% for 2s.\nRedemption: Taking damage while below 30% HP restores 20% maximum HP over 2s. Cooldown: 60s.",
+    "mythical": "Chastise: Taking damage reduces the attacker’s Attack Speed by 20% for 2s.\nRedemption: Taking damage while below 30% HP restores 25% maximum HP over 2s. Cooldown: 60s."
+  },
+  "cursed_helmet": {
+    "base": "Burning Soul: Every 0.5s, deals 0.6% of the holder’s maximum HP as magic damage to nearby enemies and reduce their Armor and Magic Resist by 6 for 3s. Replaces Molten Essence’s burn.",
+    "mythical": "Burning Soul: Every 0.5s, deals 0.75% of the holder’s maximum HP as magic damage to nearby enemies and reduce their Armor and Magic Resist by 6 for 3s. Replaces Molten Essence’s burn."
+  },
+  "dominance_ice": {
+    "base": "Fortress Shield: Grants 6 Armor and Magic Resist per nearby enemy hero, up to 30 each. Replaces Black Ice Shield’s bonus.\nLifebane: Nearby enemies receive 40% less healing and new shields.",
+    "mythical": "Fortress Shield: Grants 6 Armor and Magic Resist per nearby enemy hero, up to 30 each. Replaces Black Ice Shield’s bonus.\nLifebane: Nearby enemies receive 40% less healing and new shields."
+  },
+  "guardian_helmet": {
+    "base": "Recovery: After 5s without taking damage or damaging heroes, restores 2.5% maximum HP per second.\nDefender: Hits above 175 damage restore (30% + 0.006% × maximum HP) of the excess damage as HP, if the holder survives.",
+    "mythical": "Recovery: After 5s without taking damage or damaging heroes, restores 2.5% maximum HP per second.\nDefender: Hits above 175 damage restore (30% + 0.006% × maximum HP) of the excess damage as HP, if the holder survives."
+  },
+  "immortality": {
+    "base": "Immortal: Lethal damage leaves 1 HP and makes the hero untargetable for 2.5s, then restores 16% maximum HP with a 50 + 25 × level shield for 3s. Cooldown: 210s.",
+    "mythical": "Immortal: Lethal damage leaves 1 HP and makes the hero untargetable for 2.5s, then restores 16% maximum HP with a 62.5 + 31.25 × level shield for 3s. Cooldown: 210s."
+  },
+  "oracle": {
+    "base": "Blessing: Increases healing and shields received by 25%.",
+    "mythical": "Blessing: Increases healing and shields received by 25%."
+  },
+  "queens_wings": {
+    "base": "Defiance: Grants up to 15% Attack and Magic Power as the holder’s HP falls.\nDemonize: Taking damage while below 40% HP grants 30% damage reduction for 3s and reduces the holder’s skill cooldowns by 2s. Cooldown: 60s.\nSpell Vamp: Restore 10% of enemy HP damage dealt by direct skill hits.",
+    "mythical": "Defiance: Grants up to 15% Attack and Magic Power as the holder’s HP falls.\nDemonize: Taking damage while below 40% HP grants 30% damage reduction for 3s and reduces the holder’s skill cooldowns by 2s. Cooldown: 60s.\nSpell Vamp: Restore 10% of enemy HP damage dealt by direct skill hits."
+  },
+  "radiant_armor": {
+    "base": "Holy Blessing: Taking magic damage grants 3–10 Magic Resist, based on level, for 5s, stacking up to 6 times. Gains a stack at most once every 0.4s.",
+    "mythical": "Holy Blessing: Taking magic damage grants 3–10 Magic Resist, based on level, for 5s, stacking up to 6 times. Gains a stack at most once every 0.4s."
+  },
+  "thunder_belt": {
+    "base": "Thunderbolt: Every 4s, a basic attack deals 18 + 35% of the holder’s combined Armor and Magic Resist as bonus true damage and slows by 90% for 0.3s. Hitting a hero permanently grants 1 Armor and Magic Resist.",
+    "mythical": "Thunderbolt: Every 4s, a basic attack deals 22.5 + 43.75% of the holder’s combined Armor and Magic Resist as bonus true damage and slows by 90% for 0.3s. Hitting a hero permanently grants 1 Armor and Magic Resist."
+  },
+  "twilight_armor": {
+    "base": "Hits above 175 damage restore (20% + 0.02% × maximum HP) of the excess as HP, up to 80%. Taking damage while below 30% HP restores 20% maximum HP. Cooldown: 60s.",
+    "mythical": "Hits above 175 damage restore (25% + 0.025% × maximum HP) of the excess as HP, up to 100%. Taking damage while below 30% HP restores 20% maximum HP. Cooldown: 60s."
+  },
+  "valkyries_shield": {
+    "base": "Shield: Taking magic damage grants 25% magic damage reduction for 3s, including the triggering hit. Resets after 5s without taking magic damage.",
+    "mythical": "Shield: Taking magic damage grants 25% magic damage reduction for 3s, including the triggering hit. Resets after 5s without taking magic damage."
+  },
+  "ares_belt": {
+    "base": ""
+  },
+  "black_ice_shield": {
+    "base": "Fortress Shield: Grants 3 Armor and Magic Resist per enemy hero within 42.6 range, up to 15 each. Does not stack with Dominance Ice’s stronger bonus."
+  },
+  "dreadnaught_armor": {
+    "base": "Deter: Taking skill damage reduces the attacker’s subsequent physical damage by 4% for 2s, stacking up to 3 times. Does not stack with Antique Cuirass’s stronger Deter."
+  },
+  "molten_essence": {
+    "base": "Burning Soul: Every 0.5s, deals 0.3% of the holder’s maximum HP as magic damage to nearby enemies. Does not stack with Cursed Helmet’s stronger burn."
+  },
+  "silence_robe": {
+    "base": ""
+  },
+  "steel_legplates": {
+    "base": ""
+  },
+  "healing_necklace": {
+    "base": ""
+  },
+  "heros_ring": {
+    "base": ""
+  },
+  "leather_jerkin": {
+    "base": ""
+  },
+  "magic_resist_cloak": {
+    "base": ""
+  },
+  "vitality_crystal": {
+    "base": ""
+  },
+  "fleeting_time": {
+    "base": "Timestream: Hero kills and assists reduce the holder’s remaining Ultimate cooldown by 30%.",
+    "mythical": "Timestream: Hero kills and assists reduce the holder’s remaining Ultimate cooldown by 30%."
+  },
+  "sky_piercer": {
+    "base": "Lethality: Executes enemy heroes left at 4% HP or less after a hit. Hero kills grant 10 stacks, up to 80. Each stack raises the threshold by 0.1%. Loses 30% of the stacks on death.",
+    "mythical": "Lethality: Executes enemy heroes left at 4% HP or less after a hit. Hero kills grant 10 stacks, up to 80. Each stack raises the threshold by 0.1%. Loses 30% of the stacks on death."
+  },
+  "winter_crown": {
+    "base": "Frozen: Automatically enter stasis for 2s while below 30% HP, becoming untargetable and immune to damage. Cooldown: 100s.",
+    "mythical": "Frozen: Automatically enter stasis for 2s while below 30% HP, becoming untargetable and immune to damage. Cooldown: 100s."
+  },
+  "expert_gloves": {
+    "base": ""
+  },
+  "arcane_boots": {
+    "base": "Roaming: Support role only. Select a blessing in Builds; equipped boots show its badge and effect."
+  },
+  "demon_shoes": {
+    "base": "Hero kills reduce the holder’s remaining skill cooldowns by 20%.\nRoaming: Support role only. Select a blessing in Builds; equipped boots show its badge and effect."
+  },
+  "magic_shoes": {
+    "base": "Roaming: Support role only. Select a blessing in Builds; equipped boots show its badge and effect."
+  },
+  "rapid_boots": {
+    "base": "Grants another 10% Movement Speed after 5s without dealing or taking damage.\nRoaming: Support role only. Select a blessing in Builds; equipped boots show its badge and effect."
+  },
+  "swift_boots": {
+    "base": "Roaming: Support role only. Select a blessing in Builds; equipped boots show its badge and effect."
+  },
+  "tough_boots": {
+    "base": "Roaming: Support role only. Select a blessing in Builds; equipped boots show its badge and effect."
+  },
+  "warrior_boots": {
+    "base": "Valor: Taking basic attacks grants 3 Armor, stacking up to 5 times. Resets after 5s out of combat.\nRoaming: Support role only. Select a blessing in Builds; equipped boots show its badge and effect."
+  },
+  "boots": {
+    "base": "Roaming: Support role only. Basic boots must be upgraded before the selected blessing can unlock."
+  },
+  "mlbb_dagger": {
+    "base": ""
+  },
+  "warcrest_blade": {
+    "base": ""
+  },
+  "windforged_core": {
+    "base": ""
+  },
+  "bastion_plate": {
+    "base": ""
+  },
+  "runic_mantle": {
+    "base": ""
+  },
+  "arcane_focus": {
+    "base": ""
+  },
+  "vitality_core": {
+    "base": ""
+  },
+  "hunters_knife": {
+    "base": "Hunter: Deals 30% more damage to monsters. Jungle role only.\nGreed: Monster kills grant 5 bonus gold. Hero kills and assists grant 10 bonus gold.",
+    "mythical": "Hunter: Deals 30% more damage to monsters. Jungle role only.\nGreed: Monster kills grant 5 bonus gold. Hero kills and assists grant 10 bonus gold."
+  },
+  "curse_sword": {
+    "base": "Hunter: Deals 40% more damage to monsters. Jungle role only.\nGreed: Monster kills grant 8 bonus gold and restore 4% maximum HP. Hero kills and assists grant 10 bonus gold.\nGorge: Monster kills grant 0.6% more damage per stack, up to 10 stacks.",
+    "mythical": "Hunter: Deals 40% more damage to monsters. Jungle role only.\nGreed: Monster kills grant 8 bonus gold and restore 4% maximum HP. Hero kills and assists grant 10 bonus gold.\nGorge: Monster kills grant 0.6% more damage per stack, up to 10 stacks."
+  },
+  "nimble_blade": {
+    "base": "Hunter: Deals 40% more damage to monsters. Jungle role only.\nGreed: Monster kills grant 8 bonus gold and restore 4% maximum HP. Hero kills and assists grant 10 bonus gold.\nGorge: Monster kills grant 1.4 Attack per stack, rounded after stacking, up to 10 stacks.",
+    "mythical": "Hunter: Deals 40% more damage to monsters. Jungle role only.\nGreed: Monster kills grant 8 bonus gold and restore 4% maximum HP. Hero kills and assists grant 10 bonus gold.\nGorge: Monster kills grant 1.4 Attack per stack, rounded after stacking, up to 10 stacks."
+  },
+  "pillager_axe": {
+    "base": "Hunter: Deals 40% more damage to monsters. Jungle role only.\nGreed: Monster kills grant 8 bonus gold and restore 4% maximum HP. Hero kills and assists grant 10 bonus gold.\nGorge: Monster kills grant 2.1 Armor and Magic Resist per stack, rounded after stacking, up to 10 stacks.",
+    "mythical": "Hunter: Deals 40% more damage to monsters. Jungle role only.\nGreed: Monster kills grant 8 bonus gold and restore 4% maximum HP. Hero kills and assists grant 10 bonus gold.\nGorge: Monster kills grant 2.1 Armor and Magic Resist per stack, rounded after stacking, up to 10 stacks."
+  },
+  "star_shard": {
+    "base": "Hunter: Deals 50% more damage to monsters. Jungle role only.\nGreed: Monster kills grant 8 bonus gold and restore 4% maximum HP. Hero kills and assists grant 10 bonus gold.\nGorge: Monster kills grant 0.6% more damage per stack, up to 15 stacks.\nRecharge: Hero kills restore 10% maximum HP.\nSpell Vamp: Restore 8% of enemy HP damage dealt by direct skill hits.",
+    "mythical": "Hunter: Deals 50% more damage to monsters. Jungle role only.\nGreed: Monster kills grant 8 bonus gold and restore 5% maximum HP. Hero kills and assists grant 10 bonus gold.\nGorge: Monster kills grant 0.75% more damage per stack, up to 15 stacks.\nRecharge: Hero kills restore 12.5% maximum HP.\nSpell Vamp: Restore 8% of enemy HP damage dealt by direct skill hits."
+  },
+  "raptor_machete": {
+    "base": "Hunter: Deals 50% more damage to monsters. Jungle role only.\nGreed: Monster kills grant 8 bonus gold and restore 4% maximum HP. Hero kills and assists grant 10 bonus gold.\nGorge: Monster kills grant 1.4 Attack per stack, rounded after stacking, up to 15 stacks.\nBreakout: Every 10s, a basic attack reduces target Armor by 7 for 3s and slows by 30% for 1.5s. Basic attacks reduce the remaining cooldown by 1s.",
+    "mythical": "Hunter: Deals 50% more damage to monsters. Jungle role only.\nGreed: Monster kills grant 8 bonus gold and restore 5% maximum HP. Hero kills and assists grant 10 bonus gold.\nGorge: Monster kills grant 1.75 Attack per stack, rounded after stacking, up to 15 stacks.\nBreakout: Every 10s, a basic attack reduces target Armor by 9 for 3s and slows by 30% for 1.5s. Basic attacks reduce the remaining cooldown by 1s."
+  },
+  "beast_killer": {
+    "base": "Hunter: Deals 50% more damage to monsters. Jungle role only.\nGreed: Monster kills grant 8 bonus gold and restore 4% maximum HP. Hero kills and assists grant 10 bonus gold.\nGorge: Monster kills grant 2.1 Armor and Magic Resist per stack, rounded after stacking, up to 15 stacks.\nImpulse: Taking damage equal to 10% maximum HP deals 35 + 3 × level magic damage to nearby enemies and slows by 30% for 2s. Cooldown: 2s.",
+    "mythical": "Hunter: Deals 50% more damage to monsters. Jungle role only.\nGreed: Monster kills grant 8 bonus gold and restore 5% maximum HP. Hero kills and assists grant 10 bonus gold.\nGorge: Monster kills grant 2.625 Armor and Magic Resist per stack, rounded after stacking, up to 15 stacks.\nImpulse: Taking damage equal to 10% maximum HP deals 1.25 × (35 + 3 × level) magic damage to nearby enemies and slows by 30% for 2s. Cooldown: 2s."
+  },
+  "legacy_windtalker": {
+    "base": "Typhoon: Basic attacks splash magic damage equal to 50 + 5 per level to up to 3 enemies. Five basic attacks charge the next basic hit. Shares its cooldown with Windtalker.\nActivate: Typhoon grants 10% Movement Speed for 1s.",
+    "mythical": "Typhoon: Basic attacks splash magic damage equal to 1.25 × (50 + 5 per level) to up to 3 enemies. Five basic attacks charge the next basic hit. Shares its cooldown with Windtalker.\nActivate: Typhoon grants 10% Movement Speed for 1s."
+  },
+  "bloodlust_axe": {
+    "base": "Spell Vamp: Restore 12% of HP damage dealt by skill hits to enemies other than structures.",
+    "mythical": "Spell Vamp: Restore 15% of HP damage dealt by skill hits to enemies other than structures."
+  },
+  "deadly_blade": {
+    "base": "Lifebane: Basic attacks on heroes reduce healing and newly gained shields by 40% for 1.5s. Shares Lifebane with Sea Halberd.",
+    "mythical": ""
+  },
+  "calamity_reaper": {
+    "base": "Calamity: After casting a skill, the next basic attack within 3s deals 75% Magic Power as bonus true damage and grants 10% Movement Speed for 1s. Cooldown: 1.5s. Shares the proc with Starlium Scythe.",
+    "mythical": "Calamity: After casting a skill, the next basic attack within 3s deals 93.75% Magic Power as bonus true damage and grants 10% Movement Speed for 1s. Cooldown: 1.5s. Shares the proc with Starlium Scythe."
+  },
+  "scarlet_phantom": {
+    "base": "Frenzy: Basic attack critical hits grant 30% Attack Speed and 5% Crit Chance for 2s. Shares Frenzy with Haas’ Claws.",
+    "mythical": "Frenzy: Basic attack critical hits grant 30% Attack Speed and 5% Crit Chance for 2s. Shares Frenzy with Haas’ Claws."
+  },
+  "shadow_twinblades": {
+    "base": "Assassination: After 5s without champion combat, the next basic attack against a hero deals 45 + 50% Magic Power bonus magic damage and slows by 50% for 1.5s.\nHybrid Lifesteal: Restore 4% of enemy HP damage dealt by direct basic and skill hits.",
+    "mythical": "Assassination: After 5s without champion combat, the next basic attack against a hero deals 1.25 × (45 + 50% Magic Power) bonus magic damage and slows by 50% for 1.5s.\nHybrid Lifesteal: Restore 4% of enemy HP damage dealt by direct basic and skill hits."
+  },
+  "ice_force": {
+    "base": "Frost Strike: A basic attack on a hero slows their movement by 25% and reduces their Attack Speed by 15% for 1.5s. Cooldown: 3s.",
+    "mythical": "Frost Strike: A basic attack on a hero slows their movement by 25% and reduces their Attack Speed by 15% for 1.5s. Cooldown: 3s."
+  },
+  "bloodthirsty_king": {
+    "base": "Bloodlust: A hero kill or assist restores 12% maximum HP over 3s. Cooldown: 10s.",
+    "mythical": "Bloodlust: A hero kill or assist restores 15% maximum HP over 3s. Cooldown: 10s."
+  }
+}

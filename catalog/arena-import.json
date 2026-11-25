@@ -1,0 +1,2845 @@
+{
+ "berserkers_fury": {
+  "key": "berserkers_fury",
+  "name": "Berserker's Fury",
+  "caption": "Crit Chance & Damage",
+  "category": "Ad",
+  "mlbb_type": "Attack",
+  "price": 2390,
+  "upgrade_price": 840,
+  "recipe": [
+   "legion_sword",
+   "javelin",
+   "javelin"
+  ],
+  "stats": {
+   "attack": 60,
+   "crit_chance": 25
+  },
+  "dropped_stats": {},
+  "needs_rule": {},
+  "bonus_text": "+60 Physical Attack, +25% Crit Chance",
+  "unique_text": "+30% Crit Damage",
+  "passive_text": "Doom: When Basic Attacks Crit, they deal extra True Damage equal to 12% of the damage before reduction.",
+  "active_text": "",
+  "has_passive": true,
+  "has_active": false,
+  "tier": 3
+ },
+ "blade_of_despair": {
+  "key": "blade_of_despair",
+  "name": "Blade of Despair",
+  "caption": "Highest Physical Attack",
+  "category": "Ad",
+  "mlbb_type": "Attack",
+  "price": 3010,
+  "upgrade_price": 1190,
+  "recipe": [
+   "legion_sword",
+   "legion_sword"
+  ],
+  "stats": {
+   "attack": 160,
+   "move_speed_mult": 5
+  },
+  "dropped_stats": {},
+  "needs_rule": {},
+  "bonus_text": "+160 Physical Attack, +5% Movement Speed",
+  "unique_text": "",
+  "passive_text": "Despair: Dealing damage to non-Minion enemies below 50% HP increases Physical Attack by 25% for 2 seconds (takes effect before the damage is dealt).",
+  "active_text": "",
+  "has_passive": true,
+  "has_active": false,
+  "tier": 3
+ },
+ "blade_of_the_heptaseas": {
+  "key": "blade_of_the_heptaseas",
+  "name": "Blade of the Heptaseas",
+  "caption": "Best for Assassins",
+  "category": "Ad",
+  "mlbb_type": "Attack",
+  "price": 1950,
+  "upgrade_price": 470,
+  "recipe": [
+   "fury_hammer",
+   "ogre_tomahawk"
+  ],
+  "stats": {
+   "attack": 70,
+   "hp": 250
+  },
+  "dropped_stats": {},
+  "needs_rule": {},
+  "bonus_text": "+70 Physical Attack, +250 HP",
+  "unique_text": "+15 Physical Penetration",
+  "passive_text": "Ambush: If no damage is taken or dealt within 5 seconds (excluding from Minions or Creeps), the next Basic Attack will deal an additional 160 (+40% Total Physical Attack) Physical Damage and slow the target by 40% for 1.5 seconds.",
+  "active_text": "",
+  "has_passive": true,
+  "has_active": false,
+  "tier": 3
+ },
+ "bloodlust_axe": {
+  "key": "bloodlust_axe",
+  "name": "Bloodlust Axe",
+  "caption": "Spell Vamp",
+  "category": "Ad",
+  "mlbb_type": "Attack",
+  "price": 1970,
+  "upgrade_price": 820,
+  "recipe": [
+   "iron_hunting_bow",
+   "dagger",
+   "iron_hunting_bow"
+  ],
+  "stats": {
+   "attack": 70,
+   "skill_cooldown_mult": -10
+  },
+  "dropped_stats": {},
+  "needs_rule": {},
+  "bonus_text": "+70 Physical Attack, +10% Cooldown Reduction",
+  "unique_text": "+20% Spell Vamp",
+  "passive_text": "",
+  "active_text": "",
+  "has_passive": false,
+  "has_active": false,
+  "tier": 2
+ },
+ "corrosion_scythe": {
+  "key": "corrosion_scythe",
+  "name": "Corrosion Scythe",
+  "caption": "One-Hit Slow",
+  "category": "Ad",
+  "mlbb_type": "Attack",
+  "price": 2050,
+  "upgrade_price": 450,
+  "recipe": [
+   "swift_crossbow",
+   "regular_spear"
+  ],
+  "stats": {
+   "attack": 30,
+   "attack_speed_mult": 30,
+   "move_speed_mult": 5
+  },
+  "dropped_stats": {},
+  "needs_rule": {},
+  "bonus_text": "+30 Physical Attack, +30% Attack Speed, +5% Movement Speed",
+  "unique_text": "",
+  "passive_text": "Corrosive: Basic Attacks gain 80 extra Physical Damage and slow the target by 8% (halved for ranged Basic Attacks) for 1.5 seconds. Stacks up to 5 times.@ Impulse: Basic Attacks grant 6% extra Attack Speed for 3 seconds, capped at 5 stacks.",
+  "active_text": "",
+  "has_passive": true,
+  "has_active": false,
+  "tier": 3
+ },
+ "demon_hunter_sword": {
+  "key": "demon_hunter_sword",
+  "name": "Demon Hunter Sword",
+  "caption": "Tank Killer",
+  "category": "Ad",
+  "mlbb_type": "Attack",
+  "price": 2180,
+  "upgrade_price": 900,
+  "recipe": [
+   "regular_spear",
+   "vampire_mallet",
+   "knife"
+  ],
+  "stats": {
+   "attack": 35,
+   "attack_speed_mult": 20
+  },
+  "dropped_stats": {},
+  "needs_rule": {},
+  "bonus_text": "+35 Physical Attack, +20% Attack Speed",
+  "unique_text": "",
+  "passive_text": "Engulf: Basic Attacks deal 8% of the target's current HP as extra Physical Damage (capped at 60 against minions).@ Devour: Each Basic Attack recovers 10(+4*Hero Level) HP. This effect is halved against minions.",
+  "active_text": "",
+  "has_passive": true,
+  "has_active": false,
+  "tier": 3
+ },
+ "endless_battle": {
+  "key": "endless_battle",
+  "name": "Endless Battle",
+  "caption": "Enhanced Basic Attacks",
+  "category": "Ad",
+  "mlbb_type": "Attack",
+  "price": 2330,
+  "upgrade_price": 630,
+  "recipe": [
+   "azure_blade",
+   "iron_hunting_bow",
+   "ogre_tomahawk"
+  ],
+  "stats": {
+   "attack": 60,
+   "hp": 250,
+   "skill_cooldown_mult": -10,
+   "move_speed_mult": 5,
+   "hp_regen": 2
+  },
+  "dropped_stats": {},
+  "needs_rule": {},
+  "bonus_text": "+60 Physical Attack, +250 HP, +10% Cooldown Reduction, +5% Movement Speed, +5 Mana Regen",
+  "unique_text": "",
+  "passive_text": "Divine Justice: After casting a skill, the next Basic Attack within 3 seconds deals (60% Total Physical Attack) extra True Damage and recovers 80 (+40% of Total Physical Attack) HP (1.5 seconds cooldown).",
+  "active_text": "",
+  "has_passive": true,
+  "has_active": false,
+  "tier": 3
+ },
+ "golden_staff": {
+  "key": "golden_staff",
+  "name": "Golden Staff",
+  "caption": "Enhance Attack Effects",
+  "category": "Ad",
+  "mlbb_type": "Attack",
+  "price": 2000,
+  "upgrade_price": 900,
+  "recipe": [
+   "regular_spear",
+   "dagger",
+   "dagger"
+  ],
+  "stats": {
+   "attack": 55,
+   "attack_speed_mult": 15
+  },
+  "dropped_stats": {},
+  "needs_rule": {},
+  "bonus_text": "+55 Physical Attack, +15% Attack Speed",
+  "unique_text": "",
+  "passive_text": "Swift: Every 1% extra Crit Chance gained is converted into 1% extra Attack Speed.@ Endless Strike: After every 2 non-Crit Basic Attacks, the Attack Speed of the next Basic Attack is increased by 80% (and Attack Speed cap is increased to 500%) and triggers Attack Effects an additional 2 time(s).",
+  "active_text": "",
+  "has_passive": true,
+  "has_active": false,
+  "tier": 3
+ },
+ "great_dragon_spear": {
+  "key": "great_dragon_spear",
+  "name": "Great Dragon Spear",
+  "caption": "CD Reduction & Crit",
+  "category": "Ad",
+  "mlbb_type": "Attack",
+  "price": 2140,
+  "upgrade_price": 460,
+  "recipe": [
+   "legion_sword",
+   "iron_hunting_bow",
+   "javelin"
+  ],
+  "stats": {
+   "attack": 70,
+   "skill_cooldown_mult": -10,
+   "crit_chance": 20
+  },
+  "dropped_stats": {},
+  "needs_rule": {},
+  "bonus_text": "+70 Physical Attack, +10% Cooldown Reduction, +20% Crit Chance",
+  "unique_text": "",
+  "passive_text": "Supreme Warrior: After casting an Ultimate, increase Movement Speed by 30% for 7.5 seconds. This effect has a 15 seconds cooldown.",
+  "active_text": "",
+  "has_passive": true,
+  "has_active": false,
+  "tier": 3
+ },
+ "haas_claws": {
+  "key": "haas_claws",
+  "name": "Haas' Claws",
+  "caption": "Lifesteal",
+  "category": "Ad",
+  "mlbb_type": "Attack",
+  "price": 2020,
+  "upgrade_price": 470,
+  "recipe": [
+   "vampire_mallet",
+   "rogue_meteor",
+   "dagger"
+  ],
+  "stats": {
+   "attack": 40,
+   "attack_speed_mult": 15,
+   "crit_chance": 20
+  },
+  "dropped_stats": {},
+  "needs_rule": {},
+  "bonus_text": "+40 Physical Attack, +15% Attack Speed, +20% Crit Chance",
+  "unique_text": "+20% Lifesteal",
+  "passive_text": "Frenzy: Critical strikes grant 20% extra Attack Speed for 2 seconds.",
+  "active_text": "",
+  "has_passive": true,
+  "has_active": false,
+  "tier": 3
+ },
+ "hunter_strike": {
+  "key": "hunter_strike",
+  "name": "Hunter Strike",
+  "caption": "Brief Speed-Up",
+  "category": "Ad",
+  "mlbb_type": "Attack",
+  "price": 2010,
+  "upgrade_price": 480,
+  "recipe": [
+   "fury_hammer",
+   "iron_hunting_bow",
+   "dagger"
+  ],
+  "stats": {
+   "attack": 80,
+   "skill_cooldown_mult": -10
+  },
+  "dropped_stats": {},
+  "needs_rule": {},
+  "bonus_text": "+80 Physical Attack, +10% Cooldown Reduction",
+  "unique_text": "+15 Physical Penetration",
+  "passive_text": "Retribution: Dealing damage to the same enemy hero or creep 5 times in a row grants 50% extra Movement Speed that decays over 3 seconds (8 seconds cooldown).",
+  "active_text": "",
+  "has_passive": true,
+  "has_active": false,
+  "tier": 3
+ },
+ "malefic_gun": {
+  "key": "malefic_gun",
+  "name": "Malefic Gun",
+  "caption": "Attack Range Increase",
+  "category": "Ad",
+  "mlbb_type": "Attack",
+  "price": 2120,
+  "upgrade_price": 730,
+  "recipe": [
+   "fury_hammer",
+   "knife",
+   "knife"
+  ],
+  "stats": {
+   "attack": 40,
+   "attack_speed_mult": 20
+  },
+  "dropped_stats": {},
+  "needs_rule": {},
+  "bonus_text": "+40 Physical Attack, +20% Attack Speed",
+  "unique_text": "",
+  "passive_text": "Armor Buster: Increase Physical Penetration by 30%.@ Malefic Energy: Increases Basic Attack range by 12%. When hitting a target, gains 10% Movement Speed for 0.5 seconds.",
+  "active_text": "",
+  "has_passive": true,
+  "has_active": false,
+  "tier": 3
+ },
+ "malefic_roar": {
+  "key": "malefic_roar",
+  "name": "Malefic Roar",
+  "caption": "High Physical Penetration",
+  "category": "Ad",
+  "mlbb_type": "Attack",
+  "price": 2060,
+  "upgrade_price": 1150,
+  "recipe": [
+   "legion_sword"
+  ],
+  "stats": {
+   "attack": 60
+  },
+  "dropped_stats": {},
+  "needs_rule": {},
+  "bonus_text": "+60 Physical Attack",
+  "unique_text": "",
+  "passive_text": "Armor Buster: Increase Physical Penetration by 30%.@ Breaker: When attacking an enemy, gains 0.1% extra Physical Penetration for each point of the enemy's Physical Defense, capped at 30%.",
+  "active_text": "",
+  "has_passive": true,
+  "has_active": false,
+  "tier": 3
+ },
+ "rose_gold_meteor": {
+  "key": "rose_gold_meteor",
+  "name": "Rose Gold Meteor",
+  "caption": "Low-HP Shield",
+  "category": "Ad",
+  "mlbb_type": "Attack",
+  "price": 2030,
+  "upgrade_price": 700,
+  "recipe": [
+   "magic_blade",
+   "knife"
+  ],
+  "stats": {
+   "attack": 30,
+   "attack_speed_mult": 20,
+   "vamp": 10
+  },
+  "dropped_stats": {},
+  "needs_rule": {},
+  "bonus_text": "+30 Physical Attack, +20% Attack Speed, +10% Lifesteal",
+  "unique_text": "",
+  "passive_text": "Dragon Scale: Every 4 extra Physical Attack increases Hybrid Defense by 1, up to 50 (effect is halved if Main Role is not Fighter).@ Lifeline: When taking damage that reduces HP below 30%, gains a (120*Hero Level) shield (increases with level) and 50% Movement Speed that rapidly decays over 3 seconds. This effect has a 60 seconds cooldown.",
+  "active_text": "",
+  "has_passive": true,
+  "has_active": false,
+  "tier": 3
+ },
+ "scarlet_phantom": {
+  "key": "scarlet_phantom",
+  "name": "Scarlet Phantom",
+  "caption": "Crit & Attack Speed",
+  "category": "Ad",
+  "mlbb_type": "Attack",
+  "price": 2020,
+  "upgrade_price": 800,
+  "recipe": [
+   "rogue_meteor",
+   "javelin"
+  ],
+  "stats": {
+   "attack": 30,
+   "attack_speed_mult": 20,
+   "crit_chance": 25
+  },
+  "dropped_stats": {},
+  "needs_rule": {},
+  "bonus_text": "+30 Physical Attack, +20% Attack Speed, +25% Crit Chance",
+  "unique_text": "",
+  "passive_text": "Frenzy: Critical strikes grant 30% extra Attack Speed and 5% extra Crit Chance for 2 seconds.",
+  "active_text": "",
+  "has_passive": true,
+  "has_active": false,
+  "tier": 3
+ },
+ "sea_halberd": {
+  "key": "sea_halberd",
+  "name": "Sea Halberd",
+  "caption": "Healing Reduction",
+  "category": "Ad",
+  "mlbb_type": "Attack",
+  "price": 2050,
+  "upgrade_price": 540,
+  "recipe": [
+   "legion_sword",
+   "regular_spear"
+  ],
+  "stats": {
+   "attack": 80,
+   "attack_speed_mult": 20
+  },
+  "dropped_stats": {},
+  "needs_rule": {},
+  "bonus_text": "+80 Physical Attack, +20% Attack Speed",
+  "unique_text": "",
+  "passive_text": "Lifebane: Dealing damage to a target will reduce the Shield and HP Regen effects on them to 60% of normal for 3 seconds.@ Punish: Increase damage by 8% against enemy heroes with higher extra HP.",
+  "active_text": "",
+  "has_passive": true,
+  "has_active": false,
+  "tier": 3
+ },
+ "war_axe": {
+  "key": "war_axe",
+  "name": "War Axe",
+  "caption": "Continuous Damage Boost",
+  "category": "Ad",
+  "mlbb_type": "Attack",
+  "price": 2100,
+  "upgrade_price": 550,
+  "recipe": [
+   "ogre_tomahawk",
+   "iron_hunting_bow",
+   "heros_ring"
+  ],
+  "stats": {
+   "attack": 35,
+   "hp": 400,
+   "skill_cooldown_mult": -10,
+   "vamp": 8
+  },
+  "dropped_stats": {},
+  "needs_rule": {},
+  "bonus_text": "+35 Physical Attack, +400 HP, +10% Cooldown Reduction, +8% Hybrid Lifesteal",
+  "unique_text": "",
+  "passive_text": "Fighting Spirit: Attacks grants 12 extra Physical Attack per second for 4 seconds, up to 6 stacks. Deals 10% extra True Damage based on the damage dealt (no damage reduction counted) at full stacks. (Marksmen, Mages, and Supports only receive 50% of these stacked effects.)",
+  "active_text": "",
+  "has_passive": true,
+  "has_active": false,
+  "tier": 3
+ },
+ "wind_of_nature": {
+  "key": "wind_of_nature",
+  "name": "Wind of Nature",
+  "caption": "Physical Damage Immunity",
+  "category": "Ad",
+  "mlbb_type": "Attack",
+  "price": 1910,
+  "upgrade_price": 910,
+  "recipe": [
+   "regular_spear",
+   "vampire_mallet"
+  ],
+  "stats": {
+   "attack": 30,
+   "attack_speed_mult": 20,
+   "vamp": 10
+  },
+  "dropped_stats": {},
+  "needs_rule": {},
+  "bonus_text": "+30 Physical Attack, +20% Attack Speed, +10% Lifesteal",
+  "unique_text": "",
+  "passive_text": "",
+  "active_text": "Wind Chant: Become immune to all Physical Damage for 2 seconds (duration is halved if Main Role is not Marksman; 90 seconds cooldown).",
+  "has_passive": false,
+  "has_active": true,
+  "tier": 3
+ },
+ "windtalker": {
+  "key": "windtalker",
+  "name": "Windtalker",
+  "caption": "Splash Damage",
+  "category": "Ad",
+  "mlbb_type": "Attack",
+  "price": 1880,
+  "upgrade_price": 700,
+  "recipe": [
+   "rogue_meteor",
+   "knife"
+  ],
+  "stats": {
+   "attack_speed_mult": 35,
+   "crit_chance": 20,
+   "move_speed_mult": 5
+  },
+  "dropped_stats": {},
+  "needs_rule": {},
+  "bonus_text": "+35% Attack Speed, +20% Crit Chance, +20 Movement Speed",
+  "unique_text": "",
+  "passive_text": "Typhoon: Every 5–2 seconds (reduced by 0.2 seconds for each Basic Attack), the next Basic Attack will hit up to 3 enemy units for 150–362 Magic Damage. (This attack can Crit and the damage increases to 200% against Minions.)",
+  "active_text": "",
+  "has_passive": true,
+  "has_active": false,
+  "tier": 3
+ },
+ "fury_hammer": {
+  "key": "fury_hammer",
+  "name": "Fury Hammer",
+  "caption": "",
+  "category": "Ad",
+  "mlbb_type": "Attack",
+  "price": 830,
+  "upgrade_price": 580,
+  "recipe": [
+   "dagger"
+  ],
+  "stats": {
+   "attack": 35
+  },
+  "dropped_stats": {},
+  "needs_rule": {},
+  "bonus_text": "+35 Physical Attack",
+  "unique_text": "+12 Physical Penetration",
+  "passive_text": "",
+  "active_text": "",
+  "has_passive": false,
+  "has_active": false,
+  "tier": 2
+ },
+ "legion_sword": {
+  "key": "legion_sword",
+  "name": "Legion Sword",
+  "caption": "",
+  "category": "Ad",
+  "mlbb_type": "Attack",
+  "price": 910,
+  "upgrade_price": 410,
+  "recipe": [
+   "dagger",
+   "dagger"
+  ],
+  "stats": {
+   "attack": 60
+  },
+  "dropped_stats": {},
+  "needs_rule": {},
+  "bonus_text": "+60 Physical Attack",
+  "unique_text": "",
+  "passive_text": "",
+  "active_text": "",
+  "has_passive": false,
+  "has_active": false,
+  "tier": 2
+ },
+ "magic_blade": {
+  "key": "magic_blade",
+  "name": "Magic Blade",
+  "caption": "",
+  "category": "Ad",
+  "mlbb_type": "Attack",
+  "price": 1050,
+  "upgrade_price": 400,
+  "recipe": [
+   "dagger",
+   "vampire_mallet"
+  ],
+  "stats": {
+   "attack": 35,
+   "vamp": 10
+  },
+  "dropped_stats": {},
+  "needs_rule": {},
+  "bonus_text": "+35 Physical Attack, +10% Lifesteal",
+  "unique_text": "",
+  "passive_text": "Lifeline: When taking damage that reduces HP below 30%, gains a (+60*Hero Level) shield (increases with level) and 50% Movement Speed that rapidly decays over 3 seconds. This effect has a 60 seconds cooldown.",
+  "active_text": "",
+  "has_passive": true,
+  "has_active": false,
+  "tier": 2
+ },
+ "ogre_tomahawk": {
+  "key": "ogre_tomahawk",
+  "name": "Ogre Tomahawk",
+  "caption": "",
+  "category": "Ad",
+  "mlbb_type": "Attack",
+  "price": 650,
+  "upgrade_price": 100,
+  "recipe": [
+   "dagger",
+   "vitality_crystal"
+  ],
+  "stats": {
+   "attack": 25,
+   "hp": 230
+  },
+  "dropped_stats": {},
+  "needs_rule": {},
+  "bonus_text": "\t+25 Physical Attack, +230 HP",
+  "unique_text": "",
+  "passive_text": "",
+  "active_text": "",
+  "has_passive": false,
+  "has_active": false,
+  "tier": 2
+ },
+ "regular_spear": {
+  "key": "regular_spear",
+  "name": "Regular Spear",
+  "caption": "",
+  "category": "Ad",
+  "mlbb_type": "Attack",
+  "price": 600,
+  "upgrade_price": 70,
+  "recipe": [
+   "knife",
+   "dagger"
+  ],
+  "stats": {
+   "attack": 20,
+   "attack_speed_mult": 10
+  },
+  "dropped_stats": {},
+  "needs_rule": {},
+  "bonus_text": "+20 Physical Attack, +10% Attack Speed",
+  "unique_text": "",
+  "passive_text": "",
+  "active_text": "",
+  "has_passive": false,
+  "has_active": false,
+  "tier": 2
+ },
+ "rogue_meteor": {
+  "key": "rogue_meteor",
+  "name": "Rogue Meteor",
+  "caption": "",
+  "category": "Ad",
+  "mlbb_type": "Attack",
+  "price": 900,
+  "upgrade_price": 300,
+  "recipe": [
+   "knife",
+   "javelin"
+  ],
+  "stats": {
+   "attack_speed_mult": 15,
+   "crit_chance": 10
+  },
+  "dropped_stats": {},
+  "needs_rule": {},
+  "bonus_text": "+15% Attack Speed, +10% Crit Chance",
+  "unique_text": "",
+  "passive_text": "",
+  "active_text": "",
+  "has_passive": false,
+  "has_active": false,
+  "tier": 2
+ },
+ "swift_crossbow": {
+  "key": "swift_crossbow",
+  "name": "Swift Crossbow",
+  "caption": "",
+  "category": "Ad",
+  "mlbb_type": "Attack",
+  "price": 1000,
+  "upgrade_price": 440,
+  "recipe": [
+   "knife",
+   "knife"
+  ],
+  "stats": {
+   "attack_speed_mult": 20
+  },
+  "dropped_stats": {},
+  "needs_rule": {},
+  "bonus_text": "+20% Attack Speed",
+  "unique_text": "",
+  "passive_text": "Crossbow: Each Basic Attack deals 40 extra Adaptive Damage.@ Impulse: Basic Attacks grant 3% extra Attack Speed for 3 seconds, capped at 5 stacks.",
+  "active_text": "",
+  "has_passive": true,
+  "has_active": false,
+  "tier": 2
+ },
+ "dagger": {
+  "key": "dagger",
+  "name": "Dagger",
+  "caption": "",
+  "category": "Ad",
+  "mlbb_type": "Attack",
+  "price": 250,
+  "upgrade_price": null,
+  "recipe": [],
+  "stats": {
+   "attack": 15
+  },
+  "dropped_stats": {},
+  "needs_rule": {},
+  "bonus_text": "+15 Physical Attack",
+  "unique_text": "",
+  "passive_text": "",
+  "active_text": "",
+  "has_passive": false,
+  "has_active": false,
+  "tier": 1
+ },
+ "iron_hunting_bow": {
+  "key": "iron_hunting_bow",
+  "name": "Iron Hunting Bow",
+  "caption": "",
+  "category": "Ad",
+  "mlbb_type": "Attack",
+  "price": 450,
+  "upgrade_price": null,
+  "recipe": [],
+  "stats": {
+   "attack": 10,
+   "skill_cooldown_mult": -5
+  },
+  "dropped_stats": {},
+  "needs_rule": {},
+  "bonus_text": "+10 Physical Attack, +5% Cooldown Reduction",
+  "unique_text": "",
+  "passive_text": "",
+  "active_text": "",
+  "has_passive": false,
+  "has_active": false,
+  "tier": 1
+ },
+ "javelin": {
+  "key": "javelin",
+  "name": "Javelin",
+  "caption": "",
+  "category": "Ad",
+  "mlbb_type": "Attack",
+  "price": 320,
+  "upgrade_price": null,
+  "recipe": [],
+  "stats": {
+   "crit_chance": 8
+  },
+  "dropped_stats": {},
+  "needs_rule": {},
+  "bonus_text": "+8% Crit Chance",
+  "unique_text": "",
+  "passive_text": "",
+  "active_text": "",
+  "has_passive": false,
+  "has_active": false,
+  "tier": 1
+ },
+ "knife": {
+  "key": "knife",
+  "name": "Knife",
+  "caption": "",
+  "category": "Ad",
+  "mlbb_type": "Attack",
+  "price": 280,
+  "upgrade_price": null,
+  "recipe": [],
+  "stats": {
+   "attack_speed_mult": 10
+  },
+  "dropped_stats": {},
+  "needs_rule": {},
+  "bonus_text": "+10% Attack Speed",
+  "unique_text": "",
+  "passive_text": "",
+  "active_text": "",
+  "has_passive": false,
+  "has_active": false,
+  "tier": 1
+ },
+ "power_potion": {
+  "key": "power_potion",
+  "name": "Power Potion",
+  "caption": "",
+  "category": "Ad",
+  "mlbb_type": "Attack",
+  "price": 1500,
+  "upgrade_price": null,
+  "recipe": [],
+  "stats": {},
+  "dropped_stats": {},
+  "needs_rule": {},
+  "bonus_text": "",
+  "unique_text": "",
+  "passive_text": "Increase Power: Automatically used after purchasing, giving 30 Physical Attack and 15% of Lifesteal for 120s. Can only have one potion effect at a time.",
+  "active_text": "",
+  "has_passive": true,
+  "has_active": false,
+  "tier": 1
+ },
+ "vampire_mallet": {
+  "key": "vampire_mallet",
+  "name": "Vampire Mallet",
+  "caption": "",
+  "category": "Ad",
+  "mlbb_type": "Attack",
+  "price": 400,
+  "upgrade_price": null,
+  "recipe": [],
+  "stats": {
+   "attack": 8,
+   "vamp": 8
+  },
+  "dropped_stats": {},
+  "needs_rule": {},
+  "bonus_text": "\t+8 Physical Attack, +8% Lifesteal",
+  "unique_text": "",
+  "passive_text": "",
+  "active_text": "",
+  "has_passive": false,
+  "has_active": false,
+  "tier": 1
+ },
+ "blood_wings": {
+  "key": "blood_wings",
+  "name": "Blood Wings",
+  "caption": "Speed Boost Shield",
+  "category": "Magic",
+  "mlbb_type": "Magic",
+  "price": 2100,
+  "upgrade_price": 460,
+  "recipe": [
+   "magic_wand",
+   "magic_wand"
+  ],
+  "stats": {
+   "magic_power": 90
+  },
+  "dropped_stats": {},
+  "needs_rule": {},
+  "bonus_text": "+90 Magic Power",
+  "unique_text": "",
+  "passive_text": "Guard: Gains a 800 (+100% Magic Power) Shield that will regenerate 20 seconds after being damaged. The Shield also grants 30 Movement Speed while it lasts and 150 Movement Speed for 1 second after it breaks.",
+  "active_text": "",
+  "has_passive": true,
+  "has_active": false,
+  "tier": 3
+ },
+ "calamity_reaper": {
+  "key": "calamity_reaper",
+  "name": "Calamity Reaper",
+  "caption": "Enhanced Basic Attacks",
+  "category": "Magic",
+  "mlbb_type": "Magic",
+  "price": 1950,
+  "upgrade_price": 530,
+  "recipe": [
+   "magic_wand",
+   "azure_blade"
+  ],
+  "stats": {
+   "magic_power": 70,
+   "hp": 50,
+   "hp_regen": 3,
+   "skill_cooldown_mult": -10
+  },
+  "dropped_stats": {},
+  "needs_rule": {},
+  "bonus_text": "+70 Magic Power, +100 Mana, +6 Mana Regen, +10% Cooldown Reduction",
+  "unique_text": "",
+  "passive_text": "Calamity: In 3 seconds after using the skill, the casters next Basic Attack deals additional True Damage as much as 120% of Magic Power with a cooldown of 1.5 seconds. Then briefly gains 10% Movement Speed.",
+  "active_text": "",
+  "has_passive": true,
+  "has_active": false,
+  "tier": 3
+ },
+ "clock_of_destiny": {
+  "key": "clock_of_destiny",
+  "name": "Clock of Destiny",
+  "caption": "For Magic Tanks",
+  "category": "Magic",
+  "mlbb_type": "Magic",
+  "price": 2030,
+  "upgrade_price": 430,
+  "recipe": [
+   "elegant_gem",
+   "book_of_sages",
+   "book_of_sages"
+  ],
+  "stats": {
+   "magic_power": 45,
+   "hp": 600,
+   "skill_cooldown_mult": -10
+  },
+  "dropped_stats": {},
+  "needs_rule": {},
+  "bonus_text": "+45 Magic Power, +400 HP, +400 Mana, +10% Cooldown Reduction",
+  "unique_text": "",
+  "passive_text": "Destiny: Gains 4.5(+0.5*Hero Level) Hybrid Defense for 5 seconds when dealing Magic Damage to enemy heroes, stacking up to 6 times (can gain 1 stack every 0.4 seconds).@ Gift: When HP drops below 50%, recovers 15% of HP over the next 3 seconds. When Mana drops below 50%, restores 15% of Mana over the next 3 seconds. Cooldown: 60 seconds.",
+  "active_text": "",
+  "has_passive": true,
+  "has_active": false,
+  "tier": 3
+ },
+ "concentrated_energy": {
+  "key": "concentrated_energy",
+  "name": "Concentrated Energy",
+  "caption": "Continuous Damage Boost",
+  "category": "Magic",
+  "mlbb_type": "Magic",
+  "price": 2020,
+  "upgrade_price": 400,
+  "recipe": [
+   "mystic_container",
+   "magic_wand",
+   "vitality_crystal"
+  ],
+  "stats": {
+   "magic_power": 75,
+   "hp": 400
+  },
+  "dropped_stats": {},
+  "needs_rule": {},
+  "bonus_text": "+75 Magic Power, +400 HP",
+  "unique_text": "+20% Hybrid Lifesteal",
+  "passive_text": "Recharge: Increases Magic Power by 5 after dealing Magic Damage (this effect stacks up to 6 times and can only gain 1 stack every 0.4 seconds). When reaching full stacks, increases Magic Damage by 12% for 5 seconds.",
+  "active_text": "",
+  "has_passive": true,
+  "has_active": false,
+  "tier": 3
+ },
+ "divine_glaive": {
+  "key": "divine_glaive",
+  "name": "Divine Glaive",
+  "caption": "Magic Penetration",
+  "category": "Magic",
+  "mlbb_type": "Magic",
+  "price": 1970,
+  "upgrade_price": 1150,
+  "recipe": [
+   "magic_wand"
+  ],
+  "stats": {
+   "magic_power": 65
+  },
+  "dropped_stats": {},
+  "needs_rule": {},
+  "bonus_text": "\t+65 Magic Power",
+  "unique_text": "+40% Magic Penetration",
+  "passive_text": "Spellbreaker: When attacking an enemy, gains 0.1% extra Magic Penetration for each point of the enemy's Magic Defense, capped at 20%.",
+  "active_text": "",
+  "has_passive": true,
+  "has_active": false,
+  "tier": 3
+ },
+ "enchanted_talisman": {
+  "key": "enchanted_talisman",
+  "name": "Enchanted Talisman",
+  "caption": "Mana Regen & CD Reduction",
+  "category": "Magic",
+  "mlbb_type": "Magic",
+  "price": 2070,
+  "upgrade_price": 180,
+  "recipe": [
+   "tome_of_evil",
+   "magic_necklace",
+   "magic_wand"
+  ],
+  "stats": {
+   "magic_power": 70,
+   "hp": 300,
+   "skill_cooldown_mult": -15
+  },
+  "dropped_stats": {},
+  "needs_rule": {},
+  "bonus_text": "+70 Magic Power, +300 HP, +15% Cooldown Reduction",
+  "unique_text": "",
+  "passive_text": "Mana Spring: Regenerates 15% of Max Mana every 10 seconds.@ Magic Mastery: Max Cooldown Reduction is increased by 5%.",
+  "active_text": "",
+  "has_passive": true,
+  "has_active": false,
+  "tier": 3
+ },
+ "feather_of_heaven": {
+  "key": "feather_of_heaven",
+  "name": "Feather of Heaven",
+  "caption": "Magic Basic Attacks",
+  "category": "Magic",
+  "mlbb_type": "Magic",
+  "price": 2030,
+  "upgrade_price": 580,
+  "recipe": [
+   "swift_crossbow",
+   "book_of_sages"
+  ],
+  "stats": {
+   "magic_power": 60,
+   "attack_speed_mult": 20,
+   "vamp": 10,
+   "skill_cooldown_mult": -5
+  },
+  "dropped_stats": {},
+  "needs_rule": {},
+  "bonus_text": "+60 Magic Power, +20% Attack Speed, +10% Lifesteal, +5% Cooldown Reduction",
+  "unique_text": "",
+  "passive_text": "Affliction: Each Basic Attack deals extra 50 (+30% Total Magic Power) Magic Damage.@ Impulse: Basic Attacks grant 6% extra Attack Speed for 3 seconds, capped at 5 stacks.",
+  "active_text": "",
+  "has_passive": true,
+  "has_active": false,
+  "tier": 3
+ },
+ "flask_of_the_oasis": {
+  "key": "flask_of_the_oasis",
+  "name": "Flask of the Oasis",
+  "caption": "Protect Teammates",
+  "category": "Magic",
+  "mlbb_type": "Magic",
+  "price": 1850,
+  "upgrade_price": 280,
+  "recipe": [
+   "magic_wand",
+   "book_of_sages",
+   "vitality_crystal"
+  ],
+  "stats": {
+   "magic_power": 60,
+   "hp": 300,
+   "skill_cooldown_mult": -10
+  },
+  "dropped_stats": {},
+  "needs_rule": {},
+  "bonus_text": "+60 Magic Power, +300 HP, +10% Cooldown Reduction",
+  "unique_text": "+12% Healing Effect",
+  "passive_text": "Blessing: When casting a healing or shield skill, if the target's HP is below 35%, or falls below 35% within 3 seconds, they will get a (100*Hero Level) shield that lasts 3 seconds. When this effect triggers, it also reduces the cooldown of the caster's skills by 2 seconds. (This effect can only trigger once every 60 seconds on the same target, and will not trigger on self-only healing and shield skills.)",
+  "active_text": "",
+  "has_passive": true,
+  "has_active": false,
+  "tier": 3
+ },
+ "flower_of_hope": {
+  "key": "flower_of_hope",
+  "name": "Flower of Hope",
+  "caption": "",
+  "category": "Magic",
+  "mlbb_type": "Magic",
+  "price": null,
+  "upgrade_price": null,
+  "recipe": [],
+  "stats": {},
+  "dropped_stats": {},
+  "needs_rule": {
+   "Adaptive Attack": 5
+  },
+  "bonus_text": "+5% Adaptive Attack",
+  "unique_text": "",
+  "passive_text": "Flower of Hope: Every 6 seconds, the next skill or Basic Attack deals an additional 60 (+30% Total Physical Attack) (+30% Total Magic Power) Magic Damage.",
+  "active_text": "",
+  "has_passive": true,
+  "has_active": false,
+  "tier": 1
+ },
+ "genius_wand": {
+  "key": "genius_wand",
+  "name": "Genius Wand",
+  "caption": "Magic Defense Reduction",
+  "category": "Magic",
+  "mlbb_type": "Magic",
+  "price": 2000,
+  "upgrade_price": 580,
+  "recipe": [
+   "exotic_veil",
+   "magic_wand"
+  ],
+  "stats": {
+   "magic_power": 75,
+   "move_speed_mult": 5
+  },
+  "dropped_stats": {},
+  "needs_rule": {},
+  "bonus_text": "+75 Magic Power, +5% Movement Speed",
+  "unique_text": "+10 Magic Penetration",
+  "passive_text": "Magic: Dealing Magic Damage to enemy heroes will reduce their Magic Defense by 2.5+(0.5*Hero Level) for 2 seconds. Stacks up to 3 times.",
+  "active_text": "",
+  "has_passive": true,
+  "has_active": false,
+  "tier": 3
+ },
+ "glowing_wand": {
+  "key": "glowing_wand",
+  "name": "Glowing Wand",
+  "caption": "Healing Reduction",
+  "category": "Magic",
+  "mlbb_type": "Magic",
+  "price": 2150,
+  "upgrade_price": 950,
+  "recipe": [
+   "exotic_veil",
+   "mystery_codex",
+   "vitality_crystal"
+  ],
+  "stats": {
+   "magic_power": 60,
+   "hp": 300,
+   "move_speed_mult": 5
+  },
+  "dropped_stats": {},
+  "needs_rule": {},
+  "bonus_text": "+60 Magic Power, +300 HP, +5% Movement Speed",
+  "unique_text": "",
+  "passive_text": "Scorch: Dealing Magic Damage burns the targets for 3 seconds, also dealing extra Magic Damage equal to 1% of the target's Max HP per second.@ Lifebane: Dealing damage to the target will reduce the Shield and HP Regen effects on them to 60% of normal for 3 seconds.",
+  "active_text": "",
+  "has_passive": true,
+  "has_active": false,
+  "tier": 3
+ },
+ "holy_crystal": {
+  "key": "holy_crystal",
+  "name": "Holy Crystal",
+  "caption": "Max Magic Power",
+  "category": "Magic",
+  "mlbb_type": "Magic",
+  "price": 3000,
+  "upgrade_price": 540,
+  "recipe": [
+   "magic_wand",
+   "magic_wand",
+   "magic_wand"
+  ],
+  "stats": {
+   "magic_power": 165
+  },
+  "dropped_stats": {},
+  "needs_rule": {},
+  "bonus_text": "\t+165 Magic Power",
+  "unique_text": "",
+  "passive_text": "Mystery: Gains 21%-35% extra Magic Power (scales with level).",
+  "active_text": "",
+  "has_passive": true,
+  "has_active": false,
+  "tier": 3
+ },
+ "ice_queen_wand": {
+  "key": "ice_queen_wand",
+  "name": "Ice Queen Wand",
+  "caption": "Slow on Skill Hit",
+  "category": "Magic",
+  "mlbb_type": "Magic",
+  "price": 2040,
+  "upgrade_price": 640,
+  "recipe": [
+   "mystic_container",
+   "exotic_veil",
+   "mystery_codex"
+  ],
+  "stats": {
+   "magic_power": 60,
+   "vamp": 10,
+   "hp": 300,
+   "move_speed_mult": 7
+  },
+  "dropped_stats": {},
+  "needs_rule": {},
+  "bonus_text": "+60 Magic Power, +10% Spell Vamp, +300 HP, +7% Movement Speed",
+  "unique_text": "",
+  "passive_text": "Ice Bound: When a skill deals damage to an enemy hero, it will also slow them by 10% for 2 seconds (stacks up to 3 times). This effect has a 0.4 seconds cooldown.",
+  "active_text": "",
+  "has_passive": true,
+  "has_active": false,
+  "tier": 3
+ },
+ "lantern_of_hope": {
+  "key": "lantern_of_hope",
+  "name": "Lantern of Hope",
+  "caption": "",
+  "category": "Magic",
+  "mlbb_type": "Magic",
+  "price": null,
+  "upgrade_price": null,
+  "recipe": [],
+  "stats": {
+   "magic_power": 20,
+   "move_speed_mult": 4,
+   "skill_cooldown_mult": -2
+  },
+  "dropped_stats": {},
+  "needs_rule": {},
+  "bonus_text": "+20 Magic Power, +4% Movement Speed, +2% Cooldown Reduction",
+  "unique_text": "",
+  "passive_text": "Lantern of Hope: The equipment's attributes scale with hero level.",
+  "active_text": "",
+  "has_passive": true,
+  "has_active": false,
+  "tier": 1
+ },
+ "lightning_truncheon": {
+  "key": "lightning_truncheon",
+  "name": "Lightning Truncheon",
+  "caption": "Splash Damage",
+  "category": "Magic",
+  "mlbb_type": "Magic",
+  "price": 2250,
+  "upgrade_price": 760,
+  "recipe": [
+   "magic_wand",
+   "book_of_sages",
+   "power_crystal"
+  ],
+  "stats": {
+   "magic_power": 75,
+   "hp": 200,
+   "skill_cooldown_mult": -10
+  },
+  "dropped_stats": {},
+  "needs_rule": {},
+  "bonus_text": "+75 Magic Power, +400 Mana, +10% Cooldown Reduction",
+  "unique_text": "",
+  "passive_text": "Resonate: Every 6 seconds, the next skill echoes, dealing 255 (+85% Magic Power) extra Magic Damage to all enemies in range.",
+  "active_text": "",
+  "has_passive": true,
+  "has_active": false,
+  "tier": 3
+ },
+ "necklace_of_durance": {
+  "key": "necklace_of_durance",
+  "name": "Necklace of Durance",
+  "caption": "Healing Reduction",
+  "category": "Magic",
+  "mlbb_type": "Magic",
+  "price": 2010,
+  "upgrade_price": 560,
+  "recipe": [
+   "book_of_sages",
+   "elegant_gem",
+   "mystery_codex"
+  ],
+  "stats": {
+   "magic_power": 60,
+   "hp": 490,
+   "skill_cooldown_mult": -5
+  },
+  "dropped_stats": {},
+  "needs_rule": {},
+  "bonus_text": "+60 Magic Power, +300 HP, +380 Mana, +5% Cooldown Reduction",
+  "unique_text": "",
+  "passive_text": "Gift: Regens 20% HP and Mana within 2 seconds of leveling up.@ Lifebane: Upon dealing damage to the target, reduces Shield and HP Regen of the target by 50% for 3 seconds.",
+  "active_text": "",
+  "has_passive": true,
+  "has_active": false,
+  "tier": 3
+ },
+ "shadow_twinblades": {
+  "key": "shadow_twinblades",
+  "name": "Shadow Twinblades",
+  "caption": "Best for Assassins",
+  "category": "Magic",
+  "mlbb_type": "Magic",
+  "price": 1960,
+  "upgrade_price": 860,
+  "recipe": [
+   "exotic_veil",
+   "mystic_container"
+  ],
+  "stats": {
+   "magic_power": 75,
+   "vamp": 15,
+   "move_speed_mult": 5
+  },
+  "dropped_stats": {},
+  "needs_rule": {},
+  "bonus_text": "+75 Magic Power, +15% Magic Lifesteal, +5% Movement Speed",
+  "unique_text": "",
+  "passive_text": "Assassination: If no damage is taken or dealt within 5 sseconds, the next Basic Attack will deal extra Magic Damage equal to 200 plus 50% Magic Power, and inflict 60% slow effects upon the target for 1.5 seconds.",
+  "active_text": "",
+  "has_passive": true,
+  "has_active": false,
+  "tier": 3
+ },
+ "starlium_scythe": {
+  "key": "starlium_scythe",
+  "name": "Starlium Scythe",
+  "caption": "Enhanced Basic Attacks",
+  "category": "Magic",
+  "mlbb_type": "Magic",
+  "price": 2120,
+  "upgrade_price": 250,
+  "recipe": [
+   "azure_blade",
+   "book_of_sages",
+   "magic_wand"
+  ],
+  "stats": {
+   "magic_power": 75,
+   "skill_cooldown_mult": -10,
+   "vamp": 8,
+   "hp_regen": 3
+  },
+  "dropped_stats": {},
+  "needs_rule": {},
+  "bonus_text": "+75 Magic Power, +10% Cooldown Reduction, +8% Hybrid Lifesteal, +6 Mana Regen",
+  "unique_text": "",
+  "passive_text": "Crisis: After casting a skill, the next Basic Attack within 3 seconds deals 90 (+60% Total Magic Power) extra True Damage and reduces the target's Movement Speed by 15% for 1.5 seconds (1.5 seconds cooldown).",
+  "active_text": "",
+  "has_passive": true,
+  "has_active": false,
+  "tier": 3
+ },
+ "wishing_lantern": {
+  "key": "wishing_lantern",
+  "name": "Wishing Lantern",
+  "caption": "Counter High HP",
+  "category": "Magic",
+  "mlbb_type": "Magic",
+  "price": 2250,
+  "upgrade_price": 760,
+  "recipe": [
+   "magic_wand",
+   "book_of_sages",
+   "power_crystal"
+  ],
+  "stats": {
+   "magic_power": 75,
+   "hp": 200,
+   "skill_cooldown_mult": -10
+  },
+  "dropped_stats": {},
+  "needs_rule": {},
+  "bonus_text": "+75 Magic Power, +400 Mana, +10% Cooldown Reduction",
+  "unique_text": "",
+  "passive_text": "Butterfly Goddess: For every 900 Magic Damage dealt to an enemy hero (calculated before Damage Reduction), a Butterfly Goddess is summoned to attack the enemy hero, dealing Magic Damage equal to 8% of their Current HP.",
+  "active_text": "",
+  "has_passive": true,
+  "has_active": false,
+  "tier": 3
+ },
+ "azure_blade": {
+  "key": "azure_blade",
+  "name": "Azure Blade",
+  "caption": "",
+  "category": "Magic",
+  "mlbb_type": "Magic",
+  "price": 600,
+  "upgrade_price": 360,
+  "recipe": [
+   "magic_necklace",
+   "magic_necklace"
+  ],
+  "stats": {
+   "hp_regen": 2,
+   "skill_cooldown_mult": -5
+  },
+  "dropped_stats": {},
+  "needs_rule": {},
+  "bonus_text": "+5 Mana Regen, +5% Cooldown Reduction",
+  "unique_text": "",
+  "passive_text": "Judgement: After casting a skill, the next Basic Attack within 3 seconds deals 50 extra True Damage (1.5 seconds cooldown).",
+  "active_text": "",
+  "has_passive": true,
+  "has_active": false,
+  "tier": 2
+ },
+ "elegant_gem": {
+  "key": "elegant_gem",
+  "name": "Elegant Gem",
+  "caption": "",
+  "category": "Magic",
+  "mlbb_type": "Magic",
+  "price": 700,
+  "upgrade_price": 180,
+  "recipe": [
+   "power_crystal",
+   "vitality_crystal"
+  ],
+  "stats": {
+   "hp": 490
+  },
+  "dropped_stats": {},
+  "needs_rule": {},
+  "bonus_text": "+300 HP, +380 Mana",
+  "unique_text": "",
+  "passive_text": "Gift: When HP drops below 50%, recovers 15% of HP over the next 3 seconds. When Mana drops below 50%, restores 15% of Mana over the next 3 seconds. Cooldown: 60 seconds.",
+  "active_text": "",
+  "has_passive": true,
+  "has_active": false,
+  "tier": 2
+ },
+ "exotic_veil": {
+  "key": "exotic_veil",
+  "name": "Exotic Veil",
+  "caption": "",
+  "category": "Magic",
+  "mlbb_type": "Magic",
+  "price": 600,
+  "upgrade_price": 300,
+  "recipe": [
+   "mystery_codex"
+  ],
+  "stats": {
+   "magic_power": 30,
+   "move_speed_mult": 5
+  },
+  "dropped_stats": {},
+  "needs_rule": {},
+  "bonus_text": "+30 Magic Power, +5% Movement Speed",
+  "unique_text": "",
+  "passive_text": "",
+  "active_text": "",
+  "has_passive": false,
+  "has_active": false,
+  "tier": 2
+ },
+ "magic_wand": {
+  "key": "magic_wand",
+  "name": "Magic Wand",
+  "caption": "",
+  "category": "Magic",
+  "mlbb_type": "Magic",
+  "price": 820,
+  "upgrade_price": 520,
+  "recipe": [
+   "mystery_codex"
+  ],
+  "stats": {
+   "magic_power": 45
+  },
+  "dropped_stats": {},
+  "needs_rule": {},
+  "bonus_text": "+45 Magic Power",
+  "unique_text": "",
+  "passive_text": "",
+  "active_text": "",
+  "has_passive": false,
+  "has_active": false,
+  "tier": 2
+ },
+ "mystic_container": {
+  "key": "mystic_container",
+  "name": "Mystic Container",
+  "caption": "",
+  "category": "Magic",
+  "mlbb_type": "Magic",
+  "price": 500,
+  "upgrade_price": 200,
+  "recipe": [
+   "mystery_codex"
+  ],
+  "stats": {
+   "magic_power": 15,
+   "vamp": 8
+  },
+  "dropped_stats": {},
+  "needs_rule": {},
+  "bonus_text": "+15 Magic Power, +8% Spell Vamp",
+  "unique_text": "",
+  "passive_text": "",
+  "active_text": "",
+  "has_passive": false,
+  "has_active": false,
+  "tier": 2
+ },
+ "tome_of_evil": {
+  "key": "tome_of_evil",
+  "name": "Tome of Evil",
+  "caption": "",
+  "category": "Magic",
+  "mlbb_type": "Magic",
+  "price": 950,
+  "upgrade_price": 380,
+  "recipe": [
+   "magic_necklace",
+   "book_of_sages"
+  ],
+  "stats": {
+   "magic_power": 30,
+   "hp_regen": 1,
+   "skill_cooldown_mult": -10
+  },
+  "dropped_stats": {},
+  "needs_rule": {},
+  "bonus_text": "+30 Magic Power, +2 Mana Regen, +10% Cooldown Reduction",
+  "unique_text": "",
+  "passive_text": "",
+  "active_text": "",
+  "has_passive": false,
+  "has_active": false,
+  "tier": 2
+ },
+ "book_of_sages": {
+  "key": "book_of_sages",
+  "name": "Book of Sages",
+  "caption": "",
+  "category": "Magic",
+  "mlbb_type": "Magic",
+  "price": 450,
+  "upgrade_price": null,
+  "recipe": [],
+  "stats": {
+   "magic_power": 8,
+   "skill_cooldown_mult": -5
+  },
+  "dropped_stats": {},
+  "needs_rule": {},
+  "bonus_text": "+8 Magic Power, +5% Cooldown Reduction",
+  "unique_text": "",
+  "passive_text": "",
+  "active_text": "",
+  "has_passive": false,
+  "has_active": false,
+  "tier": 1
+ },
+ "bud_of_hope": {
+  "key": "bud_of_hope",
+  "name": "Bud of Hope",
+  "caption": "",
+  "category": "Magic",
+  "mlbb_type": "Magic",
+  "price": null,
+  "upgrade_price": null,
+  "recipe": [],
+  "stats": {
+   "hp": 250
+  },
+  "dropped_stats": {},
+  "needs_rule": {},
+  "bonus_text": "+250 HP",
+  "unique_text": "",
+  "passive_text": "Bud of Hope: Granted by Floryn and Dew. The equipment will reveal its true power once Dew evolves.",
+  "active_text": "",
+  "has_passive": true,
+  "has_active": false,
+  "tier": 1
+ },
+ "magic_necklace": {
+  "key": "magic_necklace",
+  "name": "Magic Necklace",
+  "caption": "",
+  "category": "Magic",
+  "mlbb_type": "Magic",
+  "price": 120,
+  "upgrade_price": null,
+  "recipe": [],
+  "stats": {
+   "hp_regen": 1
+  },
+  "dropped_stats": {},
+  "needs_rule": {},
+  "bonus_text": "+2 Mana Regen",
+  "unique_text": "",
+  "passive_text": "",
+  "active_text": "",
+  "has_passive": false,
+  "has_active": false,
+  "tier": 1
+ },
+ "magic_potion": {
+  "key": "magic_potion",
+  "name": "Magic Potion",
+  "caption": "",
+  "category": "Magic",
+  "mlbb_type": "Magic",
+  "price": 1500,
+  "upgrade_price": null,
+  "recipe": [],
+  "stats": {},
+  "dropped_stats": {},
+  "needs_rule": {},
+  "bonus_text": "",
+  "unique_text": "",
+  "passive_text": "Increase Power: Automatically used after purchasing, increases Magic Power by 30 and Cooldown Reduction by 10% for 120s. Can only have one potion effect at a time.",
+  "active_text": "",
+  "has_passive": true,
+  "has_active": false,
+  "tier": 1
+ },
+ "mystery_codex": {
+  "key": "mystery_codex",
+  "name": "Mystery Codex",
+  "caption": "",
+  "category": "Magic",
+  "mlbb_type": "Magic",
+  "price": 300,
+  "upgrade_price": null,
+  "recipe": [],
+  "stats": {
+   "magic_power": 15
+  },
+  "dropped_stats": {},
+  "needs_rule": {},
+  "bonus_text": "+15 Magic Power",
+  "unique_text": "",
+  "passive_text": "",
+  "active_text": "",
+  "has_passive": false,
+  "has_active": false,
+  "tier": 1
+ },
+ "power_crystal": {
+  "key": "power_crystal",
+  "name": "Power Crystal",
+  "caption": "",
+  "category": "Magic",
+  "mlbb_type": "Magic",
+  "price": 220,
+  "upgrade_price": null,
+  "recipe": [],
+  "stats": {
+   "hp": 140
+  },
+  "dropped_stats": {},
+  "needs_rule": {},
+  "bonus_text": "+280 Mana",
+  "unique_text": "",
+  "passive_text": "",
+  "active_text": "",
+  "has_passive": false,
+  "has_active": false,
+  "tier": 1
+ },
+ "shimmering_lantern": {
+  "key": "shimmering_lantern",
+  "name": "Shimmering Lantern",
+  "caption": "",
+  "category": "Magic",
+  "mlbb_type": "Magic",
+  "price": null,
+  "upgrade_price": null,
+  "recipe": [],
+  "stats": {
+   "magic_power": 20,
+   "move_speed_mult": 5
+  },
+  "dropped_stats": {},
+  "needs_rule": {},
+  "bonus_text": "+20 Magic Power, +5% Movement Speed",
+  "unique_text": "",
+  "passive_text": "Floryn can share the power of Dew's Lantern with an allied hero. The Lantern is not strong enough yet and can evolve once it absorbs enough energy in battle.",
+  "active_text": "",
+  "has_passive": true,
+  "has_active": false,
+  "tier": 1
+ },
+ "antique_cuirass": {
+  "key": "antique_cuirass",
+  "name": "Antique Cuirass",
+  "caption": "Physical Attack Reduction",
+  "category": "Defense",
+  "mlbb_type": "Defense",
+  "price": 2170,
+  "upgrade_price": 740,
+  "recipe": [
+   "dreadnaught_armor",
+   "ares_belt"
+  ],
+  "stats": {
+   "hp": 920,
+   "defence": 40,
+   "hp_regen": 4
+  },
+  "dropped_stats": {},
+  "needs_rule": {},
+  "bonus_text": "+920 HP, +40 Physical Defense, +4 HP Regen",
+  "unique_text": "",
+  "passive_text": "Deter: When hit by a skill, reduces the attacker's Physical Damage by 6% for 2 seconds (this effect stacks up to 3 times).",
+  "active_text": "",
+  "has_passive": true,
+  "has_active": false,
+  "tier": 3
+ },
+ "blade_armor": {
+  "key": "blade_armor",
+  "name": "Blade Armor",
+  "caption": "Damage Reflection",
+  "category": "Defense",
+  "mlbb_type": "Defense",
+  "price": 1910,
+  "upgrade_price": 840,
+  "recipe": [
+   "steel_legplates",
+   "leather_jerkin",
+   "leather_jerkin"
+  ],
+  "stats": {
+   "defence": 80
+  },
+  "dropped_stats": {},
+  "needs_rule": {},
+  "bonus_text": "+80 Physical Defense",
+  "unique_text": "+20% Crit Damage Reduction",
+  "passive_text": "Bladed Armor: When struck by a Basic Attack, deals Physical Damage equal to 30 (+2% Total Physical Defense)% of the incoming damage (calculated before Damage Reduction) to the attacker and slows them by 15% for 1 second.",
+  "active_text": "",
+  "has_passive": true,
+  "has_active": false,
+  "tier": 3
+ },
+ "brute_force_breastplate": {
+  "key": "brute_force_breastplate",
+  "name": "Brute Force Breastplate",
+  "caption": "Attack, Speed Up, CC Reduction",
+  "category": "Defense",
+  "mlbb_type": "Defense",
+  "price": 2070,
+  "upgrade_price": 700,
+  "recipe": [
+   "ares_belt",
+   "heros_ring",
+   "leather_jerkin"
+  ],
+  "stats": {
+   "hp": 800,
+   "defence": 20,
+   "skill_cooldown_mult": -10
+  },
+  "dropped_stats": {},
+  "needs_rule": {},
+  "bonus_text": "+800 HP, +20 Physical Defense, +10% Cooldown Reduction",
+  "unique_text": "",
+  "passive_text": "Brute Force: Each second after dealing damage, gain 8 extra Adaptive Attack and 2% extra Movement Speed for 4 seconds, up to 6 stacks. Gain 25% extra Control Duration Reduction at full stacks.",
+  "active_text": "",
+  "has_passive": true,
+  "has_active": false,
+  "tier": 3
+ },
+ "chastise_pauldron": {
+  "key": "chastise_pauldron",
+  "name": "Chastise Pauldron",
+  "caption": "Reduce Enemy Attack Speed",
+  "category": "Defense",
+  "mlbb_type": "Defense",
+  "price": 2100,
+  "upgrade_price": 770,
+  "recipe": [
+   "steel_legplates",
+   "ares_belt"
+  ],
+  "stats": {
+   "hp": 900,
+   "defence": 40
+  },
+  "dropped_stats": {},
+  "needs_rule": {},
+  "bonus_text": "+900 HP, +40 Physical Defense",
+  "unique_text": "",
+  "passive_text": "Chastise: Taking damage will reduce the Attack Speed and Attack Speed cap of the attacker to 75% of normal for 2 seconds.@ Redemption: When incoming damage reduces HP below 30%, recover 20% Max HP over the next 2 seconds. This effect has a 60 seconds cooldown.",
+  "active_text": "",
+  "has_passive": true,
+  "has_active": false,
+  "tier": 3
+ },
+ "cursed_helmet": {
+  "key": "cursed_helmet",
+  "name": "Cursed Helmet",
+  "caption": "Survivability & Lane Clearing",
+  "category": "Defense",
+  "mlbb_type": "Defense",
+  "price": 1910,
+  "upgrade_price": 190,
+  "recipe": [
+   "molten_essence",
+   "ares_belt",
+   "magic_resist_cloak"
+  ],
+  "stats": {
+   "hp": 1200,
+   "magic_resistance": 20
+  },
+  "dropped_stats": {},
+  "needs_rule": {},
+  "bonus_text": "+1200 HP, +20 Magic Defense",
+  "unique_text": "",
+  "passive_text": "Burning Soul: Deals (1.2% Total HP) Magic Damage to nearby enemies per second. This damage is increased by 125(+15*Hero Level)% against creeps and minions.@ Curse: Dealing damage with Burning Soul will reduce the target's Hybrid Defense by 3 for 3 seconds. Stacks up to 3 times.",
+  "active_text": "",
+  "has_passive": true,
+  "has_active": false,
+  "tier": 3
+ },
+ "dominance_ice": {
+  "key": "dominance_ice",
+  "name": "Dominance Ice",
+  "caption": "Healing Reduction",
+  "category": "Defense",
+  "mlbb_type": "Defense",
+  "price": 2010,
+  "upgrade_price": 790,
+  "recipe": [
+   "black_ice_shield",
+   "leather_jerkin",
+   "magic_resist_cloak"
+  ],
+  "stats": {
+   "defence": 40,
+   "magic_resistance": 40,
+   "move_speed_mult": 5
+  },
+  "dropped_stats": {},
+  "needs_rule": {},
+  "bonus_text": "+40 Physical Defense, +40 Magic Defense, +5% Movement Speed",
+  "unique_text": "",
+  "passive_text": "Fortress Shield: For each enemy hero within 5 units, Hybrid Defense is increased by 8, up to 40.@ Lifebane: Reduces Shield and HP Regen effects of nearby enemies within 5 units to 60% of normal for 1 second.",
+  "active_text": "",
+  "has_passive": true,
+  "has_active": false,
+  "tier": 3
+ },
+ "guardian_helmet": {
+  "key": "guardian_helmet",
+  "name": "Guardian Helmet",
+  "caption": "Constant HP Regen",
+  "category": "Defense",
+  "mlbb_type": "Defense",
+  "price": 2500,
+  "upgrade_price": 400,
+  "recipe": [
+   "ares_belt",
+   "ares_belt",
+   "ares_belt"
+  ],
+  "stats": {
+   "hp": 1800,
+   "hp_regen": 20
+  },
+  "dropped_stats": {},
+  "needs_rule": {},
+  "bonus_text": "+1800 HP, +20 HP Regen",
+  "unique_text": "",
+  "passive_text": "Recovery: After 5 seconds out of combat, recover (2.5% Total HP) HP per second.@ Defender: Upon taking more than 500 damage in a single instance, recover 30 (+0.3% Total HP)% HP from the excess damage beyond that amount.",
+  "active_text": "",
+  "has_passive": true,
+  "has_active": false,
+  "tier": 3
+ },
+ "immortality": {
+  "key": "immortality",
+  "name": "Immortality",
+  "caption": "Self-Resurrection",
+  "category": "Defense",
+  "mlbb_type": "Defense",
+  "price": 2120,
+  "upgrade_price": 900,
+  "recipe": [
+   "ares_belt",
+   "vitality_crystal",
+   "leather_jerkin"
+  ],
+  "stats": {
+   "hp": 850,
+   "defence": 15
+  },
+  "dropped_stats": {},
+  "needs_rule": {},
+  "bonus_text": "+850 HP, +15 Physical Defense",
+  "unique_text": "",
+  "passive_text": "Immortal: Resurrect 2.5 seconds upon death and gets 16% Max HP and a shield that can absorb 150(+70*Hero Level）damage. Shield lasts 3 seconds. This effect has a 210 seconds cooldown.",
+  "active_text": "",
+  "has_passive": true,
+  "has_active": false,
+  "tier": 3
+ },
+ "oracle": {
+  "key": "oracle",
+  "name": "Oracle",
+  "caption": "Enhanced Regen",
+  "category": "Defense",
+  "mlbb_type": "Defense",
+  "price": 1860,
+  "upgrade_price": 660,
+  "recipe": [
+   "heros_ring",
+   "heros_ring",
+   "vitality_crystal"
+  ],
+  "stats": {
+   "hp": 850,
+   "defence": 20,
+   "magic_resistance": 20,
+   "skill_cooldown_mult": -10
+  },
+  "dropped_stats": {},
+  "needs_rule": {},
+  "bonus_text": "+850 HP, +20 Physical Defense, +20 Magic Defense, +10% Cooldown Reduction",
+  "unique_text": "",
+  "passive_text": "Bless: Received Shield and HP Regen effects are increased by 25%.",
+  "active_text": "",
+  "has_passive": true,
+  "has_active": false,
+  "tier": 2
+ },
+ "queens_wings": {
+  "key": "queens_wings",
+  "name": "Queen's Wings",
+  "caption": "Low-HP Retaliation",
+  "category": "Defense",
+  "mlbb_type": "Defense",
+  "price": 2250,
+  "upgrade_price": 600,
+  "recipe": [
+   "ares_belt",
+   "heros_ring",
+   "expert_gloves"
+  ],
+  "stats": {
+   "hp": 750,
+   "skill_cooldown_mult": -10,
+   "vamp": 10
+  },
+  "dropped_stats": {},
+  "needs_rule": {
+   "Adaptive Attack": 30
+  },
+  "bonus_text": "+750 HP, +30 Adaptive Attack, +10% Cooldown Reduction, +10% Spell Vamp",
+  "unique_text": "",
+  "passive_text": "Demonize: When HP drops below 40%, gains 30% Damage Reduction for 3 seconds and reduces skill cooldowns by 2 seconds. This effect has a 60 seconds cooldown.@ Defiance: For every 1% HP lost, damage is increased by 0.25%, up to 15%.",
+  "active_text": "",
+  "has_passive": true,
+  "has_active": false,
+  "tier": 3
+ },
+ "radiant_armor": {
+  "key": "radiant_armor",
+  "name": "Radiant Armor",
+  "caption": "Magic Damage Reduction",
+  "category": "Defense",
+  "mlbb_type": "Defense",
+  "price": 1880,
+  "upgrade_price": 500,
+  "recipe": [
+   "silence_robe",
+   "magic_resist_cloak",
+   "healing_necklace"
+  ],
+  "stats": {
+   "hp": 950,
+   "magic_resistance": 40,
+   "hp_regen": 12
+  },
+  "dropped_stats": {},
+  "needs_rule": {},
+  "bonus_text": "+950 HP, +40 Magic Defense, +12 HP Regen",
+  "unique_text": "",
+  "passive_text": "Holy Blessing: Taking Magic Damage grants 5(+1*Hero Level) Magic Defense for 5 seconds, up to 6 stacks (can only gain 1 stack(s) every 0.4 seconds).",
+  "active_text": "",
+  "has_passive": true,
+  "has_active": false,
+  "tier": 3
+ },
+ "thunder_belt": {
+  "key": "thunder_belt",
+  "name": "Thunder Belt",
+  "caption": "Damage for Tanks",
+  "category": "Defense",
+  "mlbb_type": "Defense",
+  "price": 1820,
+  "upgrade_price": 680,
+  "recipe": [
+   "ares_belt",
+   "leather_jerkin",
+   "magic_resist_cloak"
+  ],
+  "stats": {
+   "hp": 600,
+   "defence": 15,
+   "magic_resistance": 15,
+   "move_speed_mult": 5
+  },
+  "dropped_stats": {},
+  "needs_rule": {},
+  "bonus_text": "+600 HP, +15 Physical Defense, +15 Magic Defense, +20 Movement Speed",
+  "unique_text": "",
+  "passive_text": "Thunderbolt: Every 4 seconds, the next Basic Attack deals 50 (+100% Extra Physical Defense) (+100% Extra Magic Defense) extra True Damage to the target and enemies around them, and briefly slows them by 99%. Hybrid Defense permanently increases by 1 each time the attack hits an enemy hero. (This effect is reduced to 50% for Marksmen, Mages, and Assassins)",
+  "active_text": "",
+  "has_passive": true,
+  "has_active": false,
+  "tier": 3
+ },
+ "twilight_armor": {
+  "key": "twilight_armor",
+  "name": "Twilight Armor",
+  "caption": "High Damage Resistance",
+  "category": "Defense",
+  "mlbb_type": "Defense",
+  "price": 2100,
+  "upgrade_price": 480,
+  "recipe": [
+   "ares_belt",
+   "ares_belt",
+   "leather_jerkin"
+  ],
+  "stats": {
+   "hp": 1200,
+   "defence": 15
+  },
+  "dropped_stats": {},
+  "needs_rule": {},
+  "bonus_text": "+1200 HP, +15 Physical Defense",
+  "unique_text": "",
+  "passive_text": "Twilight: Upon taking more than 500 damage in a single instance, the excess damage beyond that amount is reduced by 20 (+0.2% Total HP)%.@ Redemption: When incoming damage reduces HP below 30%, recover 20% Max HP over the next 4 seconds. This effect has a 60 seconds cooldown.",
+  "active_text": "",
+  "has_passive": true,
+  "has_active": false,
+  "tier": 3
+ },
+ "valkyries_shield": {
+  "key": "valkyries_shield",
+  "name": "Valkyrie's Shield",
+  "caption": "Resist Burst Magic Damage",
+  "category": "Defense",
+  "mlbb_type": "Defense",
+  "price": 2150,
+  "upgrade_price": 830,
+  "recipe": [
+   "silence_robe",
+   "vitality_crystal"
+  ],
+  "stats": {
+   "hp": 900,
+   "magic_resistance": 48,
+   "hp_regen": 2
+  },
+  "dropped_stats": {},
+  "needs_rule": {},
+  "bonus_text": "+900 HP, +48 Magic Defense, +2 HP Regen",
+  "unique_text": "",
+  "passive_text": "Shield: Upon taking Magic Damage from enemy hero skills or Basic Attacks, reduces Magic Damage taken by 25% for 3 seconds (including the damage that triggers the effect)s. Regains this effect 5 seconds after leaving combat.",
+  "active_text": "",
+  "has_passive": true,
+  "has_active": false,
+  "tier": 3
+ },
+ "ares_belt": {
+  "key": "ares_belt",
+  "name": "Ares Belt",
+  "caption": "",
+  "category": "Defense",
+  "mlbb_type": "Defense",
+  "price": 700,
+  "upgrade_price": 400,
+  "recipe": [
+   "vitality_crystal"
+  ],
+  "stats": {
+   "hp": 600
+  },
+  "dropped_stats": {},
+  "needs_rule": {},
+  "bonus_text": "+600 HP",
+  "unique_text": "",
+  "passive_text": "",
+  "active_text": "",
+  "has_passive": false,
+  "has_active": false,
+  "tier": 2
+ },
+ "black_ice_shield": {
+  "key": "black_ice_shield",
+  "name": "Black Ice Shield",
+  "caption": "",
+  "category": "Defense",
+  "mlbb_type": "Defense",
+  "price": 780,
+  "upgrade_price": 340,
+  "recipe": [
+   "leather_jerkin",
+   "magic_resist_cloak"
+  ],
+  "stats": {
+   "defence": 20,
+   "magic_resistance": 20
+  },
+  "dropped_stats": {},
+  "needs_rule": {},
+  "bonus_text": "+20 Physical Defense, +20 Magic Defense",
+  "unique_text": "",
+  "passive_text": "Fortress Shield: For each enemy hero within 3.55 units, Hybrid Defense is increased by 4, up to 20.",
+  "active_text": "",
+  "has_passive": true,
+  "has_active": false,
+  "tier": 2
+ },
+ "dreadnaught_armor": {
+  "key": "dreadnaught_armor",
+  "name": "Dreadnaught Armor",
+  "caption": "",
+  "category": "Defense",
+  "mlbb_type": "Defense",
+  "price": 730,
+  "upgrade_price": 290,
+  "recipe": [
+   "leather_jerkin",
+   "leather_jerkin"
+  ],
+  "stats": {
+   "defence": 30
+  },
+  "dropped_stats": {},
+  "needs_rule": {},
+  "bonus_text": "+30 Physical Defense",
+  "unique_text": "",
+  "passive_text": "Deter: When hit by a skill, reduces the attacker's Physical Damage by 4% for 2 seconds (this effect stacks up to 3 times).",
+  "active_text": "",
+  "has_passive": true,
+  "has_active": false,
+  "tier": 2
+ },
+ "molten_essence": {
+  "key": "molten_essence",
+  "name": "Molten Essence",
+  "caption": "",
+  "category": "Defense",
+  "mlbb_type": "Defense",
+  "price": 800,
+  "upgrade_price": 500,
+  "recipe": [
+   "vitality_crystal"
+  ],
+  "stats": {
+   "hp": 540
+  },
+  "dropped_stats": {},
+  "needs_rule": {},
+  "bonus_text": "+540 HP",
+  "unique_text": "",
+  "passive_text": "Burning Soul: Deals (0.6% Total HP) Magic Damage to nearby enemies per second. This damage is increased by 125(+15*Hero Level)% against creeps and minions.",
+  "active_text": "",
+  "has_passive": true,
+  "has_active": false,
+  "tier": 2
+ },
+ "silence_robe": {
+  "key": "silence_robe",
+  "name": "Silence Robe",
+  "caption": "",
+  "category": "Defense",
+  "mlbb_type": "Defense",
+  "price": 1020,
+  "upgrade_price": 500,
+  "recipe": [
+   "vitality_crystal",
+   "magic_resist_cloak"
+  ],
+  "stats": {
+   "hp": 540,
+   "magic_resistance": 23
+  },
+  "dropped_stats": {},
+  "needs_rule": {},
+  "bonus_text": "+540 HP, +23 Magic Defense",
+  "unique_text": "",
+  "passive_text": "",
+  "active_text": "",
+  "has_passive": false,
+  "has_active": false,
+  "tier": 2
+ },
+ "steel_legplates": {
+  "key": "steel_legplates",
+  "name": "Steel Legplates",
+  "caption": "",
+  "category": "Defense",
+  "mlbb_type": "Defense",
+  "price": 630,
+  "upgrade_price": 410,
+  "recipe": [
+   "leather_jerkin"
+  ],
+  "stats": {
+   "defence": 35
+  },
+  "dropped_stats": {},
+  "needs_rule": {},
+  "bonus_text": "+35 Physical Defense",
+  "unique_text": "",
+  "passive_text": "",
+  "active_text": "",
+  "has_passive": false,
+  "has_active": false,
+  "tier": 2
+ },
+ "healing_necklace": {
+  "key": "healing_necklace",
+  "name": "Healing Necklace",
+  "caption": "",
+  "category": "Defense",
+  "mlbb_type": "Defense",
+  "price": 140,
+  "upgrade_price": null,
+  "recipe": [],
+  "stats": {
+   "hp_regen": 4
+  },
+  "dropped_stats": {},
+  "needs_rule": {},
+  "bonus_text": "+4 HP Regen",
+  "unique_text": "",
+  "passive_text": "",
+  "active_text": "",
+  "has_passive": false,
+  "has_active": false,
+  "tier": 1
+ },
+ "heros_ring": {
+  "key": "heros_ring",
+  "name": "Hero's Ring",
+  "caption": "",
+  "category": "Defense",
+  "mlbb_type": "Defense",
+  "price": 450,
+  "upgrade_price": null,
+  "recipe": [],
+  "stats": {
+   "hp": 150,
+   "skill_cooldown_mult": -5
+  },
+  "dropped_stats": {},
+  "needs_rule": {},
+  "bonus_text": "+150 HP, +5% Cooldown Reduction",
+  "unique_text": "",
+  "passive_text": "",
+  "active_text": "",
+  "has_passive": false,
+  "has_active": false,
+  "tier": 1
+ },
+ "leather_jerkin": {
+  "key": "leather_jerkin",
+  "name": "Leather Jerkin",
+  "caption": "",
+  "category": "Defense",
+  "mlbb_type": "Defense",
+  "price": 220,
+  "upgrade_price": null,
+  "recipe": [],
+  "stats": {
+   "defence": 14
+  },
+  "dropped_stats": {},
+  "needs_rule": {},
+  "bonus_text": "+14 Physical Defense",
+  "unique_text": "",
+  "passive_text": "",
+  "active_text": "",
+  "has_passive": false,
+  "has_active": false,
+  "tier": 1
+ },
+ "magic_resist_cloak": {
+  "key": "magic_resist_cloak",
+  "name": "Magic Resist Cloak",
+  "caption": "",
+  "category": "Defense",
+  "mlbb_type": "Defense",
+  "price": 220,
+  "upgrade_price": null,
+  "recipe": [],
+  "stats": {
+   "magic_resistance": 14
+  },
+  "dropped_stats": {},
+  "needs_rule": {},
+  "bonus_text": "+14 Magic Defense",
+  "unique_text": "",
+  "passive_text": "",
+  "active_text": "",
+  "has_passive": false,
+  "has_active": false,
+  "tier": 1
+ },
+ "rock_potion": {
+  "key": "rock_potion",
+  "name": "Rock Potion",
+  "caption": "",
+  "category": "Defense",
+  "mlbb_type": "Defense",
+  "price": 1500,
+  "upgrade_price": null,
+  "recipe": [],
+  "stats": {},
+  "dropped_stats": {},
+  "needs_rule": {},
+  "bonus_text": "",
+  "unique_text": "",
+  "passive_text": "Increase Power: Upon purchase, grants 500 Max HP and 5% Damage Reduction for 120 seconds. Can only have one potion effect at a time.",
+  "active_text": "",
+  "has_passive": true,
+  "has_active": false,
+  "tier": 1
+ },
+ "vitality_crystal": {
+  "key": "vitality_crystal",
+  "name": "Vitality Crystal",
+  "caption": "",
+  "category": "Defense",
+  "mlbb_type": "Defense",
+  "price": 300,
+  "upgrade_price": null,
+  "recipe": [],
+  "stats": {
+   "hp": 230
+  },
+  "dropped_stats": {},
+  "needs_rule": {},
+  "bonus_text": "+230 HP",
+  "unique_text": "",
+  "passive_text": "",
+  "active_text": "",
+  "has_passive": false,
+  "has_active": false,
+  "tier": 1
+ },
+ "fleeting_time": {
+  "key": "fleeting_time",
+  "name": "Fleeting Time",
+  "caption": "Ultimate CD Reduction",
+  "category": "Defense",
+  "mlbb_type": "Attack, Magic & Defense",
+  "price": 2050,
+  "upgrade_price": 650,
+  "recipe": [
+   "heros_ring",
+   "heros_ring",
+   "expert_gloves"
+  ],
+  "stats": {
+   "hp": 600,
+   "skill_cooldown_mult": -15
+  },
+  "dropped_stats": {},
+  "needs_rule": {
+   "Adaptive Attack": 30
+  },
+  "bonus_text": "+30 Adaptive Attack, +600 HP, +15% Cooldown Reduction",
+  "unique_text": "",
+  "passive_text": "Timestream: Hero kills or assists reduce the Ultimate's current cooldown by 30%.",
+  "active_text": "",
+  "has_passive": true,
+  "has_active": false,
+  "tier": 2
+ },
+ "sky_piercer": {
+  "key": "sky_piercer",
+  "name": "Sky Piercer",
+  "caption": "Best for Finishers",
+  "category": "Magic",
+  "mlbb_type": "Attack & Magic",
+  "price": 1500,
+  "upgrade_price": 500,
+  "recipe": [
+   "expert_gloves",
+   "expert_gloves"
+  ],
+  "stats": {
+   "move_speed_mult": 4
+  },
+  "dropped_stats": {},
+  "needs_rule": {
+   "Adaptive Attack": 60
+  },
+  "bonus_text": "+60 Adaptive Attack, +15 Movement Speed",
+  "unique_text": "",
+  "passive_text": "Lethality: After dealing damage to an enemy hero, executes the hero if their HP is lower than 4%. Gains 10 stack(s) of Lethality for each kill and loses 30% current stack(s) for each death. Each stack of Lethality increases the HP threshold of the execute effect by 0.1%, stacking up 80 times.",
+  "active_text": "",
+  "has_passive": true,
+  "has_active": false,
+  "tier": 2
+ },
+ "winter_crown": {
+  "key": "winter_crown",
+  "name": "Winter Crown",
+  "caption": "Temporary Invincibility",
+  "category": "Magic",
+  "mlbb_type": "Attack & Magic",
+  "price": 1910,
+  "upgrade_price": 660,
+  "recipe": [
+   "expert_gloves",
+   "heros_ring",
+   "vitality_crystal"
+  ],
+  "stats": {
+   "hp": 400,
+   "skill_cooldown_mult": -5
+  },
+  "dropped_stats": {},
+  "needs_rule": {
+   "Adaptive Attack": 45
+  },
+  "bonus_text": "+45 Adaptive Attack, +400 HP, +5% Cooldown Reduction",
+  "unique_text": "",
+  "passive_text": "",
+  "active_text": "Frozen: Becomes frozen, untargetable, and immune to damage for 2 seconds (100 seconds cooldown). Cannot move or cast skills while frozen, but skills already cast won't be interrupted.",
+  "has_passive": false,
+  "has_active": true,
+  "tier": 2
+ },
+ "expert_gloves": {
+  "key": "expert_gloves",
+  "name": "Expert Gloves",
+  "caption": "",
+  "category": "Magic",
+  "mlbb_type": "Attack & Magic",
+  "price": 500,
+  "upgrade_price": null,
+  "recipe": [],
+  "stats": {},
+  "dropped_stats": {},
+  "needs_rule": {
+   "Adaptive Attack": 30
+  },
+  "bonus_text": "+30 Adaptive Attack, ",
+  "unique_text": "",
+  "passive_text": "",
+  "active_text": "",
+  "has_passive": false,
+  "has_active": false,
+  "tier": 1
+ },
+ "arcane_boots": {
+  "key": "arcane_boots",
+  "name": "Arcane Boots",
+  "caption": "Magic Penetration",
+  "category": "MoveSpeed",
+  "mlbb_type": "Movement",
+  "price": 720,
+  "upgrade_price": 170,
+  "recipe": [
+   "boots",
+   "mystery_codex"
+  ],
+  "stats": {
+   "move_speed_mult": 10,
+   "magic_power": 15,
+   "magic_resistance_penetration": 10
+  },
+  "dropped_stats": {},
+  "needs_rule": {},
+  "bonus_text": "+40 Movement Speed, +15 Magic Power, +10 Magic Penetration",
+  "unique_text": "",
+  "passive_text": "",
+  "active_text": "",
+  "has_passive": false,
+  "has_active": false,
+  "tier": 2
+ },
+ "demon_shoes": {
+  "key": "demon_shoes",
+  "name": "Demon Shoes",
+  "caption": "Quick Mana Regen",
+  "category": "MoveSpeed",
+  "mlbb_type": "Movement",
+  "price": 720,
+  "upgrade_price": 230,
+  "recipe": [
+   "boots",
+   "magic_necklace",
+   "magic_necklace"
+  ],
+  "stats": {
+   "move_speed_mult": 10,
+   "hp_regen": 5
+  },
+  "dropped_stats": {},
+  "needs_rule": {},
+  "bonus_text": "+40 Movement Speed, +10 Mana Regen",
+  "unique_text": "",
+  "passive_text": "Mysticism: Getting a kill or assist on an enemy Minion will restore 4% Mana. (An assist occurs when a Minion dies within 2 seconds after taking damage from the hero.)",
+  "active_text": "",
+  "has_passive": true,
+  "has_active": false,
+  "tier": 2
+ },
+ "magic_shoes": {
+  "key": "magic_shoes",
+  "name": "Magic Shoes",
+  "caption": "CD Reduction",
+  "category": "MoveSpeed",
+  "mlbb_type": "Movement",
+  "price": 720,
+  "upgrade_price": 20,
+  "recipe": [
+   "boots",
+   "heros_ring"
+  ],
+  "stats": {
+   "move_speed_mult": 10,
+   "skill_cooldown_mult": -10,
+   "hp": 150
+  },
+  "dropped_stats": {},
+  "needs_rule": {},
+  "bonus_text": "+40 Movement Speed, +10% Cooldown Reduction, +150 HP",
+  "unique_text": "",
+  "passive_text": "",
+  "active_text": "",
+  "has_passive": false,
+  "has_active": false,
+  "tier": 2
+ },
+ "rapid_boots": {
+  "key": "rapid_boots",
+  "name": "Rapid Boots",
+  "caption": "Movement Speed",
+  "category": "MoveSpeed",
+  "mlbb_type": "Movement",
+  "price": 720,
+  "upgrade_price": 190,
+  "recipe": [
+   "boots",
+   "healing_necklace",
+   "healing_necklace"
+  ],
+  "stats": {
+   "move_speed_mult": 14,
+   "toughness": 35,
+   "hp_regen": 12
+  },
+  "dropped_stats": {},
+  "needs_rule": {},
+  "bonus_text": "+55 Movement Speed, +35% Slow Reduction, +12 HP Regen",
+  "unique_text": "",
+  "passive_text": "",
+  "active_text": "",
+  "has_passive": false,
+  "has_active": false,
+  "tier": 2
+ },
+ "swift_boots": {
+  "key": "swift_boots",
+  "name": "Swift Boots",
+  "caption": "Attack Speed",
+  "category": "MoveSpeed",
+  "mlbb_type": "Movement",
+  "price": 720,
+  "upgrade_price": 190,
+  "recipe": [
+   "boots",
+   "knife"
+  ],
+  "stats": {
+   "move_speed_mult": 10,
+   "attack_speed_mult": 15
+  },
+  "dropped_stats": {},
+  "needs_rule": {},
+  "bonus_text": "+40 Movement Speed, +15% Attack Speed",
+  "unique_text": "",
+  "passive_text": "",
+  "active_text": "",
+  "has_passive": false,
+  "has_active": false,
+  "tier": 2
+ },
+ "tough_boots": {
+  "key": "tough_boots",
+  "name": "Tough Boots",
+  "caption": "CC Duration Reduction",
+  "category": "MoveSpeed",
+  "mlbb_type": "Movement",
+  "price": 720,
+  "upgrade_price": 250,
+  "recipe": [
+   "boots",
+   "magic_resist_cloak"
+  ],
+  "stats": {
+   "move_speed_mult": 10,
+   "magic_resistance": 18
+  },
+  "dropped_stats": {},
+  "needs_rule": {},
+  "bonus_text": "+40 Movement Speed, +18 Magic Defense",
+  "unique_text": "",
+  "passive_text": "Fortitude: CC and Slow Duration reduced by 25%.",
+  "active_text": "",
+  "has_passive": true,
+  "has_active": false,
+  "tier": 2
+ },
+ "warrior_boots": {
+  "key": "warrior_boots",
+  "name": "Warrior Boots",
+  "caption": "Stackable Physical Defense",
+  "category": "MoveSpeed",
+  "mlbb_type": "Movement",
+  "price": 720,
+  "upgrade_price": 250,
+  "recipe": [
+   "boots",
+   "leather_jerkin"
+  ],
+  "stats": {
+   "move_speed_mult": 10,
+   "defence": 18
+  },
+  "dropped_stats": {},
+  "needs_rule": {},
+  "bonus_text": "+40 Movement Speed, +18 Physical Defense",
+  "unique_text": "",
+  "passive_text": "Valor: Gains 4 extra Physical Defense for 3 seconds when taking Physical Damage, up to 20.",
+  "active_text": "",
+  "has_passive": true,
+  "has_active": false,
+  "tier": 2
+ },
+ "allow_throw": {
+  "key": "allow_throw",
+  "name": "Allow Throw",
+  "caption": "",
+  "category": "MoveSpeed",
+  "mlbb_type": "Movement",
+  "price": 0,
+  "upgrade_price": null,
+  "recipe": [],
+  "stats": {},
+  "dropped_stats": {},
+  "needs_rule": {},
+  "bonus_text": "",
+  "unique_text": "",
+  "passive_text": "Trust: Allow allied Jawhead to fling you.",
+  "active_text": "",
+  "has_passive": true,
+  "has_active": false,
+  "tier": 1
+ },
+ "boots": {
+  "key": "boots",
+  "name": "Boots",
+  "caption": "",
+  "category": "MoveSpeed",
+  "mlbb_type": "Movement",
+  "price": 250,
+  "upgrade_price": null,
+  "recipe": [],
+  "stats": {
+   "move_speed_mult": 5
+  },
+  "dropped_stats": {},
+  "needs_rule": {},
+  "bonus_text": "+20 Movement Speed",
+  "unique_text": "",
+  "passive_text": "",
+  "active_text": "",
+  "has_passive": false,
+  "has_active": false,
+  "tier": 1
+ },
+ "broken_heart": {
+  "key": "broken_heart",
+  "name": "Broken Heart",
+  "caption": "",
+  "category": "MoveSpeed",
+  "mlbb_type": "Movement",
+  "price": 0,
+  "upgrade_price": null,
+  "recipe": [],
+  "stats": {},
+  "dropped_stats": {},
+  "needs_rule": {},
+  "bonus_text": "",
+  "unique_text": "",
+  "passive_text": "Heart Broken: Become immune to allied Cecilion's Moonlit Waltz in this match.",
+  "active_text": "",
+  "has_passive": true,
+  "has_active": false,
+  "tier": 1
+ },
+ "resonating_heart": {
+  "key": "resonating_heart",
+  "name": "Resonating Heart",
+  "caption": "",
+  "category": "MoveSpeed",
+  "mlbb_type": "Movement",
+  "price": 0,
+  "upgrade_price": null,
+  "recipe": [],
+  "stats": {},
+  "dropped_stats": {},
+  "needs_rule": {},
+  "bonus_text": "",
+  "unique_text": "",
+  "passive_text": "Restore: Allow allied Cecilion to use Moonlit Waltz on the user of this equipment.",
+  "active_text": "",
+  "has_passive": true,
+  "has_active": false,
+  "tier": 1
+ },
+ "throw_forbidden": {
+  "key": "throw_forbidden",
+  "name": "Throw Forbidden",
+  "caption": "",
+  "category": "MoveSpeed",
+  "mlbb_type": "Movement",
+  "price": 0,
+  "upgrade_price": null,
+  "recipe": [],
+  "stats": {},
+  "dropped_stats": {},
+  "needs_rule": {},
+  "bonus_text": "",
+  "unique_text": "",
+  "passive_text": "Heavy Mountain: Become immune to allied Jawhead's Ejector in this match.",
+  "active_text": "",
+  "has_passive": true,
+  "has_active": false,
+  "tier": 1
+ },
+ "bloody_retribution": {
+  "key": "bloody_retribution",
+  "name": "Bloody Retribution",
+  "caption": "",
+  "category": "Ad",
+  "mlbb_type": "Jungling",
+  "price": null,
+  "upgrade_price": null,
+  "recipe": [],
+  "stats": {},
+  "dropped_stats": {},
+  "needs_rule": {},
+  "bonus_text": "",
+  "unique_text": "",
+  "passive_text": "",
+  "active_text": "Retribution's damage against creeps and minions is increased to 150%. When cast on an enemy hero, deals them 100 True Damage and steals HP equal to 300 plus 24% of the caster's extra HP from them for 3 seconds. <br> Retribution is upgraded when the total number of creep kills, hero kills, and assists reaches 5.",
+  "has_passive": false,
+  "has_active": true,
+  "tier": 1
+ },
+ "flame_retribution": {
+  "key": "flame_retribution",
+  "name": "Flame Retribution",
+  "caption": "",
+  "category": "Ad",
+  "mlbb_type": "Jungling",
+  "price": null,
+  "upgrade_price": null,
+  "recipe": [],
+  "stats": {},
+  "dropped_stats": {},
+  "needs_rule": {},
+  "bonus_text": "",
+  "unique_text": "",
+  "passive_text": "",
+  "active_text": "Retribution's damage against creeps and minions is increased to 150%. When cast on an enemy hero, deals them 100 True Damage and steals 71-120 Physical Attack and Magic Power (scales with level) from them for 3 seconds. <br> Retribution is upgraded when the total number of creep kills, hero kills, and assists reaches 5.",
+  "has_passive": false,
+  "has_active": true,
+  "tier": 1
+ },
+ "ice_retribution": {
+  "key": "ice_retribution",
+  "name": "Ice Retribution",
+  "caption": "",
+  "category": "Ad",
+  "mlbb_type": "Jungling",
+  "price": null,
+  "upgrade_price": null,
+  "recipe": [],
+  "stats": {},
+  "dropped_stats": {},
+  "needs_rule": {},
+  "bonus_text": "",
+  "unique_text": "",
+  "passive_text": "",
+  "active_text": "Retribution's damage against creeps and minions is increased to 150%. When cast on an enemy hero, deals them 100 True Damage and steals 52-80 Movement Speed (scales with level) from them for 3 seconds. <br> Retribution is upgraded when the total number of creep kills, hero kills, and assists reaches 5.",
+  "has_passive": false,
+  "has_active": true,
+  "tier": 1
+ },
+ "active_conceal": {
+  "key": "active_conceal",
+  "name": "Active - Conceal",
+  "caption": "",
+  "category": "Support",
+  "mlbb_type": "Roaming",
+  "price": null,
+  "upgrade_price": null,
+  "recipe": [],
+  "stats": {},
+  "dropped_stats": {},
+  "needs_rule": {},
+  "bonus_text": "",
+  "unique_text": "",
+  "passive_text": "",
+  "active_text": "Conceals you and nearby allied heroes, granting 40% Movement Speed for 5 seconds, or until taking or dealing damage. (Cooldown: 60 seconds) <br> When near allied heroes, you gain 30% EXP and Gold from minions and creeps. Dealing damage to enemy heroes (Cooldown: 15 seconds) or revealing enemies also grants EXP and Gold. This skill can only be unlocked after accumulating 1000 Gold from Thriving.",
+  "has_passive": false,
+  "has_active": true,
+  "tier": 1
+ },
+ "passive_dire_hit": {
+  "key": "passive_dire_hit",
+  "name": "Passive - Dire Hit",
+  "caption": "",
+  "category": "Support",
+  "mlbb_type": "Roaming",
+  "price": null,
+  "upgrade_price": null,
+  "recipe": [],
+  "stats": {},
+  "dropped_stats": {},
+  "needs_rule": {},
+  "bonus_text": "",
+  "unique_text": "",
+  "passive_text": "Gains Force while moving, gradually increasing Movement Speed (up to 40). Upon reaching 20 stacks, the next hit consumes all stacks to deal extra True Damage based on the number of stacks. <br> When near allied heroes, you gain 30% EXP and Gold from minions and creeps. Dealing damage to enemy heroes (Cooldown: 15 seconds) or revealing enemies also grants EXP and Gold. This skill can only be unlocked after accumulating 1000 Gold from Thriving.",
+  "active_text": "",
+  "has_passive": true,
+  "has_active": false,
+  "tier": 1
+ },
+ "passive_encourage": {
+  "key": "passive_encourage",
+  "name": "Passive - Encourage",
+  "caption": "",
+  "category": "Support",
+  "mlbb_type": "Roaming",
+  "price": null,
+  "upgrade_price": null,
+  "recipe": [],
+  "stats": {},
+  "dropped_stats": {},
+  "needs_rule": {},
+  "bonus_text": "",
+  "unique_text": "",
+  "passive_text": "Grants you and nearby allied heroes 20 extra Hybrid Defense. <br> When near allied heroes, you gain 30% EXP and Gold from minions and creeps. Dealing damage to enemy heroes (Cooldown: 15 seconds) or revealing enemies also grants EXP and Gold. This skill can only be unlocked after accumulating 1000 Gold from Thriving.",
+  "active_text": "",
+  "has_passive": true,
+  "has_active": false,
+  "tier": 1
+ },
+ "passive_favor": {
+  "key": "passive_favor",
+  "name": "Passive - Favor",
+  "caption": "",
+  "category": "Support",
+  "mlbb_type": "Roaming",
+  "price": null,
+  "upgrade_price": null,
+  "recipe": [],
+  "stats": {},
+  "dropped_stats": {},
+  "needs_rule": {},
+  "bonus_text": "",
+  "unique_text": "",
+  "passive_text": "Every 15 seconds, your next healing or shield skill recovers 400 extra HP to the lowest-HP allied hero within 5 units (including yourself). Skills that only take effect on yourself cannot trigger this effect. <br> When near allied heroes, you gain 30% EXP and Gold from minions and creeps. Dealing damage to enemy heroes (Cooldown: 15 seconds) or revealing enemies also grants EXP and Gold. This skill can only be unlocked after accumulating 1000 Gold from Thriving.",
+  "active_text": "",
+  "has_passive": true,
+  "has_active": false,
+  "tier": 1
+ }
+}

@@ -1,0 +1,2221 @@
+{
+  "berserkers_fury": [
+    {
+      "id": "crit_damage",
+      "label": "Crit damage (%)",
+      "default": 30.0,
+      "min": 0,
+      "max": 100,
+      "whole": true,
+      "position": 0
+    },
+    {
+      "id": "true_damage",
+      "label": "True damage (%)",
+      "default": 12.0,
+      "min": 0,
+      "max": 100,
+      "whole": true,
+      "position": 1,
+      "mythical_scale": 1.25
+    }
+  ],
+  "blade_of_despair": [
+    {
+      "id": "damage_bonus",
+      "label": "Damage bonus (%)",
+      "default": 25.0,
+      "min": 0,
+      "max": 100,
+      "whole": true,
+      "position": 0,
+      "mythical_scale": 1.25,
+      "mythical_round": true
+    }
+  ],
+  "blade_of_the_heptaseas": [
+    {
+      "id": "base_damage",
+      "label": "Base damage",
+      "default": 56.0,
+      "min": 0,
+      "max": 2500,
+      "whole": true,
+      "position": 1,
+      "mythical_scale": 1.25
+    },
+    {
+      "id": "attack_ratio",
+      "label": "Attack ratio (%)",
+      "default": 40.0,
+      "min": 0,
+      "max": 100,
+      "whole": true,
+      "position": 2,
+      "mythical_scale": 1.25
+    },
+    {
+      "id": "slow",
+      "label": "Slow (%)",
+      "default": 40.0,
+      "min": 0,
+      "max": 100,
+      "whole": true,
+      "position": 3
+    },
+    {
+      "id": "slow_time",
+      "label": "Slow time (seconds)",
+      "default": 1.5,
+      "min": 0.05,
+      "max": 30,
+      "whole": false,
+      "position": 4
+    }
+  ],
+  "corrosion_scythe": [
+    {
+      "id": "base_damage",
+      "label": "Base damage",
+      "default": 28.0,
+      "min": 0,
+      "max": 2500,
+      "whole": true,
+      "position": 0,
+      "mythical_scale": 1.25
+    },
+    {
+      "id": "impulse_speed",
+      "label": "Impulse speed (%)",
+      "default": 6.0,
+      "min": 0,
+      "max": 100,
+      "whole": true,
+      "position": 4
+    }
+  ],
+  "demon_hunter_sword": [
+    {
+      "id": "hp_damage",
+      "label": "HP damage (%)",
+      "default": 8.0,
+      "min": 0,
+      "max": 100,
+      "whole": true,
+      "position": 0,
+      "mythical_scale": 1.25
+    },
+    {
+      "id": "monster_cap",
+      "label": "Monster cap",
+      "default": 60.0,
+      "min": 0,
+      "max": 2500,
+      "whole": true,
+      "position": 1
+    },
+    {
+      "id": "heal_base",
+      "label": "Heal base",
+      "default": 10.0,
+      "min": 0,
+      "max": 2500,
+      "whole": true,
+      "position": 2,
+      "mythical_scale": 1.25,
+      "mythical_round": true
+    },
+    {
+      "id": "heal_per_level",
+      "label": "Heal per level",
+      "default": 4.0,
+      "min": 0,
+      "max": 2500,
+      "whole": true,
+      "position": 3,
+      "mythical_scale": 1.25
+    }
+  ],
+  "endless_battle": [
+    {
+      "id": "cast_window",
+      "label": "Cast window (seconds)",
+      "default": 3.0,
+      "min": 0.05,
+      "max": 30,
+      "whole": false,
+      "position": 0
+    },
+    {
+      "id": "attack_ratio",
+      "label": "Attack ratio (%)",
+      "default": 60.0,
+      "min": 0,
+      "max": 100,
+      "whole": true,
+      "position": 1,
+      "mythical_scale": 1.25
+    },
+    {
+      "id": "heal_base",
+      "label": "Heal base",
+      "default": 28.0,
+      "min": 0,
+      "max": 2500,
+      "whole": true,
+      "position": 2,
+      "mythical_scale": 1.25
+    },
+    {
+      "id": "heal_ratio",
+      "label": "Heal ratio (%)",
+      "default": 40.0,
+      "min": 0,
+      "max": 100,
+      "whole": true,
+      "position": 3,
+      "mythical_scale": 1.25
+    },
+    {
+      "id": "cooldown",
+      "label": "Cooldown (seconds)",
+      "default": 1.5,
+      "min": 0.05,
+      "max": 30,
+      "whole": false,
+      "position": 4
+    }
+  ],
+  "golden_staff": [
+    {
+      "id": "empowered_speed",
+      "label": "Empowered speed (%)",
+      "default": 80.0,
+      "min": 0,
+      "max": 100,
+      "whole": true,
+      "position": 0
+    },
+    {
+      "id": "speed_time",
+      "label": "Speed time (seconds)",
+      "default": 0.5,
+      "min": 0.05,
+      "max": 30,
+      "whole": false,
+      "position": 1
+    }
+  ],
+  "great_dragon_spear": [
+    {
+      "id": "movement_speed",
+      "label": "Movement speed (%)",
+      "default": 30.0,
+      "min": 0,
+      "max": 100,
+      "whole": true,
+      "position": 0
+    },
+    {
+      "id": "duration",
+      "label": "Duration (seconds)",
+      "default": 7.5,
+      "min": 0.05,
+      "max": 30,
+      "whole": false,
+      "position": 1
+    },
+    {
+      "id": "cooldown",
+      "label": "Cooldown (seconds)",
+      "default": 15.0,
+      "min": 0.05,
+      "max": 30,
+      "whole": false,
+      "position": 2
+    }
+  ],
+  "haas_claws": [
+    {
+      "id": "frenzy_speed",
+      "label": "Frenzy speed (%)",
+      "default": 20.0,
+      "min": 0,
+      "max": 100,
+      "whole": true,
+      "position": 0
+    },
+    {
+      "id": "frenzy_time",
+      "label": "Frenzy time (seconds)",
+      "default": 2.0,
+      "min": 0.05,
+      "max": 30,
+      "whole": false,
+      "position": 1
+    },
+    {
+      "id": "lifesteal",
+      "label": "Lifesteal (%)",
+      "default": 12.0,
+      "min": 0,
+      "max": 100,
+      "whole": true,
+      "position": 2,
+      "mythical_scale": 1.25,
+      "mythical_round": true
+    }
+  ],
+  "hunter_strike": [
+    {
+      "id": "hits",
+      "label": "Hits",
+      "default": 5.0,
+      "min": 1,
+      "max": 50,
+      "whole": true,
+      "position": 0
+    },
+    {
+      "id": "movement_speed",
+      "label": "Movement speed (%)",
+      "default": 50.0,
+      "min": 0,
+      "max": 100,
+      "whole": true,
+      "position": 1
+    },
+    {
+      "id": "duration",
+      "label": "Duration (seconds)",
+      "default": 3.0,
+      "min": 0.05,
+      "max": 30,
+      "whole": false,
+      "position": 2
+    },
+    {
+      "id": "cooldown",
+      "label": "Cooldown (seconds)",
+      "default": 8.0,
+      "min": 0.05,
+      "max": 30,
+      "whole": false,
+      "position": 3
+    }
+  ],
+  "malefic_gun": [
+    {
+      "id": "range_bonus",
+      "label": "Range bonus (%)",
+      "default": 12.0,
+      "min": 0,
+      "max": 100,
+      "whole": true,
+      "position": 1
+    },
+    {
+      "id": "movement_speed",
+      "label": "Movement speed (%)",
+      "default": 10.0,
+      "min": 0,
+      "max": 100,
+      "whole": true,
+      "position": 2
+    },
+    {
+      "id": "speed_time",
+      "label": "Speed time (seconds)",
+      "default": 0.5,
+      "min": 0.05,
+      "max": 30,
+      "whole": false,
+      "position": 3
+    }
+  ],
+  "rose_gold_meteor": [
+    {
+      "id": "resist_cap",
+      "label": "Resist cap",
+      "default": 35.0,
+      "min": 0,
+      "max": 2500,
+      "whole": true,
+      "position": 1
+    },
+    {
+      "id": "shield_per_level",
+      "label": "Shield per level",
+      "default": 42.0,
+      "min": 0,
+      "max": 2500,
+      "whole": true,
+      "position": 3,
+      "mythical_scale": 1.25
+    },
+    {
+      "id": "movement_speed",
+      "label": "Movement speed (%)",
+      "default": 25.0,
+      "min": 0,
+      "max": 100,
+      "whole": true,
+      "position": 4
+    },
+    {
+      "id": "shield_time",
+      "label": "Shield time (seconds)",
+      "default": 3.0,
+      "min": 0.05,
+      "max": 30,
+      "whole": false,
+      "position": 5
+    },
+    {
+      "id": "cooldown",
+      "label": "Cooldown (seconds)",
+      "default": 60.0,
+      "min": 0.1,
+      "max": 360,
+      "whole": false,
+      "position": 6
+    }
+  ],
+  "sea_halberd": [
+    {
+      "id": "lifebane_time",
+      "label": "Lifebane time (seconds)",
+      "default": 3.0,
+      "min": 0.05,
+      "max": 30,
+      "whole": false,
+      "position": 1
+    },
+    {
+      "id": "damage_bonus",
+      "label": "Damage bonus (%)",
+      "default": 8.0,
+      "min": 0,
+      "max": 100,
+      "whole": true,
+      "position": 2
+    }
+  ],
+  "war_axe": [
+    {
+      "id": "attack_per_stack",
+      "label": "Attack per stack",
+      "default": 4.0,
+      "min": 0,
+      "max": 2500,
+      "whole": true,
+      "position": 0
+    },
+    {
+      "id": "stack_time",
+      "label": "Stack time (seconds)",
+      "default": 4.0,
+      "min": 0.05,
+      "max": 30,
+      "whole": false,
+      "position": 1
+    },
+    {
+      "id": "stack_cap",
+      "label": "Stack cap",
+      "default": 6.0,
+      "min": 1,
+      "max": 50,
+      "whole": true,
+      "position": 2
+    },
+    {
+      "id": "true_damage",
+      "label": "True damage (%)",
+      "default": 10.0,
+      "min": 0,
+      "max": 100,
+      "whole": true,
+      "position": 3,
+      "mythical_scale": 1.25
+    }
+  ],
+  "wind_of_nature": [
+    {
+      "id": "marksman_duration",
+      "label": "Marksman duration (seconds)",
+      "default": 2.0,
+      "min": 0.05,
+      "max": 30,
+      "whole": false,
+      "position": 1
+    },
+    {
+      "id": "other_duration",
+      "label": "Other duration (seconds)",
+      "default": 1.0,
+      "min": 0.05,
+      "max": 30,
+      "whole": false,
+      "position": 2
+    },
+    {
+      "id": "cooldown",
+      "label": "Cooldown (seconds)",
+      "default": 90.0,
+      "min": 0.1,
+      "max": 360,
+      "whole": false,
+      "position": 3
+    }
+  ],
+  "windtalker": [
+    {
+      "id": "base_damage",
+      "label": "Base damage",
+      "default": 50.0,
+      "min": 0,
+      "max": 2500,
+      "whole": true,
+      "position": 0,
+      "mythical_scale": 1.25
+    },
+    {
+      "id": "level_damage",
+      "label": "Level damage",
+      "default": 5.0,
+      "min": 0,
+      "max": 2500,
+      "whole": true,
+      "position": 1,
+      "mythical_scale": 1.25
+    },
+    {
+      "id": "targets",
+      "label": "Targets",
+      "default": 3.0,
+      "min": 1,
+      "max": 50,
+      "whole": true,
+      "position": 2
+    },
+    {
+      "id": "cooldown",
+      "label": "Cooldown (seconds)",
+      "default": 4.0,
+      "min": 0.05,
+      "max": 30,
+      "whole": false,
+      "position": 3
+    },
+    {
+      "id": "hit_reduction",
+      "label": "Hit reduction (seconds)",
+      "default": 0.2,
+      "min": 0.05,
+      "max": 30,
+      "whole": false,
+      "position": 4
+    }
+  ],
+  "magic_blade": [
+    {
+      "id": "shield_per_level",
+      "label": "Shield per level",
+      "default": 21.0,
+      "min": 0,
+      "max": 2500,
+      "whole": true,
+      "position": 1,
+      "mythical_scale": 1.25
+    },
+    {
+      "id": "movement_speed",
+      "label": "Movement speed (%)",
+      "default": 25.0,
+      "min": 0,
+      "max": 100,
+      "whole": true,
+      "position": 2
+    },
+    {
+      "id": "shield_time",
+      "label": "Shield time (seconds)",
+      "default": 3.0,
+      "min": 0.05,
+      "max": 30,
+      "whole": false,
+      "position": 3
+    },
+    {
+      "id": "cooldown",
+      "label": "Cooldown (seconds)",
+      "default": 60.0,
+      "min": 0.1,
+      "max": 360,
+      "whole": false,
+      "position": 4
+    }
+  ],
+  "swift_crossbow": [
+    {
+      "id": "base_damage",
+      "label": "Base damage",
+      "default": 14.0,
+      "min": 0,
+      "max": 2500,
+      "whole": true,
+      "position": 0
+    },
+    {
+      "id": "impulse_speed",
+      "label": "Impulse speed (%)",
+      "default": 3.0,
+      "min": 0,
+      "max": 100,
+      "whole": true,
+      "position": 1
+    }
+  ],
+  "vampire_mallet": [
+    {
+      "id": "lifesteal",
+      "label": "Lifesteal (%)",
+      "default": 8.0,
+      "min": 0,
+      "max": 100,
+      "whole": true,
+      "position": 0
+    }
+  ],
+  "blood_wings": [
+    {
+      "id": "shield_base",
+      "label": "Shield base",
+      "default": 280.0,
+      "min": 0,
+      "max": 2500,
+      "whole": true,
+      "position": 0,
+      "mythical_scale": 1.25
+    },
+    {
+      "id": "shield_ratio",
+      "label": "Shield ratio (%)",
+      "default": 100.0,
+      "min": 0,
+      "max": 100,
+      "whole": true,
+      "position": 1,
+      "mythical_scale": 1.25
+    },
+    {
+      "id": "rearm_time",
+      "label": "Rearm time (seconds)",
+      "default": 20.0,
+      "min": 0.05,
+      "max": 30,
+      "whole": false,
+      "position": 2
+    },
+    {
+      "id": "shielded_speed",
+      "label": "Shielded speed (%)",
+      "default": 10.0,
+      "min": 0,
+      "max": 100,
+      "whole": true,
+      "position": 3
+    },
+    {
+      "id": "break_speed",
+      "label": "Break speed (%)",
+      "default": 50.0,
+      "min": 0,
+      "max": 100,
+      "whole": true,
+      "position": 4
+    },
+    {
+      "id": "break_time",
+      "label": "Break time (seconds)",
+      "default": 1.0,
+      "min": 0.05,
+      "max": 30,
+      "whole": false,
+      "position": 5
+    }
+  ],
+  "clock_of_destiny": [
+    {
+      "id": "resist_base",
+      "label": "Resist base",
+      "default": 4.5,
+      "min": 0.01,
+      "max": 150,
+      "whole": false,
+      "position": 0
+    },
+    {
+      "id": "resist_level",
+      "label": "Resist level",
+      "default": 0.5,
+      "min": 0.01,
+      "max": 150,
+      "whole": false,
+      "position": 1
+    },
+    {
+      "id": "stack_time",
+      "label": "Stack time (seconds)",
+      "default": 5.0,
+      "min": 0.05,
+      "max": 30,
+      "whole": false,
+      "position": 2
+    },
+    {
+      "id": "stack_cap",
+      "label": "Stack cap",
+      "default": 6.0,
+      "min": 1,
+      "max": 50,
+      "whole": true,
+      "position": 3
+    },
+    {
+      "id": "stack_gate",
+      "label": "Stack gate (seconds)",
+      "default": 0.4,
+      "min": 0.05,
+      "max": 30,
+      "whole": false,
+      "position": 4
+    },
+    {
+      "id": "gift_threshold",
+      "label": "Gift trigger health (%)",
+      "default": 50,
+      "min": 1,
+      "max": 80,
+      "whole": true,
+      "position": 5
+    },
+    {
+      "id": "gift_recovery",
+      "label": "Gift recovery (% maximum health)",
+      "default": 15,
+      "min": 0,
+      "max": 60,
+      "whole": false,
+      "position": 6,
+      "mythical_scale": 1.25
+    },
+    {
+      "id": "gift_duration",
+      "label": "Gift recovery time (seconds)",
+      "default": 3,
+      "min": 0.6,
+      "max": 15,
+      "whole": false,
+      "position": 7
+    },
+    {
+      "id": "gift_cooldown",
+      "label": "Gift cooldown (seconds)",
+      "default": 60,
+      "min": 1,
+      "max": 240,
+      "whole": false,
+      "position": 8
+    }
+  ],
+  "concentrated_energy": [
+    {
+      "id": "magic_per_stack",
+      "label": "Magic per stack",
+      "default": 3.0,
+      "min": 0,
+      "max": 2500,
+      "whole": true,
+      "position": 0
+    },
+    {
+      "id": "stack_time",
+      "label": "Stack time (seconds)",
+      "default": 5.0,
+      "min": 0.05,
+      "max": 30,
+      "whole": false,
+      "position": 1
+    },
+    {
+      "id": "stack_cap",
+      "label": "Stack cap",
+      "default": 6.0,
+      "min": 1,
+      "max": 50,
+      "whole": true,
+      "position": 2
+    },
+    {
+      "id": "stack_gate",
+      "label": "Stack gate (seconds)",
+      "default": 0.4,
+      "min": 0.05,
+      "max": 30,
+      "whole": false,
+      "position": 3
+    },
+    {
+      "id": "damage_bonus",
+      "label": "Damage bonus (%)",
+      "default": 12.0,
+      "min": 0,
+      "max": 100,
+      "whole": true,
+      "position": 4
+    },
+    {
+      "id": "lifesteal",
+      "label": "Lifesteal (%)",
+      "default": 12.0,
+      "min": 0,
+      "max": 100,
+      "whole": true,
+      "position": 5,
+      "mythical_scale": 1.25,
+      "mythical_round": true
+    }
+  ],
+  "feather_of_heaven": [
+    {
+      "id": "base_damage",
+      "label": "Base damage",
+      "default": 18.0,
+      "min": 0,
+      "max": 2500,
+      "whole": true,
+      "position": 0,
+      "mythical_scale": 1.25
+    },
+    {
+      "id": "magic_ratio",
+      "label": "Magic ratio (%)",
+      "default": 30.0,
+      "min": 0,
+      "max": 100,
+      "whole": true,
+      "position": 1,
+      "mythical_scale": 1.25
+    },
+    {
+      "id": "impulse_speed",
+      "label": "Impulse speed (%)",
+      "default": 6.0,
+      "min": 0,
+      "max": 100,
+      "whole": true,
+      "position": 2
+    }
+  ],
+  "flask_of_the_oasis": [
+    {
+      "id": "heal_shield_power",
+      "label": "Heal shield power (%)",
+      "default": 12.0,
+      "min": 0,
+      "max": 100,
+      "whole": true,
+      "position": 0,
+      "mythical_scale": 1.25
+    },
+    {
+      "id": "ally_hp",
+      "label": "Ally HP (%)",
+      "default": 35.0,
+      "min": 0,
+      "max": 100,
+      "whole": true,
+      "position": 1
+    },
+    {
+      "id": "window",
+      "label": "Window (seconds)",
+      "default": 3.0,
+      "min": 0.05,
+      "max": 30,
+      "whole": false,
+      "position": 2
+    },
+    {
+      "id": "shield_per_level",
+      "label": "Shield per level",
+      "default": 35.0,
+      "min": 0,
+      "max": 2500,
+      "whole": true,
+      "position": 3,
+      "mythical_scale": 1.25
+    },
+    {
+      "id": "shield_time",
+      "label": "Shield time (seconds)",
+      "default": 3.0,
+      "min": 0.05,
+      "max": 30,
+      "whole": false,
+      "position": 4
+    },
+    {
+      "id": "skill_reduction",
+      "label": "Skill reduction (seconds)",
+      "default": 2.0,
+      "min": 0.05,
+      "max": 30,
+      "whole": false,
+      "position": 5
+    },
+    {
+      "id": "cooldown",
+      "label": "Cooldown (seconds)",
+      "default": 60.0,
+      "min": 0.1,
+      "max": 360,
+      "whole": false,
+      "position": 6
+    }
+  ],
+  "glowing_wand": [
+    {
+      "id": "burn_hp",
+      "label": "Burn HP",
+      "default": 1.0,
+      "min": 0.01,
+      "max": 150,
+      "whole": false,
+      "position": 0,
+      "mythical_scale": 1.25
+    },
+    {
+      "id": "burn_time",
+      "label": "Burn time (seconds)",
+      "default": 3.0,
+      "min": 0.05,
+      "max": 30,
+      "whole": false,
+      "position": 1
+    },
+    {
+      "id": "lifebane_time",
+      "label": "Lifebane time (seconds)",
+      "default": 3.0,
+      "min": 0.05,
+      "max": 30,
+      "whole": false,
+      "position": 3
+    }
+  ],
+  "ice_queen_wand": [
+    {
+      "id": "slow_per_stack",
+      "label": "Slow per stack (%)",
+      "default": 10.0,
+      "min": 0,
+      "max": 100,
+      "whole": true,
+      "position": 0
+    },
+    {
+      "id": "slow_time",
+      "label": "Slow time (seconds)",
+      "default": 2.0,
+      "min": 0.05,
+      "max": 30,
+      "whole": false,
+      "position": 1
+    },
+    {
+      "id": "slow_cap",
+      "label": "Slow cap",
+      "default": 3.0,
+      "min": 1,
+      "max": 50,
+      "whole": true,
+      "position": 2
+    },
+    {
+      "id": "stack_gate",
+      "label": "Stack gate (seconds)",
+      "default": 0.4,
+      "min": 0.05,
+      "max": 30,
+      "whole": false,
+      "position": 3
+    }
+  ],
+  "lightning_truncheon": [
+    {
+      "id": "cooldown",
+      "label": "Cooldown (seconds)",
+      "default": 6.0,
+      "min": 0.05,
+      "max": 30,
+      "whole": false,
+      "position": 0
+    },
+    {
+      "id": "base_damage",
+      "label": "Base damage",
+      "default": 85.0,
+      "min": 0,
+      "max": 2500,
+      "whole": true,
+      "position": 1,
+      "mythical_scale": 1.25
+    },
+    {
+      "id": "magic_ratio",
+      "label": "Magic ratio (%)",
+      "default": 85.0,
+      "min": 0,
+      "max": 100,
+      "whole": true,
+      "position": 2,
+      "mythical_scale": 1.25
+    }
+  ],
+  "starlium_scythe": [
+    {
+      "id": "cast_window",
+      "label": "Cast window (seconds)",
+      "default": 3.0,
+      "min": 0.05,
+      "max": 30,
+      "whole": false,
+      "position": 0
+    },
+    {
+      "id": "base_damage",
+      "label": "Base damage",
+      "default": 30.0,
+      "min": 0,
+      "max": 2500,
+      "whole": true,
+      "position": 1,
+      "mythical_scale": 1.25
+    },
+    {
+      "id": "magic_ratio",
+      "label": "Magic ratio (%)",
+      "default": 60.0,
+      "min": 0,
+      "max": 100,
+      "whole": true,
+      "position": 2,
+      "mythical_scale": 1.25
+    },
+    {
+      "id": "slow",
+      "label": "Slow (%)",
+      "default": 15.0,
+      "min": 0,
+      "max": 100,
+      "whole": true,
+      "position": 3
+    },
+    {
+      "id": "slow_time",
+      "label": "Slow time (seconds)",
+      "default": 1.5,
+      "min": 0.05,
+      "max": 30,
+      "whole": false,
+      "position": 4
+    },
+    {
+      "id": "cooldown",
+      "label": "Cooldown (seconds)",
+      "default": 1.5,
+      "min": 0.05,
+      "max": 30,
+      "whole": false,
+      "position": 5
+    }
+  ],
+  "wishing_lantern": [
+    {
+      "id": "damage_threshold",
+      "label": "Damage threshold",
+      "default": 315.0,
+      "min": 0,
+      "max": 2500,
+      "whole": true,
+      "position": 0
+    },
+    {
+      "id": "hp_damage",
+      "label": "HP damage (%)",
+      "default": 8.0,
+      "min": 0,
+      "max": 100,
+      "whole": true,
+      "position": 1,
+      "mythical_scale": 1.25
+    }
+  ],
+  "azure_blade": [
+    {
+      "id": "cast_window",
+      "label": "Cast window (seconds)",
+      "default": 3.0,
+      "min": 0.05,
+      "max": 30,
+      "whole": false,
+      "position": 0
+    },
+    {
+      "id": "base_damage",
+      "label": "Base damage",
+      "default": 18.0,
+      "min": 0,
+      "max": 2500,
+      "whole": true,
+      "position": 1
+    },
+    {
+      "id": "cooldown",
+      "label": "Cooldown (seconds)",
+      "default": 1.5,
+      "min": 0.05,
+      "max": 30,
+      "whole": false,
+      "position": 2
+    }
+  ],
+  "mystic_container": [
+    {
+      "id": "spell_vamp",
+      "label": "Spell vamp (%)",
+      "default": 8.0,
+      "min": 0,
+      "max": 100,
+      "whole": true,
+      "position": 0
+    }
+  ],
+  "antique_cuirass": [
+    {
+      "id": "damage_reduction",
+      "label": "Damage reduction (%)",
+      "default": 8.0,
+      "min": 0,
+      "max": 100,
+      "whole": true,
+      "position": 0
+    }
+  ],
+  "blade_armor": [
+    {
+      "id": "reflect",
+      "label": "Reflect (%)",
+      "default": 30.0,
+      "min": 0,
+      "max": 100,
+      "whole": true,
+      "position": 0,
+      "mythical_scale": 1.25
+    },
+    {
+      "id": "armor_ratio",
+      "label": "Armor ratio",
+      "default": 0.2,
+      "min": 0.01,
+      "max": 150,
+      "whole": false,
+      "position": 1,
+      "mythical_scale": 1.25
+    },
+    {
+      "id": "slow",
+      "label": "Slow (%)",
+      "default": 15.0,
+      "min": 0,
+      "max": 100,
+      "whole": true,
+      "position": 2
+    },
+    {
+      "id": "slow_time",
+      "label": "Slow time (seconds)",
+      "default": 1.0,
+      "min": 0.05,
+      "max": 30,
+      "whole": false,
+      "position": 3
+    }
+  ],
+  "brute_force_breastplate": [
+    {
+      "id": "stack_time",
+      "label": "Stack time (seconds)",
+      "default": 4.0,
+      "min": 0.05,
+      "max": 30,
+      "whole": false,
+      "position": 0
+    },
+    {
+      "id": "stack_cap",
+      "label": "Stack cap",
+      "default": 6.0,
+      "min": 1,
+      "max": 50,
+      "whole": true,
+      "position": 1
+    },
+    {
+      "id": "attack_per_stack",
+      "label": "Attack per stack",
+      "default": 2.0,
+      "min": 0,
+      "max": 2500,
+      "whole": true,
+      "position": 2
+    },
+    {
+      "id": "magic_per_stack",
+      "label": "Magic per stack",
+      "default": 3.0,
+      "min": 0,
+      "max": 2500,
+      "whole": true,
+      "position": 3
+    },
+    {
+      "id": "speed_per_stack",
+      "label": "Speed per stack (%)",
+      "default": 2.0,
+      "min": 0,
+      "max": 100,
+      "whole": true,
+      "position": 4
+    },
+    {
+      "id": "max_stack_tenacity",
+      "label": "Max stack tenacity (%)",
+      "default": 25.0,
+      "min": 0,
+      "max": 100,
+      "whole": true,
+      "position": 5
+    }
+  ],
+  "chastise_pauldron": [
+    {
+      "id": "attack_slow",
+      "label": "Attack slow (%)",
+      "default": 20.0,
+      "min": 0,
+      "max": 100,
+      "whole": true,
+      "position": 0
+    },
+    {
+      "id": "slow_time",
+      "label": "Slow time (seconds)",
+      "default": 2.0,
+      "min": 0.05,
+      "max": 30,
+      "whole": false,
+      "position": 1
+    },
+    {
+      "id": "threshold",
+      "label": "Threshold (%)",
+      "default": 30.0,
+      "min": 0,
+      "max": 100,
+      "whole": true,
+      "position": 2
+    },
+    {
+      "id": "heal",
+      "label": "Heal (%)",
+      "default": 20.0,
+      "min": 0,
+      "max": 100,
+      "whole": true,
+      "position": 3,
+      "mythical_scale": 1.25
+    },
+    {
+      "id": "cooldown",
+      "label": "Cooldown (seconds)",
+      "default": 60.0,
+      "min": 0.1,
+      "max": 360,
+      "whole": false,
+      "position": 5
+    }
+  ],
+  "cursed_helmet": [
+    {
+      "id": "burn",
+      "label": "Burn",
+      "default": 0.6,
+      "min": 0.01,
+      "max": 150,
+      "whole": false,
+      "position": 1,
+      "mythical_scale": 1.25
+    },
+    {
+      "id": "resist_shred",
+      "label": "Resist shred",
+      "default": 6.0,
+      "min": 0,
+      "max": 2500,
+      "whole": true,
+      "position": 2
+    },
+    {
+      "id": "shred_time",
+      "label": "Shred time (seconds)",
+      "default": 3.0,
+      "min": 0.05,
+      "max": 30,
+      "whole": false,
+      "position": 3
+    }
+  ],
+  "dominance_ice": [
+    {
+      "id": "resist_per_enemy",
+      "label": "Resist per enemy",
+      "default": 6.0,
+      "min": 0,
+      "max": 2500,
+      "whole": true,
+      "position": 0
+    },
+    {
+      "id": "resist_cap",
+      "label": "Resist cap",
+      "default": 30.0,
+      "min": 0,
+      "max": 2500,
+      "whole": true,
+      "position": 1
+    }
+  ],
+  "guardian_helmet": [
+    {
+      "id": "out_of_combat",
+      "label": "Out of combat (seconds)",
+      "default": 5.0,
+      "min": 0.05,
+      "max": 30,
+      "whole": false,
+      "position": 0
+    },
+    {
+      "id": "heal_per_second",
+      "label": "Heal per second",
+      "default": 2.5,
+      "min": 0.01,
+      "max": 150,
+      "whole": false,
+      "position": 1
+    }
+  ],
+  "immortality": [
+    {
+      "id": "recovery_time",
+      "label": "Recovery time (seconds)",
+      "default": 2.5,
+      "min": 0.05,
+      "max": 30,
+      "whole": false,
+      "position": 1
+    },
+    {
+      "id": "restore_hp",
+      "label": "Restore HP (%)",
+      "default": 16.0,
+      "min": 1,
+      "max": 100,
+      "whole": true,
+      "position": 2
+    },
+    {
+      "id": "shield_base",
+      "label": "Shield base",
+      "default": 50.0,
+      "min": 0,
+      "max": 2500,
+      "whole": true,
+      "position": 3,
+      "mythical_scale": 1.25
+    },
+    {
+      "id": "shield_per_level",
+      "label": "Shield per level",
+      "default": 25.0,
+      "min": 0,
+      "max": 2500,
+      "whole": true,
+      "position": 4,
+      "mythical_scale": 1.25
+    },
+    {
+      "id": "shield_time",
+      "label": "Shield time (seconds)",
+      "default": 3.0,
+      "min": 0.05,
+      "max": 30,
+      "whole": false,
+      "position": 5
+    },
+    {
+      "id": "cooldown",
+      "label": "Cooldown (seconds)",
+      "default": 210.0,
+      "min": 0.1,
+      "max": 360,
+      "whole": false,
+      "position": 6
+    }
+  ],
+  "oracle": [
+    {
+      "id": "received_bonus",
+      "label": "Received bonus (%)",
+      "default": 25.0,
+      "min": 0,
+      "max": 100,
+      "whole": true,
+      "position": 0
+    }
+  ],
+  "queens_wings": [
+    {
+      "id": "stat_cap",
+      "label": "Stat cap (%)",
+      "default": 15.0,
+      "min": 0,
+      "max": 100,
+      "whole": true,
+      "position": 0
+    },
+    {
+      "id": "threshold",
+      "label": "Threshold (%)",
+      "default": 40.0,
+      "min": 0,
+      "max": 100,
+      "whole": true,
+      "position": 1
+    },
+    {
+      "id": "damage_reduction",
+      "label": "Damage reduction (%)",
+      "default": 30.0,
+      "min": 0,
+      "max": 100,
+      "whole": true,
+      "position": 2
+    },
+    {
+      "id": "duration",
+      "label": "Duration (seconds)",
+      "default": 3.0,
+      "min": 0.05,
+      "max": 30,
+      "whole": false,
+      "position": 3
+    },
+    {
+      "id": "skill_reduction",
+      "label": "Skill reduction (seconds)",
+      "default": 2.0,
+      "min": 0.05,
+      "max": 30,
+      "whole": false,
+      "position": 4
+    },
+    {
+      "id": "cooldown",
+      "label": "Cooldown (seconds)",
+      "default": 60.0,
+      "min": 0.1,
+      "max": 360,
+      "whole": false,
+      "position": 5
+    }
+  ],
+  "radiant_armor": [
+    {
+      "id": "stack_time",
+      "label": "Stack time (seconds)",
+      "default": 5.0,
+      "min": 0.05,
+      "max": 30,
+      "whole": false,
+      "position": 1
+    },
+    {
+      "id": "stack_cap",
+      "label": "Stack cap",
+      "default": 6.0,
+      "min": 1,
+      "max": 50,
+      "whole": true,
+      "position": 2
+    },
+    {
+      "id": "stack_gate",
+      "label": "Stack gate (seconds)",
+      "default": 0.4,
+      "min": 0.05,
+      "max": 30,
+      "whole": false,
+      "position": 3
+    }
+  ],
+  "thunder_belt": [
+    {
+      "id": "cooldown",
+      "label": "Cooldown (seconds)",
+      "default": 4.0,
+      "min": 0.05,
+      "max": 30,
+      "whole": false,
+      "position": 0
+    },
+    {
+      "id": "base_damage",
+      "label": "Base damage",
+      "default": 18.0,
+      "min": 0,
+      "max": 2500,
+      "whole": true,
+      "position": 1,
+      "mythical_scale": 1.25
+    },
+    {
+      "id": "resist_ratio",
+      "label": "Resist ratio (%)",
+      "default": 35.0,
+      "min": 0,
+      "max": 100,
+      "whole": true,
+      "position": 2,
+      "mythical_scale": 1.25
+    },
+    {
+      "id": "slow",
+      "label": "Slow (%)",
+      "default": 90.0,
+      "min": 0,
+      "max": 100,
+      "whole": true,
+      "position": 3
+    },
+    {
+      "id": "slow_time",
+      "label": "Slow time (seconds)",
+      "default": 0.3,
+      "min": 0.05,
+      "max": 30,
+      "whole": false,
+      "position": 4
+    }
+  ],
+  "twilight_armor": [
+    {
+      "id": "recovery_threshold",
+      "label": "Recovery threshold",
+      "default": 175.0,
+      "min": 0,
+      "max": 2500,
+      "whole": true,
+      "position": 0
+    },
+    {
+      "id": "trigger_hp",
+      "label": "Trigger HP (%)",
+      "default": 30.0,
+      "min": 0,
+      "max": 100,
+      "whole": true,
+      "position": 4
+    },
+    {
+      "id": "low_hp_heal",
+      "label": "Low HP heal (%)",
+      "default": 20.0,
+      "min": 0,
+      "max": 100,
+      "whole": true,
+      "position": 5
+    },
+    {
+      "id": "cooldown",
+      "label": "Cooldown (seconds)",
+      "default": 60.0,
+      "min": 0.1,
+      "max": 360,
+      "whole": false,
+      "position": 6
+    }
+  ],
+  "black_ice_shield": [
+    {
+      "id": "resist_per_enemy",
+      "label": "Resist per enemy",
+      "default": 3.0,
+      "min": 0,
+      "max": 2500,
+      "whole": true,
+      "position": 0
+    },
+    {
+      "id": "radius",
+      "label": "Radius",
+      "default": 42.6,
+      "min": 0.01,
+      "max": 150,
+      "whole": false,
+      "position": 1
+    },
+    {
+      "id": "resist_cap",
+      "label": "Resist cap",
+      "default": 15.0,
+      "min": 0,
+      "max": 2500,
+      "whole": true,
+      "position": 2
+    }
+  ],
+  "dreadnaught_armor": [
+    {
+      "id": "damage_reduction",
+      "label": "Damage reduction (%)",
+      "default": 4.0,
+      "min": 0,
+      "max": 100,
+      "whole": true,
+      "position": 0
+    }
+  ],
+  "molten_essence": [
+    {
+      "id": "burn",
+      "label": "Burn",
+      "default": 0.3,
+      "min": 0.01,
+      "max": 150,
+      "whole": false,
+      "position": 1
+    }
+  ],
+  "fleeting_time": [
+    {
+      "id": "ult_reduction",
+      "label": "Ultimate reduction (%)",
+      "default": 30.0,
+      "min": 0,
+      "max": 100,
+      "whole": true,
+      "position": 0
+    }
+  ],
+  "sky_piercer": [
+    {
+      "id": "base_threshold",
+      "label": "Base threshold (%)",
+      "default": 4.0,
+      "min": 0,
+      "max": 100,
+      "whole": true,
+      "position": 0
+    },
+    {
+      "id": "kill_stacks",
+      "label": "Kill stacks",
+      "default": 10.0,
+      "min": 1,
+      "max": 50,
+      "whole": true,
+      "position": 1
+    },
+    {
+      "id": "stack_cap",
+      "label": "Stack cap",
+      "default": 80.0,
+      "min": 0,
+      "max": 2500,
+      "whole": true,
+      "position": 2
+    },
+    {
+      "id": "death_loss",
+      "label": "Death loss (%)",
+      "default": 30.0,
+      "min": 0,
+      "max": 100,
+      "whole": true,
+      "position": 4
+    }
+  ],
+  "winter_crown": [
+    {
+      "id": "stasis_time",
+      "label": "Stasis time (seconds)",
+      "default": 2.0,
+      "min": 0.05,
+      "max": 30,
+      "whole": false,
+      "position": 0
+    },
+    {
+      "id": "threshold",
+      "label": "Threshold (%)",
+      "default": 30.0,
+      "min": 0,
+      "max": 100,
+      "whole": true,
+      "position": 1
+    },
+    {
+      "id": "cooldown",
+      "label": "Cooldown (seconds)",
+      "default": 100.0,
+      "min": 0.1,
+      "max": 360,
+      "whole": false,
+      "position": 2
+    }
+  ],
+  "demon_shoes": [
+    {
+      "id": "skill_reduction",
+      "label": "Skill reduction (%)",
+      "default": 20.0,
+      "min": 0,
+      "max": 100,
+      "whole": true,
+      "position": 0
+    }
+  ],
+  "rapid_boots": [
+    {
+      "id": "movement_speed",
+      "label": "Movement speed (%)",
+      "default": 10.0,
+      "min": 0,
+      "max": 100,
+      "whole": true,
+      "position": 0
+    },
+    {
+      "id": "out_of_combat",
+      "label": "Out of combat (seconds)",
+      "default": 5.0,
+      "min": 0.05,
+      "max": 30,
+      "whole": false,
+      "position": 1
+    }
+  ],
+  "warrior_boots": [
+    {
+      "id": "armor_per_stack",
+      "label": "Armor per stack",
+      "default": 3.0,
+      "min": 0,
+      "max": 2500,
+      "whole": true,
+      "position": 0
+    },
+    {
+      "id": "stack_cap",
+      "label": "Stack cap",
+      "default": 5.0,
+      "min": 1,
+      "max": 50,
+      "whole": true,
+      "position": 1
+    },
+    {
+      "id": "out_of_combat",
+      "label": "Out of combat (seconds)",
+      "default": 5.0,
+      "min": 0.05,
+      "max": 30,
+      "whole": false,
+      "position": 2
+    }
+  ],
+  "legacy_windtalker": [
+    {
+      "id": "base_damage",
+      "label": "Base damage",
+      "default": 50.0,
+      "min": 0,
+      "max": 2500,
+      "whole": true,
+      "position": 0,
+      "mythical_position": 1
+    },
+    {
+      "id": "level_damage",
+      "label": "Level damage",
+      "default": 5.0,
+      "min": 0,
+      "max": 2500,
+      "whole": true,
+      "position": 1,
+      "mythical_position": 2
+    },
+    {
+      "id": "targets",
+      "label": "Targets",
+      "default": 3.0,
+      "min": 1,
+      "max": 50,
+      "whole": true,
+      "position": 2,
+      "mythical_position": 3
+    },
+    {
+      "id": "movement_speed",
+      "label": "Movement speed (%)",
+      "default": 10.0,
+      "min": 0,
+      "max": 100,
+      "whole": true,
+      "position": 3,
+      "mythical_position": 4
+    },
+    {
+      "id": "speed_time",
+      "label": "Speed time (seconds)",
+      "default": 1.0,
+      "min": 0.05,
+      "max": 30,
+      "whole": false,
+      "position": 4,
+      "mythical_position": 5
+    }
+  ],
+  "bloodlust_axe": [
+    {
+      "id": "spell_vamp",
+      "label": "Spell vamp (%)",
+      "default": 12.0,
+      "min": 0,
+      "max": 100,
+      "whole": true,
+      "position": 0,
+      "mythical_scale": 1.25,
+      "mythical_round": true
+    }
+  ],
+  "deadly_blade": [
+    {
+      "id": "lifebane_time",
+      "label": "Lifebane time (seconds)",
+      "default": 1.5,
+      "min": 0.05,
+      "max": 30,
+      "whole": false,
+      "position": 1
+    }
+  ],
+  "calamity_reaper": [
+    {
+      "id": "cast_window",
+      "label": "Cast window (seconds)",
+      "default": 3.0,
+      "min": 0.05,
+      "max": 30,
+      "whole": false,
+      "position": 0
+    },
+    {
+      "id": "magic_ratio",
+      "label": "Magic ratio (%)",
+      "default": 75.0,
+      "min": 0,
+      "max": 100,
+      "whole": true,
+      "position": 1,
+      "mythical_scale": 1.25
+    },
+    {
+      "id": "movement_speed",
+      "label": "Movement speed (%)",
+      "default": 10.0,
+      "min": 0,
+      "max": 100,
+      "whole": true,
+      "position": 2
+    },
+    {
+      "id": "speed_time",
+      "label": "Speed time (seconds)",
+      "default": 1.0,
+      "min": 0.05,
+      "max": 30,
+      "whole": false,
+      "position": 3
+    },
+    {
+      "id": "cooldown",
+      "label": "Cooldown (seconds)",
+      "default": 1.5,
+      "min": 0.05,
+      "max": 30,
+      "whole": false,
+      "position": 4
+    }
+  ],
+  "scarlet_phantom": [
+    {
+      "id": "frenzy_speed",
+      "label": "Frenzy speed (%)",
+      "default": 30.0,
+      "min": 0,
+      "max": 100,
+      "whole": true,
+      "position": 0
+    },
+    {
+      "id": "frenzy_crit",
+      "label": "Frenzy crit (%)",
+      "default": 5.0,
+      "min": 0,
+      "max": 100,
+      "whole": true,
+      "position": 1
+    },
+    {
+      "id": "frenzy_time",
+      "label": "Frenzy time (seconds)",
+      "default": 2.0,
+      "min": 0.05,
+      "max": 30,
+      "whole": false,
+      "position": 2
+    }
+  ],
+  "shadow_twinblades": [
+    {
+      "id": "base_damage",
+      "label": "Base damage",
+      "default": 45.0,
+      "min": 0,
+      "max": 2500,
+      "whole": true,
+      "position": 1,
+      "mythical_position": 2
+    },
+    {
+      "id": "magic_ratio",
+      "label": "Magic ratio (%)",
+      "default": 50.0,
+      "min": 0,
+      "max": 100,
+      "whole": true,
+      "position": 2,
+      "mythical_position": 3
+    },
+    {
+      "id": "slow",
+      "label": "Slow (%)",
+      "default": 50.0,
+      "min": 0,
+      "max": 100,
+      "whole": true,
+      "position": 3,
+      "mythical_position": 4
+    },
+    {
+      "id": "slow_time",
+      "label": "Slow time (seconds)",
+      "default": 1.5,
+      "min": 0.05,
+      "max": 30,
+      "whole": false,
+      "position": 4,
+      "mythical_position": 5
+    }
+  ],
+  "ice_force": [
+    {
+      "id": "slow",
+      "label": "Slow (%)",
+      "default": 25.0,
+      "min": 0,
+      "max": 100,
+      "whole": true,
+      "position": 0
+    },
+    {
+      "id": "attack_slow",
+      "label": "Attack slow (%)",
+      "default": 15.0,
+      "min": 0,
+      "max": 100,
+      "whole": true,
+      "position": 1
+    },
+    {
+      "id": "slow_time",
+      "label": "Slow time (seconds)",
+      "default": 1.5,
+      "min": 0.05,
+      "max": 30,
+      "whole": false,
+      "position": 2
+    },
+    {
+      "id": "cooldown",
+      "label": "Cooldown (seconds)",
+      "default": 3.0,
+      "min": 0.05,
+      "max": 30,
+      "whole": false,
+      "position": 3
+    }
+  ],
+  "bloodthirsty_king": [
+    {
+      "id": "heal",
+      "label": "Heal (%)",
+      "default": 12.0,
+      "min": 0,
+      "max": 100,
+      "whole": true,
+      "position": 0,
+      "mythical_scale": 1.25
+    },
+    {
+      "id": "cooldown",
+      "label": "Cooldown (seconds)",
+      "default": 10.0,
+      "min": 0.05,
+      "max": 30,
+      "whole": false,
+      "position": 2
+    }
+  ],
+  "elegant_gem": [
+    {
+      "id": "gift_threshold",
+      "label": "Gift trigger health (%)",
+      "default": 50,
+      "min": 1,
+      "max": 80,
+      "whole": true,
+      "position": 0
+    },
+    {
+      "id": "gift_recovery",
+      "label": "Gift recovery (% maximum health)",
+      "default": 15,
+      "min": 0,
+      "max": 60,
+      "whole": false,
+      "position": 1
+    },
+    {
+      "id": "gift_duration",
+      "label": "Gift recovery time (seconds)",
+      "default": 3,
+      "min": 0.6,
+      "max": 15,
+      "whole": false,
+      "position": 2
+    },
+    {
+      "id": "gift_cooldown",
+      "label": "Gift cooldown (seconds)",
+      "default": 60,
+      "min": 1,
+      "max": 240,
+      "whole": false,
+      "position": 3
+    }
+  ],
+  "valkyries_shield": [
+    {
+      "id": "reduction",
+      "label": "Magic damage reduction (%)",
+      "default": 25,
+      "min": 0,
+      "max": 75,
+      "whole": true,
+      "position": 0
+    },
+    {
+      "id": "duration",
+      "label": "Shield duration (seconds)",
+      "default": 3,
+      "min": 0.1,
+      "max": 15,
+      "whole": false,
+      "position": 1
+    },
+    {
+      "id": "rearm",
+      "label": "Quiet period (seconds)",
+      "default": 5,
+      "min": 0.1,
+      "max": 30,
+      "whole": false,
+      "position": 2
+    }
+  ],
+  "holy_crystal": [
+    {
+      "id": "level_one",
+      "label": "Level 1 Magic Power bonus (%)",
+      "default": 21,
+      "min": 0,
+      "max": 30,
+      "whole": true,
+      "position": 0,
+      "range_part": 0
+    },
+    {
+      "id": "level_max",
+      "label": "Level 15 Magic Power bonus (%)",
+      "default": 35,
+      "min": 30,
+      "max": 150,
+      "whole": true,
+      "position": 0,
+      "range_part": 1
+    }
+  ],
+  "genius_wand": [
+    {
+      "id": "level_one",
+      "label": "Magic Resist reduction at level 1",
+      "default": 2,
+      "min": 0,
+      "max": 5,
+      "whole": true,
+      "position": 0,
+      "range_part": 0
+    },
+    {
+      "id": "level_max",
+      "label": "Magic Resist reduction at level 15",
+      "default": 7,
+      "min": 5,
+      "max": 35,
+      "whole": true,
+      "position": 0,
+      "range_part": 1
+    },
+    {
+      "id": "duration",
+      "label": "Magic Resist reduction duration (seconds)",
+      "default": 2,
+      "min": 0.1,
+      "max": 12,
+      "whole": false,
+      "position": 1
+    },
+    {
+      "id": "cap",
+      "label": "Maximum Magic Resist stacks",
+      "default": 3,
+      "min": 1,
+      "max": 10,
+      "whole": true,
+      "position": 2
+    }
+  ],
+  "malefic_roar": [
+    {
+      "id": "base_pen",
+      "label": "Armor Buster base penetration (%)",
+      "default": 30,
+      "min": 0,
+      "max": 60,
+      "whole": true,
+      "position": 0
+    },
+    {
+      "id": "per_step",
+      "label": "Extra penetration per Armor step (%)",
+      "default": 1,
+      "min": 0,
+      "max": 12,
+      "whole": true,
+      "position": 1
+    },
+    {
+      "id": "step",
+      "label": "Armor per step",
+      "default": 10,
+      "min": 1,
+      "max": 100,
+      "whole": true,
+      "position": 2
+    },
+    {
+      "id": "cap",
+      "label": "Maximum extra penetration (%)",
+      "default": 30,
+      "min": 0,
+      "max": 65,
+      "whole": true,
+      "position": 3
+    }
+  ],
+  "divine_glaive": [
+    {
+      "id": "base_pen",
+      "label": "Spellbreaker base penetration (%)",
+      "default": 40,
+      "min": 0,
+      "max": 60,
+      "whole": true,
+      "position": 0
+    },
+    {
+      "id": "per_step",
+      "label": "Extra penetration per Magic Resist step (%)",
+      "default": 1,
+      "min": 0,
+      "max": 12,
+      "whole": true,
+      "position": 1
+    },
+    {
+      "id": "step",
+      "label": "Magic Resist per step",
+      "default": 10,
+      "min": 1,
+      "max": 100,
+      "whole": true,
+      "position": 2
+    },
+    {
+      "id": "cap",
+      "label": "Maximum extra penetration (%)",
+      "default": 20,
+      "min": 0,
+      "max": 65,
+      "whole": true,
+      "position": 3
+    }
+  ]
+}

@@ -244,7 +244,7 @@ build_editor:empty {
         back_color: #00000000;
 
         child_type: LeftToRight {
-          spacing: 0px;
+          spacing: 4px;
         }
 
         rounding: Uniform {
@@ -253,17 +253,21 @@ build_editor:empty {
 
         #on:color_selectable {
           @"asset/base/style/main#strategy_option";
-          width: 175px;
+          width: 173px;
           height: 32px;
 
           label: {
             size: 13;
             align_x: Center;
+            align_y: Center;
+            fit_width: true;
           }
 
           selected_label: {
             size: 13;
             align_x: Center;
+            align_y: Center;
+            fit_width: true;
           }
 
           text: "Smart Builds (Boots)";
@@ -271,17 +275,21 @@ build_editor:empty {
 
         #off:color_selectable {
           @"asset/base/style/main#strategy_option";
-          width: 175px;
+          width: 173px;
           height: 32px;
 
           label: {
             size: 13;
             align_x: Center;
+            align_y: Center;
+            fit_width: true;
           }
 
           selected_label: {
             size: 13;
             align_x: Center;
+            align_y: Center;
+            fit_width: true;
           }
 
           text: "Smart Builds (No Boots)";
@@ -306,7 +314,7 @@ build_editor:empty {
         back_color: #00000000;
 
         child_type: LeftToRight {
-          spacing: 0px;
+          spacing: 4px;
         }
 
         rounding: Uniform {
@@ -315,17 +323,21 @@ build_editor:empty {
 
         #all:color_selectable {
           @"asset/base/style/main#strategy_option";
-          width: 175px;
+          width: 173px;
           height: 32px;
 
           label: {
             size: 13;
             align_x: Center;
+            align_y: Center;
+            fit_width: true;
           }
 
           selected_label: {
             size: 13;
             align_x: Center;
+            align_y: Center;
+            fit_width: true;
           }
 
           text: "Apply To All Players";
@@ -333,17 +345,21 @@ build_editor:empty {
 
         #own:color_selectable {
           @"asset/base/style/main#strategy_option";
-          width: 175px;
+          width: 173px;
           height: 32px;
 
           label: {
             size: 13;
             align_x: Center;
+            align_y: Center;
+            fit_width: true;
           }
 
           selected_label: {
             size: 13;
             align_x: Center;
+            align_y: Center;
+            fit_width: true;
           }
 
           text: "Apply To Your Players Only";

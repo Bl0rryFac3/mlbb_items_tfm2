@@ -1,0 +1,37 @@
+[
+  {
+    "key": "hunters_knife",
+    "source_url": "https://mobile-legends.fandom.com/wiki/Hunter%27s_Knife",
+    "mechanics": "Hunter: Deals 30% more damage to monsters. Jungle role only.\nGreed: Monster kills grant 5 bonus gold. Hero kills and assists grant 10 bonus gold. TFM2 calibration; no EXP, mana, Retribution spell or minion-reward penalty. Mythical is the mod custom tier, not original MLBB."
+  },
+  {
+    "key": "curse_sword",
+    "source_url": "https://mobile-legends.fandom.com/wiki/Curse_Sword",
+    "mechanics": "Hunter: Deals 40% more damage to monsters. Jungle role only.\nGreed: Monster kills grant 8 bonus gold and restore 4% maximum HP. Hero kills and assists grant 10 bonus gold.\nGorge: Monster kills grant 0.6% more damage per stack, up to 10 stacks. TFM2 calibration; no EXP, mana, Retribution spell or minion-reward penalty. Mythical is the mod custom tier, not original MLBB."
+  },
+  {
+    "key": "nimble_blade",
+    "source_url": "https://mobile-legends.fandom.com/wiki/Nimble_Blade",
+    "mechanics": "Hunter: Deals 40% more damage to monsters. Jungle role only.\nGreed: Monster kills grant 8 bonus gold and restore 4% maximum HP. Hero kills and assists grant 10 bonus gold.\nGorge: Monster kills grant 1.4 Attack per stack, rounded after stacking, up to 10 stacks. TFM2 calibration; no EXP, mana, Retribution spell or minion-reward penalty. Mythical is the mod custom tier, not original MLBB."
+  },
+  {
+    "key": "pillager_axe",
+    "source_url": "https://mobile-legends.fandom.com/wiki/Pillager_Axe",
+    "mechanics": "Hunter: Deals 40% more damage to monsters. Jungle role only.\nGreed: Monster kills grant 8 bonus gold and restore 4% maximum HP. Hero kills and assists grant 10 bonus gold.\nGorge: Monster kills grant 2.1 Armor and Magic Resist per stack, rounded after stacking, up to 10 stacks. TFM2 calibration; no EXP, mana, Retribution spell or minion-reward penalty. Mythical is the mod custom tier, not original MLBB."
+  },
+  {
+    "key": "star_shard",
+    "source_url": "https://mobile-legends.fandom.com/wiki/Star_Shard",
+    "mechanics": "Hunter: Deals 50% more damage to monsters. Jungle role only.\nGreed: Monster kills grant 8 bonus gold and restore 4% maximum HP. Hero kills and assists grant 10 bonus gold.\nGorge: Monster kills grant 0.6% more damage per stack, up to 15 stacks.\nRecharge: Hero kills restore 10% maximum HP. TFM2 calibration; no EXP, mana, Retribution spell or minion-reward penalty. Mythical is the mod custom tier, not original MLBB."
+  },
+  {
+    "key": "raptor_machete",
+    "source_url": "https://mobile-legends.fandom.com/wiki/Raptor_Machete",
+    "mechanics": "Hunter: Deals 50% more damage to monsters. Jungle role only.\nGreed: Monster kills grant 8 bonus gold and restore 4% maximum HP. Hero kills and assists grant 10 bonus gold.\nGorge: Monster kills grant 1.4 Attack per stack, rounded after stacking, up to 15 stacks.\nBreakout: Every 10s, a basic attack reduces target Armor by 7 for 3s and slows by 30% for 1.5s. Basic attacks reduce the remaining cooldown by 1s. TFM2 calibration; no EXP, mana, Retribution spell or minion-reward penalty. Mythical is the mod custom tier, not original MLBB."
+  },
+  {
+    "key": "beast_killer",
+    "source_url": "https://mobile-legends.fandom.com/wiki/Beast_Killer",
+    "mechanics": "Hunter: Deals 50% more damage to monsters. Jungle role only.\nGreed: Monster kills grant 8 bonus gold and restore 4% maximum HP. Hero kills and assists grant 10 bonus gold.\nGorge: Monster kills grant 2.1 Armor and Magic Resist per stack, rounded after stacking, up to 15 stacks.\nImpulse: Taking damage equal to 10% maximum HP deals 35 + 3 \u00d7 level magic damage to nearby enemies and slows by 30% for 2s. Cooldown: 2s. TFM2 calibration; no EXP, mana, Retribution spell or minion-reward penalty. Mythical is the mod custom tier, not original MLBB."
+  }
+]

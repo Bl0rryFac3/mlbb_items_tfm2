@@ -1,0 +1,70 @@
+{
+  "berserkers_fury": {
+    "before": 21,
+    "after": 27
+  },
+  "blade_of_despair": {
+    "before": 56,
+    "after": 72
+  },
+  "blade_of_the_heptaseas": {
+    "before": 24,
+    "after": 31
+  },
+  "corrosion_scythe": {
+    "before": 10,
+    "after": 13
+  },
+  "demon_hunter_sword": {
+    "before": 12,
+    "after": 15
+  },
+  "endless_battle": {
+    "before": 21,
+    "after": 27
+  },
+  "golden_staff": {
+    "before": 19,
+    "after": 24
+  },
+  "great_dragon_spear": {
+    "before": 24,
+    "after": 31
+  },
+  "haas_claws": {
+    "before": 14,
+    "after": 18
+  },
+  "hunter_strike": {
+    "before": 28,
+    "after": 36
+  },
+  "malefic_gun": {
+    "before": 14,
+    "after": 18
+  },
+  "malefic_roar": {
+    "before": 21,
+    "after": 27
+  },
+  "rose_gold_meteor": {
+    "before": 10,
+    "after": 13
+  },
+  "sea_halberd": {
+    "before": 28,
+    "after": 36
+  },
+  "war_axe": {
+    "before": 12,
+    "after": 15
+  },
+  "wind_of_nature": {
+    "before": 10,
+    "after": 13
+  },
+  "raptor_machete": {
+    "before": 11,
+    "after": 14
+  }
+}

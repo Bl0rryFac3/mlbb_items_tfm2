@@ -1,0 +1,21 @@
+{
+  "necklace_of_durance": "Legacy item; retained only as provenance",
+  "power_potion": "Consumable, not permanent equipment",
+  "flower_of_hope": "Quest item, spell, or free special equipment",
+  "lantern_of_hope": "Quest item, spell, or free special equipment",
+  "bud_of_hope": "Quest item, spell, or free special equipment",
+  "magic_potion": "Consumable, not permanent equipment",
+  "shimmering_lantern": "Quest item, spell, or free special equipment",
+  "rock_potion": "Consumable, not permanent equipment",
+  "allow_throw": "Quest item, spell, or free special equipment",
+  "broken_heart": "Quest item, spell, or free special equipment",
+  "resonating_heart": "Quest item, spell, or free special equipment",
+  "throw_forbidden": "Quest item, spell, or free special equipment",
+  "bloody_retribution": "Quest item, spell, or free special equipment",
+  "flame_retribution": "Quest item, spell, or free special equipment",
+  "ice_retribution": "Quest item, spell, or free special equipment",
+  "active_conceal": "Quest item, spell, or free special equipment",
+  "passive_dire_hit": "Quest item, spell, or free special equipment",
+  "passive_encourage": "Quest item, spell, or free special equipment",
+  "passive_favor": "Quest item, spell, or free special equipment"
+}
